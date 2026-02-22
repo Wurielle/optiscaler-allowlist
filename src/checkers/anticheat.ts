@@ -13,22 +13,8 @@ interface AwacyGame {
 	storeIds: {
 		steam?: number;
 	};
-	status: string;
 	anticheats: string[];
 }
-
-/** Anti-cheat statuses from AWAcy that indicate the game is safe for DLL injection */
-const SAFE_STATUSES = new Set(["Supported", "Running"]);
-
-/** Anti-cheat systems known to block DLL injection */
-const BLOCKING_ANTICHEATS = new Set([
-	"Easy Anti-Cheat",
-	"BattlEye",
-	"Vanguard",
-	"XIGNCODE3",
-	"nProtect GameGuard",
-	"Mhyprot",
-]);
 
 const aiSafetySchema = z.object({
 	safe: z.boolean(),
@@ -56,7 +42,8 @@ export function resetCache(): void {
 }
 
 /**
- * Check a game's anti-cheat status against the AreWeAntiCheatYet dataset.
+ * Check whether a game uses any anti-cheat system via the AreWeAntiCheatYet dataset.
+ * A game is unsafe if it uses ANY anti-cheat system, as all anti-cheat can block DLL injection.
  * Falls back to AI if the game is not found in the dataset.
  *
  * @returns AntiCheatResult or null if status cannot be determined
@@ -70,13 +57,8 @@ export async function checkAntiCheat(appId: string, game: string): Promise<AntiC
 		const match = games.find((g) => g.storeIds.steam?.toString() === appId);
 
 		if (match) {
-			// Check if the game has blocking anti-cheat
-			const hasBlockingAC = match.anticheats.some((ac) => BLOCKING_ANTICHEATS.has(ac));
-			const statusSafe = SAFE_STATUSES.has(match.status);
-
-			// Game is safe if it either has no blocking anti-cheat,
-			// or its status indicates it works despite having anti-cheat
-			const safe = !hasBlockingAC || statusSafe;
+			// Game is unsafe if it uses any anti-cheat system at all
+			const safe = match.anticheats.length === 0;
 
 			return {
 				safe,
@@ -92,11 +74,11 @@ export async function checkAntiCheat(appId: string, game: string): Promise<AntiC
 	try {
 		const result = await extractStructuredData(
 			game,
-			`Determine if the PC game "${game}" (Steam App ID: ${appId}) uses an anti-cheat system that would block third-party DLL injection (such as OptiScaler or ReShade). 
+			`Determine if the PC game "${game}" (Steam App ID: ${appId}) uses ANY anti-cheat system. Any anti-cheat system (e.g., Easy Anti-Cheat, BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard, Mhyprot, Denuvo Anti-Cheat, Javelin, or any other) can block third-party DLL injection tools like OptiScaler or ReShade.
 
-Anti-cheat systems that typically block injection: Easy Anti-Cheat (EAC), BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard.
+If the game uses ANY anti-cheat system at all, it is NOT safe. There are no exceptions.
 
-Games WITHOUT these anti-cheat systems, or single-player games, are generally safe.
+Only games with NO anti-cheat system are safe.
 
 Return a JSON object:
 {"safe": true/false, "reasoning": "brief explanation"}`,

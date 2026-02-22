@@ -27,12 +27,11 @@ describe("checkAntiCheat", () => {
 		globalThis.fetch = originalFetch;
 	});
 
-	it("should return safe=true for game without blocking anti-cheat in AWACY", async () => {
+	it("should return safe=true for game with no anti-cheat in AWACY", async () => {
 		mockAwacyDataset([
 			{
 				name: "Safe Game",
 				storeIds: { steam: 12345 },
-				status: "Running",
 				anticheats: [],
 			},
 		]);
@@ -43,12 +42,11 @@ describe("checkAntiCheat", () => {
 		expect(result?.source).toBe("areweanticheatyet.com");
 	});
 
-	it("should return safe=false for game with EAC and non-safe status", async () => {
+	it("should return safe=false for game with EAC", async () => {
 		mockAwacyDataset([
 			{
 				name: "Blocked Game",
 				storeIds: { steam: 67890 },
-				status: "Denied",
 				anticheats: ["Easy Anti-Cheat"],
 			},
 		]);
@@ -59,19 +57,48 @@ describe("checkAntiCheat", () => {
 		expect(result?.source).toBe("areweanticheatyet.com");
 	});
 
-	it("should return safe=true for game with blocking AC but Supported status", async () => {
+	it("should return safe=false for game with any known anti-cheat", async () => {
 		mockAwacyDataset([
 			{
 				name: "Supported EAC Game",
 				storeIds: { steam: 11111 },
-				status: "Supported",
 				anticheats: ["Easy Anti-Cheat"],
 			},
 		]);
 
 		const result = await checkAntiCheat("11111", "Supported EAC Game");
 		expect(result).not.toBeNull();
-		expect(result?.safe).toBe(true);
+		expect(result?.safe).toBe(false);
+	});
+
+	it("should return safe=false for game with BattlEye", async () => {
+		mockAwacyDataset([
+			{
+				name: "Running BattlEye Game",
+				storeIds: { steam: 22222 },
+				anticheats: ["BattlEye"],
+			},
+		]);
+
+		const result = await checkAntiCheat("22222", "Running BattlEye Game");
+		expect(result).not.toBeNull();
+		expect(result?.safe).toBe(false);
+		expect(result?.source).toBe("areweanticheatyet.com");
+	});
+
+	it("should return safe=false for game with unknown/novel anti-cheat system", async () => {
+		mockAwacyDataset([
+			{
+				name: "Novel AC Game",
+				storeIds: { steam: 33333 },
+				anticheats: ["Javelin"],
+			},
+		]);
+
+		const result = await checkAntiCheat("33333", "Novel AC Game");
+		expect(result).not.toBeNull();
+		expect(result?.safe).toBe(false);
+		expect(result?.source).toBe("areweanticheatyet.com");
 	});
 
 	it("should fall back to AI when game is not in AWACY", async () => {
@@ -101,7 +128,6 @@ describe("checkAntiCheat", () => {
 			{
 				name: "Timestamped Game",
 				storeIds: { steam: 55555 },
-				status: "Running",
 				anticheats: [],
 			},
 		]);
