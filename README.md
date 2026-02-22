@@ -1,0 +1,1 @@
+# OptiScaler Allowlist
