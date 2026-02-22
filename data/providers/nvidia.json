@@ -1,0 +1,6950 @@
+[
+  {
+    "gameName": "171",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "7 Days To Die",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "A Difficult Game About ROLLING - ReUpRise",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "A Plague Tale: Requiem",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "A Quiet Place: The Road Ahead",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Achilles: Legends Untold",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ad Infinitum",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "AEW: Fight Forever",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "A.I.L.A",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "AI Limit",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "AION2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "AirportSim",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Akimbot",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Alan Wake Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Alan Wake 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "NV, T",
+    "dlaa": "Yes",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Alien: Rogue Incursion - Part One: Evolved Edition",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Alone In The Dark",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ambulance Life: A Paramedic Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "AMID EVIL",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Anatomy Of Fear",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Animalia Survival",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Anno 117: Pax Romana",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Anthem",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Apocalypse: 2.0 Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Arcadegeddon",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "ARC Raiders",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Arena Breakout: Infinite",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Arknights: Endfield",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "ARK: Survival Ascended",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Aron's Adventure",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Assassin's Creed Mirage",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Assassin's Creed Shadows",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Assetto Corsa Competizione",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Assetto Corsa EVO",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Assetto Corsa Rally",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ashes Of Creation",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Astral Tracks",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Astrometica",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Atomic Heart",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Aunt Fatima - خالة فاطمة",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Automate It: Factory Puzzle",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Avatar: Frontiers of Pandora",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Avowed",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "AWAY: The Survival Series",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Back 4 Blood",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Backrooms: Escape Together",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Backrooms Rec.",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bakemono",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Baldur's Gate 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ballads of Hongye",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Banishers: Ghosts of New Eden",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bastide",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Batora: Lost Haven",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Battlefield 2042",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Battlefield V",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Battlefield 6",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bears In Space",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "BEAST: False Prophet",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bellwright",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Beyond Enemy Lines 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Beyond Hanwell",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Black Myth: Wukong",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "BLACKTAIL",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bleak Faith: Forsaken",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Blind Fate: Edo no Yami",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Blood Bowl 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bodies of Water VR",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bodycam",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Borderlands 4",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Boti: Byteland Overclocked",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Brickadia",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Bright Memory",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Bright Memory: Infinite",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Broken Pieces",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Brothers: A Tale of Two Sons Remake",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bum: Revenge",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Bus Simulator 21",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Black Ops 6",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Black Ops 7",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Call of Duty: Black Ops Cold War",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Call of Duty: Modern Warfare",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Call of Duty: Modern Warfare II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Modern Warfare III",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Vanguard",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Warzone (2020)",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Call of Duty: Warzone (2022)",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Capes",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Car Dealer Simulator: Prologue - Early Days",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Carmageddon: Rogue Shift",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Carpathian Survival",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Casa Caballero",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Chained Backrooms",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Chased by Darkness",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Chernobylite",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Chernobylite 2: Exclusion Zone",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Chip ‘n Clawz vs. The Brainioids",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Chivalry 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Choo-Choo Charles",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Chorus",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Chronicles Of Sagrea",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "ChronoTecture: The Eprologue",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Cions of Vega",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Cities: Skylines II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Clair Obscur: Expedition 33",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Code Alkonost: Awakening of Evil",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "CODE VEIN II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Commandos: Origins",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Conqueror's Blade",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Control",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Crime Boss: Rockay City",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Cronos: The New Dawn",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Crossout",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Crown Simulator - Royal Life Simulation",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "CROWZ",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "CRSED F.O.A.D",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Crysis 2 Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Crysis 3 Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Crysis Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Cursed Deal",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Cyberpunk 2077",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "cyubeVR",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dakar Desert Rally",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dark and Darker",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DAVY x JONES",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Daydream: Forgotten Sorrow",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Daymare: 1994 Sandcastle",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DCS World",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dead Abyss",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deadlock",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dead Rising Deluxe Remaster",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dead Signal",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dead Space",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Deadlink",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deadzone: Rogue",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dead Take",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "DEADCAM | ANALOG • SURVIVAL • HORROR",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deathground",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Death Realm",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Death Relives",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "DeathSprint 66",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Death Stranding",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Death Stranding Director's Cut",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deathloop",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Deceit 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deceive Inc.",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deedlee Doo! Carkour!",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deep Rock Galactic",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DeepStates (VR)",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Deliver Us Mars",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Deliver Us The Moon",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Delta Force",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Delta Force: Black Hawk Down Campaign",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "DESORDRE: A Puzzle Game Adventure",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Destroy All Humans! 2 - Reprobed",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Desynced: Autonomous Colony Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Diablo II: Resurrected",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Diablo IV",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Die By The Blade",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DIRECT CONTACT",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DiRT 5",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Doll Imposter",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dolmen",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Domino Simulator",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "DON'T SCREAM",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DOOM Eternal",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "DOOM: The Dark Ages",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Dragon Age: The Veilguard",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Dragon's Dogma 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Dragonkin: The Banished",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DREADZONE",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dual Universe",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "DUCKSIDE",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Duet Night Abyss",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dune: Awakening",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dungeonborne",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Dying Light: The Beast",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Dying Light 2 Stay Human",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "DYNASTY WARRIORS: ORIGINS",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EA Sports WRC",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Echoes of the End: Enhanced Edition",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Echo Point Nova",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Edge of Eternity",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EdgeOfTheAbyssAwaken",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Eldegarde (Formerly 'Legacy: Steel & Sorcery')",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Elden Ring",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Electronic Market Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Empire of the Ants",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EMOTIONLESS: The Last Ticket",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Empyreal",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Empyrion - Galactic Survival",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Enlisted",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Enshrouded",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Enotria: The Last Song",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "ENTITY: THE BLACK DAY",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ephesus",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Escape From Naraka",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Escape From Tarkov",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Eternal Strands",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Europa Universalis V",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EVE Frontier",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EVE Online",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Everspace 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Evil Dead: The Game",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Evil West",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EVOTINCTION",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "EXFIL",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Exit From",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "EzBench",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "F.I.S.T.: Forged In Shadow Torch",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "F1 2020",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "F1 2021",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "F1 22",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "F1 23",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "F1 24",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "F1 25",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "F1 Manager 2023",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "F1 Manager 2024",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Fall Balance Ball",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Far Cry 6",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Faraday Protocol",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Farlight 84",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Farming Simulator 22",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Farming Simulator 25",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "FBC: Firebreak",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Fera: The Sundered Tribes",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "FINAL FANTASY VII REBIRTH",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "FINAL FANTASY XIV Online",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "FINAL FANTASY XV",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "FINAL FANTASY XVI",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Finnish Cottage Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Firefighting Simulator: Ignite",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Firefighting Simulator - The Squad",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Firmament",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Five Nights At Freddy’s: Security Breach",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Flintlock: The Siege of Dawn",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Flipscapes",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Fobia - St. Dinfna Hotel",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Forest Doesn’t Care",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Forever Skies",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Forgive Me Father 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Forspoken",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Fortnite",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Fort Solis",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Forza Horizon 5",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Forza Motorsport",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "FragPunk",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Frostpunk 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Frozen Flame",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Frozenheim",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Funko Fusion",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Game of Thrones: Kingsroad",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gangs of Sherwood",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gears of War: Reloaded",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Get Stuffed!",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ghost",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ghostbusters: Spirits Unleashed",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ghost of Tsushima Director’s Cut",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ghostrunner",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ghostrunner 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ghostwire: Tokyo",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Goat Simulator: Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "GODBREAKERS",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "God of War",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "God of War Ragnarök",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Godfall",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Goofy Gorillas",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gord",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gori: Cuddly Carnage",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Gotham Knights",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Grand Emprise: Time Travel Survival",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Grand Theft Auto III - The Definitive Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Grand Theft Auto: San Andreas - The Definitive Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Grand Theft Auto: Vice City - The Definitive Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Grand Theft Auto V Enhanced",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Gray Zone Warfare",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "GreedFall II: The Dying World",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Greedland",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gripper",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ground Branch",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gu Jian Qi Tan Online",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "GUN JAM",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Gungrave G.O.R.E",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Half-Life 2 RTX Demo",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Half Sword",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Halo Infinite",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Helios",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Hell Pie",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Hellblade: Senua's Sacrifice",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Senua's Saga: Hellblade II Enhanced",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hellbreach: Vegas",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hell Is Us",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hello Neighbor 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Heroic Kingdom: Origins",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hi-Fi RUSH",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Highguard",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "High On Life",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "High On Life 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Highrise City",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "HITMAN World of Assassination",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Hogwarts Legacy",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Höll Space 5D6",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Homeworld 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Honkai: Star Rail",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Holomento",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Horizon Forbidden West Complete Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Horizon Zero Dawn Complete Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Horizon Zero Dawn Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "HOT WHEELS UNLEASHED",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "HOT WHEELS UNLEASHED 2 - Turbocharged",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "HOUND: AUTOMATON",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hunt: Showdown 1896",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Hydroneer",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "ICARUS",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ikonei Island: An Earthlock Adventure",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Immortals of Aveum",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Incurison Red River",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Indiana Jones and the Great Circle",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "INDIKA",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "INDUSTRIA",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Industry Giant 4.0",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Infinity Nikki",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "InFlux Redux",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Into the Dead: Our Darkest Days",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Into the Radius VR",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "inZOI",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Iron Conflict",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Island of the Ancients",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Isles of Yore",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jagged Alliance 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jaws Of Extinction",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "JDM: Japanese Drift Master",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jian Po",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jotunnslayer: Hordes of Hel",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Judgment",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jump Space",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Jurassic World Evolution 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Jurassic World Evolution 3",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Jusant",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Justice / Sword of Justice",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "JX3 Online RTX Version",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "KARMA: The Dark World",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "KartKraft",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Keeper",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Kena: Bridge of Spirits",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Killer Klowns from Outer Space: The Game",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Killing Floor 3",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Kingdom Come: Deliverance II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Kunitsu-Gami: Path of the Goddess",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Kristala",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Land of the Vikings",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Last Hope on Earth",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Last Sighting",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Last Train Home",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Layers of Fear",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "LEAP",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Legendary Tales",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Legend of Ymir",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "LEGO Builder's Journey",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "LEGO Horizon Adventures",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Lemnis Gate",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Level Zero: Extraction",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lies of P",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Life Is Strange: True Colors",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Lightyear Frontier",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Like a Dragon: Infinite Wealth",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Like A Dragon: Ishin!",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Like A Dragon Gaiden: The Man Who Erased His Name",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Liminalcore",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Little Nightmares II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Little Nightmares III",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Lodestar",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Loopmancer",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Lords of the Fallen",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lost Judgment",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lost Records: Bloom & Rage",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lost Skies",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lost Soul Aside",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Loverowind",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lumote: The Mastermote Chronicles",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Lunacy: Saint Rhodes",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Luto",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mafia: The Old Country",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mandragora: Whispers of the Witch Tree",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Manor Lords",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Martha Is Dead",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Marvel Rivals",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Marvel's Avengers",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Marvel's Guardians of the Galaxy",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Marvel's Midnight Suns",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Marvel's Spider-Man Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Marvel's Spider-Man: Miles Morales",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Marvel's Spider-Man 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "MAVRIX By Matt Jones",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mecha BREAK",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "MechWarrior 5: Clans",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "MechWarrior 5: Mercenaries",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Mercs Fully Loaded",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Metal Eden",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "METAL GEAR SOLID Δ: SNAKE EATER",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Metro Exodus",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Metro Exodus PC Enhanced Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Microsoft Flight Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Microsoft Flight Simulator 2024",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Midnight Ghost Hunt",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "MindsEye",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Minecraft with RTX",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Monster Energy Supercross 25 - The Official Video Game",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Monster Energy Supercross - The Official Videogame 6",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Monster Hunter Rise",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Monster Hunter Wilds",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Monster Hunter World",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Moon Runner",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Moonlight Blade",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Mortal Kombat 1",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mortal Online 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mortal Rite",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mortal Shell",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Mother Machine",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "MotoGP 24",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Mount & Blade II: Bannerlord",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "My Time At Sandrock",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Myst",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Myth of Empires",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "NARAKA: BLADEPOINT",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "NBA 2K5",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "NBA 2K6",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Necromunda: Hired Gun",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Necrophosis",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Need For Speed Unbound",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "New Arc Line",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "New World: Aeternum",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nightingale",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nightmare Frontier",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Night of the Dead",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Night Project",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nine To Five",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "NINJA GAIDEN 2 Black",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "NINJA GAIDEN 4",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ninja Resurrection: A tale of Kuro",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nioh 2 The Complete Edition",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nioh 3",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Noble Legacy",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nobody Wants To Die",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "No Man's Sky",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "No More Room In Hell 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "No Rest for the Wicked",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "No One Survived",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Nowhere Near",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Observer: System Redux",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Oddsparks: An Automation Adventure",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Off The Grid",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ominous",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Once Alive",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Once Human",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "orbit.industries",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Orcs Must Die! Deathtrap",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Otherplane",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Outbreak: Shades of Horror",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Outcast - A New Beginning",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Outerverse",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Outpost: Infinity Siege",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Outriders",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Overwatch 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pacific Drive",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Palworld",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PANICORE",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Paradise Killer",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Park Studio",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Party Animals",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Path of Exile 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pax Dei",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PAYDAY 3",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PC Building Simulator 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PERISH",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "PGA TOUR 2K3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PGA TOUR 2K5",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Phantasy Star Online 2 New Genesis",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pinball FX",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Pizza Bandit",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pizzapocalypse",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Planet Coaster 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "PlanetSide 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pluviophile",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Poker Club",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Portal with RTX",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "NV, T",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Portal: Prelude RTX",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Postal 4: No Regerts",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Powerslide Legends",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Predecessor",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Prologue: Go Wayback!",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Project Motor Racing",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Propnight",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Psycho Fear",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Pumpkin Jack",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Q.U.B.E. 10th Anniversary",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "QANGA",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Quake II RTX",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Full RT"
+  },
+  {
+    "gameName": "Raji: An Ancient Epic",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ranch Simulator - Build, Farm, Hunt",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ratchet & Clank: Rift Apart",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "RAZE 2070",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Ready or Not",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Real Life",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "REANIMAL",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Recall",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Red Dead Redemption",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Red Dead Redemption 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Redfall",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Redout: Space Assault",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "REFICUL 666",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "REMATCH",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Remnant II",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Remnants",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Rem Survival",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Renovation Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Resident Evil 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Resident Evil 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Resident Evil 7",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Resident Evil Village",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Returnal",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Return to Campus",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "REVEIL",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Revenge of the Mage",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Revenge of the Savage Planet",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "RF Online Next",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ring of Elysium",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "RIPOUT",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Rise of the Ronin",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Rise of the Tomb Raider",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Riven",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "RoadCraft",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "RoboCop: Rogue City",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "RoboCop: Rogue City - Unfinished Business",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Robo Pocket: 3D Fighter With Rollback",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Rocket Squad: Infinity",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Romancelvania",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Rune II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Rune Factory: Guardians of Azuma",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "RuneScape: Dragonwilds",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Rust",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Saboteur",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Sackboy: A Big Adventure",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Saints Row",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Sands of Aura",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Satisfactory",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Scathe",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Scavengers",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SCP: 5K",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SCP: Secret Files",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SCUM",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Seafarer: The Ship Sim",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SEASON: A Letter To The Future",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Serum",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Severed Steel",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Sengoku Dynasty",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Shadow of the Tomb Raider",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Shadow Warrior 3",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Shadows of Doubt",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Shatterline",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sherlock Holmes The Awakened",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Ships At Sea",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Showgunners",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sifu",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SILENT HILL f",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "SILENT HILL 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Silent Rain",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SimRail - The Railway Simulator",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Simulakros",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Six Days in Fallujah",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Skull and Bones",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "SlavicPunk: Oldtimer",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "skate.",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sker Ritual",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Skye: The Misty Isle",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Slender: The Arrival",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Smalland: Survive the Wilds",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Small Spaces",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SMITE 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Someday You'll Return: Director's Cut",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sons Of The Forest",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sophonce",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Soul Dossier",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Soulmask",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Soulmate",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Soulslinger: Envoy of Death",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Soulstice",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "South of Midnight",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Spectre Divide",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Spirit of the North 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Splitgate: Arena Reloaded",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SPRAWL",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SpongeBob SquarePants: Titans of the Tide",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Squad",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "S.T.A.L.K.E.R.: Call of Prypiat",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "S.T.A.L.K.E.R.: Clear Sky",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Starfield",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Starship Troopers: Extermination",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Starsiege: Deadzone",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Star Wars Jedi: Survivor",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Star Wars Outlaws",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Stay in the Light",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Steelrising",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Steel Seed",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Stellar Blade",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Still Wakes The Deep",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Storage Hunter Simulator",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Stormgate",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Stranded: Alien Dawn",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Stranger of Paradise Final Fantasy Origin",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Star Citizen",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Strayed Lights",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "STORROR Parkour Pro",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Strinova",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Stygian: Outer Gods",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Styx: Blades of Greed",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Suicide Squad: Kill The Justice League",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sumerian Six",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Supermoves: World of Parkour",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SUPER PEOPLE 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Supraland",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Supraland Six Inches Under",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Supraworld",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Survive The Hill",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Sword and Fairy 7",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Swords of Legends Online",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "SYNCED",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "System Shock (2023)",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tainted Grail: The Fall of Avalon",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tankhead",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tchia",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "TEKKEN 8",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tempest Rising",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Testament: The Order of High-Human",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Test Drive Unlimited Solar Crown",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Alters",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Anacrusis",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Ascent",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Axis Unseen",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Backrooms: Lost Tape",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Black Pool",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Black Pool: Arena Survivors",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Bus",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Callisto Protocol",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Casting of Frank Stone",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Chant",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Cycle: Frontier",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Dawn: Sniper's Way",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Day Before",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Devourer: Hunted Souls",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Elder Scrolls IV: Oblivion Remastered",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Elder Scrolls Online",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Fabled Woods",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "THE FINALS",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The First Berserker: Khazan",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The First Descendant",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Gold River Project",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Invincible",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Inquisitor",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Killing Antidote",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Lamplighters League",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Last Caretaker",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Last of Us Part I",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Last of Us Part II Remastered",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Last Oricru",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Legend of Heroes: Trails Through Daybreak",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Legend of Heroes: Trails Through Daybreak II",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Lord of the Rings: Gollum",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Lord of the Rings: Return to Moria",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Matchless KungFu",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Medium",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Midnight Walk",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Nightmare Catcher",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Orville Interactive Fan Experience",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Outlast Trials",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Outer Worlds 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Persistence",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Redress of Mira",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Riftbreaker",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Sinking City Remastered",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Swordsmen X: Survival",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Talos Principle: Reawakened",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "The Talos Principle 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Texas Chain Saw Massacre",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Thaumaturge",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Valiant",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "The Witcher 3: Wild Hunt",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Three Alpha One Nine",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "THRONE AND LIBERTY",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "TIME BREAKER",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Titan Quest II",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Titan Station",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "To Hell With It",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Togges",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tokyo Xtreme Racer",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tom Clancy's Rainbow Six Extraction",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Tom Clancy's Rainbow Six Siege",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Torque Drift 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Tower of Fantasy",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Towers of Aghasba",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "TRAIL OUT",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Trepang2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Trench Tales",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "TRIBES 3: Rivals",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Truck Mechanic: Dangerous Paths - Prologue",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Turbo Sloths",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Twin Stones: The Journey of Bukka",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "UBOAT",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Uncharted: Legacy of Thieves Collection",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Uncrashed : FPV Drone Simulator",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "United 1944",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "United Assault - Normandy '44",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Unknown Woods",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Until Dawn",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "VALHALL: Harbinger",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Valkyrie Elysium",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Vampire: The Masquerade - Bloodlines 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Vampire: The Masquerade - Swansong",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Vampires: Bloodlord Rising",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Vector Strike",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Viking Rage",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Violet",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Virtua Fighter 5 R.E.V.O.",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Void Crew",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Voidtrain",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "VR Nara Park",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wacky West",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wakamarina Valley, New Zealand",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wanted: Dead",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warframe",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warhaven",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "War Thunder",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Warhammer Age of Sigmar: Realms of Ruin",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warhammer 40,000: Darktide",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Warhammer 40,000: Space Marine 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warhammer 40,000: Speed Freeks",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warhammer: Vermintide 2",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Warstride Challenges",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Watch Dogs: Legion",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Wayfinder",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Way of the Hunter",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Welcome to ParadiZe",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Where Winds Meet",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Whiskerwood",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Who Is Abby",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Why Don't They Laugh?",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wild Assault",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wildgate",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "WILD HEARTS",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Winter Survival",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Witchfire",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wo Long: Fallen Dynasty",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wolfenstein: Youngblood",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Wonder Ball",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Workshop Simulator",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "World of Jade Dynasty",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "World of Warcraft: Shadowlands",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "WRC Generations – The FIA WRC Official Game",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wreckfest 2",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wreckreation",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wrench",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "WUCHANG: Fallen Feathers",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Wuthering Waves",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "X4: Foundations",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Xuan-Yuan Sword VII",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": "Yes"
+  },
+  {
+    "gameName": "Yag",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Yakuza Kiwami 2",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Yakuza Kiwami 3 & Dark Ties",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Zenless Zone Zero",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "gameName": "Zombie City",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "",
+    "rayTracing": ""
+  }
+]
