@@ -242,7 +242,7 @@
   {
     "name": "Marvel Rivals",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Mechwarrior 5: Clans",
@@ -340,14 +340,9 @@
     "xess": false
   },
   {
-    "name": "RoboCop: Rogue City",
+    "name": "Russian Soul Simulator",
     "xess2": true,
-    "xess": false
-  },
-  {
-    "name": "Robocop: Rogue City Unfinished Business",
-    "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -500,6 +495,11 @@
     "xess": true
   },
   {
+    "name": "Tales of Kenzera: ZAU",
+    "xess2": true,
+    "xess": true
+  },
+  {
     "name": "Tank Squad",
     "xess2": true,
     "xess": true
@@ -535,37 +535,12 @@
     "xess": true
   },
   {
-    "name": "The Last of Us Part 2",
+    "name": "The Last Caretaker",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "The Legend of Heroes: Kai no Kiseki",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Legend of Heroes: Trails through Daybreak II",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Riftbreaker",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The RPG",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The RPG: My First Dungeon Smells",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Swordsmen X: Survival",
+    "name": "The Outer Worlds 2",
     "xess2": true,
     "xess": true
   },
@@ -665,12 +640,12 @@
     "xess": true
   },
   {
-    "name": "22 Racing Series",
+    "name": "3DMark",
     "xess2": false,
     "xess": true
   },
   {
-    "name": "3DMark",
+    "name": "22 Racing Series",
     "xess2": false,
     "xess": true
   },
@@ -915,11 +890,6 @@
     "xess": true
   },
   {
-    "name": "Deadlink",
-    "xess2": false,
-    "xess": true
-  },
-  {
     "name": "Death Relives",
     "xess2": false,
     "xess": true
@@ -991,16 +961,6 @@
   },
   {
     "name": "Dungeonborne",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Dying Light 2 Stay Human",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Dynasty Warriors: Origins",
     "xess2": false,
     "xess": true
   },
@@ -1096,6 +1056,11 @@
   },
   {
     "name": "Fortnite",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Forza Horizon 5",
     "xess2": false,
     "xess": true
   },
@@ -1316,26 +1281,6 @@
   },
   {
     "name": "Martha Is Dead",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Marvel’s Avengers – The Definitive Edition",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Marvel’s Spider-Man 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Marvel’s Spider-Man Remastered",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Marvel’s Spider-Man: Miles Morales",
     "xess2": false,
     "xess": true
   },
@@ -1581,11 +1526,6 @@
   },
   {
     "name": "Roadcraft",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Russian Shield: Iraq",
     "xess2": false,
     "xess": true
   },
