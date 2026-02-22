@@ -1,0 +1,49 @@
+name: Check Anti-Cheat Safety
+
+on:
+  push:
+    paths:
+      - "data/stores/**"
+  workflow_dispatch:
+
+concurrency:
+  group: anticheat
+  cancel-in-progress: false
+
+jobs:
+  anticheat:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run anti-cheat checker
+        run: npx tsx src/index.ts check
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+
+      - name: Commit updated anti-cheat data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/anticheat/
+          if git diff --cached --quiet; then
+            echo "No changes to anti-cheat data"
+          else
+            git commit -m "Update anti-cheat data $(date -u +%Y-%m-%d)"
+            git push
+          fi
