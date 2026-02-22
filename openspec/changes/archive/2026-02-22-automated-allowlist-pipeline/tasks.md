@@ -111,6 +111,6 @@
 ## 12. Final Validation
 
 - [x] 12.1 Run `npm run ci` (typecheck + lint + test) and verify all checks pass
-- [ ] 12.2 Run the full pipeline locally end-to-end (`scrape` → `match` → `check` → `generate`) and verify `data/allowlist.json` is produced
+- [x] 12.2 Run the full pipeline locally end-to-end (`scrape` → `match` → `check` → `generate`) and verify `data/allowlist.json` is produced
 - [x] 12.3 Verify all data files use 2-space indentation and trailing newline
 - [x] 12.4 Review `.gitignore` to ensure `dist/`, `.env`, and `node_modules/` are excluded but `data/` is committed
