@@ -36,7 +36,7 @@ describe("matchAll", () => {
 	it("should collect game names from provider files and match new ones", async () => {
 		await writeJson(node_path.join(providersDir, "nvidia.json"), [
 			{
-				gameName: "Game A",
+				name: "Game A",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -45,7 +45,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Game B",
+				name: "Game B",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -77,7 +77,7 @@ describe("matchAll", () => {
 	it("should skip names already in existing mappings", async () => {
 		await writeJson(node_path.join(providersDir, "nvidia.json"), [
 			{
-				gameName: "Existing Game",
+				name: "Existing Game",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -86,7 +86,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "New Game",
+				name: "New Game",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -118,7 +118,7 @@ describe("matchAll", () => {
 	it("should collect names from multiple provider files", async () => {
 		await writeJson(node_path.join(providersDir, "nvidia.json"), [
 			{
-				gameName: "Shared Game",
+				name: "Shared Game",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -129,14 +129,14 @@ describe("matchAll", () => {
 		]);
 		await writeJson(node_path.join(providersDir, "amd.json"), [
 			{
-				gameName: "Shared Game",
+				name: "Shared Game",
 				fsrRedstone: true,
 				fsr3: false,
 				fsr2: false,
 				fsrFrameGenerationMl: false,
 			},
 			{
-				gameName: "AMD Only",
+				name: "AMD Only",
 				fsrRedstone: false,
 				fsr3: true,
 				fsr2: false,
@@ -172,7 +172,7 @@ describe("matchAll", () => {
 	it("should respect the limit option and only process that many new names", async () => {
 		await writeJson(node_path.join(providersDir, "nvidia.json"), [
 			{
-				gameName: "Game A",
+				name: "Game A",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -181,7 +181,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Game B",
+				name: "Game B",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -190,7 +190,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Game C",
+				name: "Game C",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -199,7 +199,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Game D",
+				name: "Game D",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -208,7 +208,7 @@ describe("matchAll", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Game E",
+				name: "Game E",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",

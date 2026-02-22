@@ -25,7 +25,7 @@ interface NvidiaRawEntry {
 /** Map a raw NVIDIA API entry to our normalized NvidiaGame shape */
 function mapRawEntry(raw: NvidiaRawEntry): NvidiaGame {
 	return {
-		gameName: String(raw.name).trim(),
+		name: String(raw.name).trim(),
 		dlssMultiFrameGeneration: raw["dlss multi frame generation"] ?? "",
 		dlssFrameGeneration: raw["dlss frame generation"] ?? "",
 		dlssSuperResolution: raw["dlss super resolution"] ?? "",

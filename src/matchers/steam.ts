@@ -64,17 +64,17 @@ export function stringSimilarity(a: string, b: string): number {
  * or null if no good match is found.
  */
 export async function searchSteam(
-	gameName: string,
+	game: string,
 ): Promise<{ appId: number | null; matchedName?: string }> {
 	const url = new URL(STEAM_SEARCH_URL);
-	url.searchParams.set("term", gameName);
+	url.searchParams.set("term", game);
 	url.searchParams.set("l", "english");
 	url.searchParams.set("cc", "US");
 
 	const response = await fetchWithRetry(url.toString());
 
 	if (!response.ok) {
-		throw new MatcherError(`Steam search returned HTTP ${response.status}`, gameName);
+		throw new MatcherError(`Steam search returned HTTP ${response.status}`, game);
 	}
 
 	const data = (await response.json()) as SteamSearchResponse;
@@ -85,7 +85,7 @@ export async function searchSteam(
 
 	// Check the top result for similarity
 	const topResult = data.items[0];
-	const similarity = stringSimilarity(gameName, topResult.name);
+	const similarity = stringSimilarity(game, topResult.name);
 
 	if (similarity >= SIMILARITY_THRESHOLD) {
 		return { appId: topResult.id, matchedName: topResult.name };

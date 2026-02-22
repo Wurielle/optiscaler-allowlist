@@ -56,18 +56,18 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 		(await tryReadJson<AntiCheatData>(node_path.join(anticheatDir, "steam.json"))) ?? {};
 
 	// Build lookup maps by game name
-	const nvidiaMap = new Map(nvidiaGames.map((g) => [g.gameName, g]));
-	const amdMap = new Map(amdGames.map((g) => [g.gameName, g]));
-	const intelMap = new Map(intelGames.map((g) => [g.gameName, g]));
+	const nvidiaMap = new Map(nvidiaGames.map((g) => [g.name, g]));
+	const amdMap = new Map(amdGames.map((g) => [g.name, g]));
+	const intelMap = new Map(intelGames.map((g) => [g.name, g]));
 
 	// Collect all unique game names across all providers
 	const allGameNames = new Set([...nvidiaMap.keys(), ...amdMap.keys(), ...intelMap.keys()]);
 
 	const entries: AllowlistEntry[] = [];
 
-	for (const gameName of allGameNames) {
+	for (const name of allGameNames) {
 		// Check store mapping
-		const storeEntry = storeMappings[gameName];
+		const storeEntry = storeMappings[name];
 		if (!storeEntry || storeEntry.appId === null) {
 			continue; // No store ID — exclude
 		}
@@ -81,9 +81,9 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 		}
 
 		// Build provider data
-		const nvidia = nvidiaMap.get(gameName);
-		const amd = amdMap.get(gameName);
-		const intel = intelMap.get(gameName);
+		const nvidia = nvidiaMap.get(name);
+		const amd = amdMap.get(name);
+		const intel = intelMap.get(name);
 
 		const nvidiaProvider: AllowlistNvidiaProvider | undefined = nvidia
 			? {
@@ -113,7 +113,7 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 			: undefined;
 
 		entries.push({
-			gameName,
+			name,
 			stores: {
 				steam: { appId: storeEntry.appId },
 			},
@@ -126,7 +126,7 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 	}
 
 	// Sort alphabetically by game name
-	entries.sort((a, b) => a.gameName.localeCompare(b.gameName));
+	entries.sort((a, b) => a.name.localeCompare(b.name));
 
 	// Validate
 	allowlistSchema.parse(entries);

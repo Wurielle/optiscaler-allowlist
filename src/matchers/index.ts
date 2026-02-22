@@ -30,13 +30,13 @@ export interface MatchResult {
 async function collectGameNames(providersDir: string): Promise<Set<string>> {
 	const names = new Set<string>();
 
-	const tryRead = async <T extends { gameName: string }>(filename: string): Promise<void> => {
+	const tryRead = async <T extends { name: string }>(filename: string): Promise<void> => {
 		const filePath = node_path.join(providersDir, filename);
 		try {
 			await node_fs.access(filePath);
 			const data = await readJson<T[]>(filePath);
 			for (const entry of data) {
-				names.add(entry.gameName);
+				names.add(entry.name);
 			}
 		} catch {
 			// File doesn't exist yet — skip

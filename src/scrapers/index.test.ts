@@ -29,7 +29,7 @@ describe("scrapeAll", () => {
 	it("should return success results for all scrapers", async () => {
 		mockNvidia.mockResolvedValueOnce([
 			{
-				gameName: "Game 1",
+				name: "Game 1",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -40,14 +40,14 @@ describe("scrapeAll", () => {
 		]);
 		mockAmd.mockResolvedValueOnce([
 			{
-				gameName: "Game 2",
+				name: "Game 2",
 				fsrRedstone: true,
 				fsr3: false,
 				fsr2: false,
 				fsrFrameGenerationMl: false,
 			},
 		]);
-		mockIntel.mockResolvedValueOnce([{ gameName: "Game 3", xess2: true, xess: false }]);
+		mockIntel.mockResolvedValueOnce([{ name: "Game 3", xess2: true, xess: false }]);
 
 		const results = await scrapeAll();
 
@@ -72,7 +72,7 @@ describe("scrapeAll", () => {
 	it("should isolate partial failures — one scraper failing does not block others", async () => {
 		mockNvidia.mockResolvedValueOnce([
 			{
-				gameName: "Game 1",
+				name: "Game 1",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -82,7 +82,7 @@ describe("scrapeAll", () => {
 			},
 		]);
 		mockAmd.mockRejectedValueOnce(new ScraperError("AMD page failed", "amd", 503));
-		mockIntel.mockResolvedValueOnce([{ gameName: "Game 3", xess2: false, xess: true }]);
+		mockIntel.mockResolvedValueOnce([{ name: "Game 3", xess2: false, xess: true }]);
 
 		const results = await scrapeAll();
 

@@ -54,7 +54,7 @@ function mergeIntoGames(extracted: z.infer<typeof intelExtractionSchema>): Intel
 	for (const name of extracted.xess2) {
 		const trimmed = name.trim();
 		if (!trimmed) continue;
-		gameMap.set(trimmed, { gameName: trimmed, xess2: true, xess: false });
+		gameMap.set(trimmed, { name: trimmed, xess2: true, xess: false });
 	}
 
 	for (const name of extracted.xess) {
@@ -64,7 +64,7 @@ function mergeIntoGames(extracted: z.infer<typeof intelExtractionSchema>): Intel
 		if (existing) {
 			existing.xess = true;
 		} else {
-			gameMap.set(trimmed, { gameName: trimmed, xess2: false, xess: true });
+			gameMap.set(trimmed, { name: trimmed, xess2: false, xess: true });
 		}
 	}
 

@@ -32,13 +32,13 @@ export interface AllowlistStores {
 }
 
 export interface AllowlistEntry {
-	gameName: string;
+	name: string;
 	stores: AllowlistStores;
 	providers: AllowlistProviders;
 }
 
 export const allowlistEntrySchema = z.object({
-	gameName: z.string().min(1),
+	name: z.string().min(1),
 	stores: z.object({
 		steam: z.object({
 			appId: z.number().int().positive(),

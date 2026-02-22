@@ -25,11 +25,11 @@ describe("ScraperError", () => {
 });
 
 describe("MatcherError", () => {
-	it("should set name, message, and gameName", () => {
+	it("should set name, message, and game", () => {
 		const error = new MatcherError("No match found", "Half-Life 3");
 		expect(error.name).toBe("MatcherError");
 		expect(error.message).toBe("No match found");
-		expect(error.gameName).toBe("Half-Life 3");
+		expect(error.game).toBe("Half-Life 3");
 	});
 
 	it("should be an instance of Error", () => {

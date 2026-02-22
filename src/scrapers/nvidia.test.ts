@@ -60,7 +60,7 @@ describe("scrapeNvidia", () => {
 
 		expect(result).toHaveLength(1);
 		expect(result[0]).toEqual({
-			gameName: "Cyberpunk 2077",
+			name: "Cyberpunk 2077",
 			dlssMultiFrameGeneration: "Yes",
 			dlssFrameGeneration: "Yes",
 			dlssSuperResolution: "Yes",
@@ -74,7 +74,7 @@ describe("scrapeNvidia", () => {
 			await node_fs.readFile(node_path.join(tmpDir, "nvidia.json"), "utf-8"),
 		);
 		expect(written).toHaveLength(1);
-		expect(written[0].gameName).toBe("Cyberpunk 2077");
+		expect(written[0].name).toBe("Cyberpunk 2077");
 	});
 
 	it("should throw ScraperError on non-200 HTTP response", async () => {
@@ -140,7 +140,7 @@ describe("scrapeNvidia", () => {
 
 		const result = await scrapeNvidia({ outputDir: tmpDir });
 		expect(result).toHaveLength(1);
-		expect(result[0].gameName).toBe("DOOM: The Dark Ages");
+		expect(result[0].name).toBe("DOOM: The Dark Ages");
 	});
 
 	it("should map NV feature values correctly", async () => {
@@ -159,7 +159,7 @@ describe("scrapeNvidia", () => {
 
 		const result = await scrapeNvidia({ outputDir: tmpDir });
 		expect(result[0]).toEqual({
-			gameName: "Test Game",
+			name: "Test Game",
 			dlssMultiFrameGeneration: "NV, U",
 			dlssFrameGeneration: "NV, T",
 			dlssSuperResolution: "NV",
@@ -184,6 +184,6 @@ describe("scrapeNvidia", () => {
 		]);
 
 		const result = await scrapeNvidia({ outputDir: tmpDir });
-		expect(result[0].gameName).toBe("Padded Name");
+		expect(result[0].name).toBe("Padded Name");
 	});
 });
