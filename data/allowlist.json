@@ -206,5 +206,437 @@
         "rayTracing": ""
       }
     }
+  },
+  {
+    "name": "AirportSim",
+    "stores": {
+      "steam": {
+        "appId": 1715280
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Akimbot",
+    "stores": {
+      "steam": {
+        "appId": 1843540
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Alone In The Dark",
+    "stores": {
+      "steam": {
+        "appId": 1310410
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Ambulance Life: A Paramedic Simulator",
+    "stores": {
+      "steam": {
+        "appId": 1926520
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": "Yes"
+      },
+      "intel": {
+        "xess2": false,
+        "xess": true
+      }
+    }
+  },
+  {
+    "name": "AMID EVIL",
+    "stores": {
+      "steam": {
+        "appId": 673130
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": "Yes"
+      }
+    }
+  },
+  {
+    "name": "Anatomy Of Fear",
+    "stores": {
+      "steam": {
+        "appId": 1662940
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Animalia Survival",
+    "stores": {
+      "steam": {
+        "appId": 1364290
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Anno 117: Pax Romana",
+    "stores": {
+      "steam": {
+        "appId": 3274580
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": true,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": false
+      }
+    }
+  },
+  {
+    "name": "Apocalypse: 2.0 Edition",
+    "stores": {
+      "steam": {
+        "appId": 1291680
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "ARC Raiders",
+    "stores": {
+      "steam": {
+        "appId": 1808500
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "Yes",
+        "dlssFrameGeneration": "Yes",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "Yes",
+        "rayTracing": "Yes"
+      },
+      "amd": {
+        "fsrRedstone": true,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": true
+      },
+      "intel": {
+        "xess2": false,
+        "xess": true
+      }
+    }
+  },
+  {
+    "name": "Arena Breakout: Infinite",
+    "stores": {
+      "steam": {
+        "appId": 2073620
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": true,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": false
+      }
+    }
+  },
+  {
+    "name": "ARK: Survival Ascended",
+    "stores": {
+      "steam": {
+        "appId": 2399830
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": true,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": false
+      }
+    }
+  },
+  {
+    "name": "Aron's Adventure",
+    "stores": {
+      "steam": {
+        "appId": 1013910
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": "Yes"
+      },
+      "amd": {
+        "fsrRedstone": false,
+        "fsr3": false,
+        "fsr2": true,
+        "fsrFrameGenerationMl": false
+      }
+    }
+  },
+  {
+    "name": "Assassin's Creed Mirage",
+    "stores": {
+      "steam": {
+        "appId": 3035570
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": false,
+        "fsr3": false,
+        "fsr2": true,
+        "fsrFrameGenerationMl": false
+      },
+      "intel": {
+        "xess2": true,
+        "xess": false
+      }
+    }
+  },
+  {
+    "name": "Assassin's Creed Shadows",
+    "stores": {
+      "steam": {
+        "appId": 3159330
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": "Yes"
+      },
+      "intel": {
+        "xess2": true,
+        "xess": false
+      }
+    }
+  },
+  {
+    "name": "Assetto Corsa EVO",
+    "stores": {
+      "steam": {
+        "appId": 3058630
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": false,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": false
+      }
+    }
+  },
+  {
+    "name": "Assetto Corsa Rally",
+    "stores": {
+      "steam": {
+        "appId": 3917090
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "Yes",
+        "dlssFrameGeneration": "Yes",
+        "dlssSuperResolution": "Yes",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "amd": {
+        "fsrRedstone": true,
+        "fsr3": true,
+        "fsr2": false,
+        "fsrFrameGenerationMl": false
+      },
+      "intel": {
+        "xess2": true,
+        "xess": false
+      }
+    }
+  },
+  {
+    "name": "Astral Tracks",
+    "stores": {
+      "steam": {
+        "appId": 2190380
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "",
+        "dlssFrameGeneration": "Yes",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      },
+      "intel": {
+        "xess2": false,
+        "xess": true
+      }
+    }
+  },
+  {
+    "name": "Astrometica",
+    "stores": {
+      "steam": {
+        "appId": 2353250
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "",
+        "rayTracing": ""
+      }
+    }
+  },
+  {
+    "name": "Aunt Fatima - خالة فاطمة",
+    "stores": {
+      "steam": {
+        "appId": 3030250
+      }
+    },
+    "providers": {
+      "nvidia": {
+        "dlssMultiFrameGeneration": "NV",
+        "dlssFrameGeneration": "NV, U",
+        "dlssSuperResolution": "NV, T",
+        "dlssRayReconstruction": "",
+        "dlaa": "NV, T",
+        "rayTracing": ""
+      }
+    }
   }
 ]
