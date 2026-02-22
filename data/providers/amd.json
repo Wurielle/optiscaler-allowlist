@@ -1,2624 +1,2624 @@
 [
   {
-    "gameName": "A Quiet Place: The Road Ahead",
+    "name": "A Quiet Place: The Road Ahead",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Empyreal",
+    "name": "Empyreal",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Lost Rift*",
+    "name": "Lost Rift*",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "SILENT HILL f",
+    "name": "SILENT HILL f",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Alien: Rogue Incursion Evolved Edition",
+    "name": "Alien: Rogue Incursion Evolved Edition",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Enotria: The Last Song",
+    "name": "Enotria: The Last Song",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Mafia: The Old Country",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Slitterhead",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Anno 117: Pax Romana",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Ertugrul of Ulukayin",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Manor Lords",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "SMITE 2",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "ARC Raiders",
+    "name": "Mafia: The Old Country",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Eternal Strands",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": true,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Marvel Rivals",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Space Engineers 2",
+    "name": "Slitterhead",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Arena Breakout: Infinite",
+    "name": "Anno 117: Pax Romana",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "EVE Online",
+    "name": "Ertugrul of Ulukayin",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Marvel’s Spider-Man Remastered",
+    "name": "Manor Lords",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Spirit of the North 2",
+    "name": "SMITE 2",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "ARK: Survival Ascended",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "EVERSPACE™ 2",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Marvel’s Spider-Man: Miles Morales",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Spirit X Strike",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Assassin’s Creed Shadows",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "EXFIL*",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Marvel's Spider-Man 2",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Split Fiction",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Assetto Corsa Rally",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "F1® 24",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Mecha BREAK",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Splitgate 2",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Automate It: Factory Puzzle",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "F1® 25",
+    "name": "ARC Raiders",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "MechWarrior 5: Clans",
+    "name": "Eternal Strands",
     "fsrRedstone": true,
     "fsr3": true,
-    "fsr2": false,
+    "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "SpongeBob SquarePants: Titans of the Tide*",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Avatar: Frontiers of Pandora™",
+    "name": "Marvel Rivals",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Farlight 84",
+    "name": "Space Engineers 2",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "METAL EDEN",
+    "name": "Arena Breakout: Infinite",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Squad",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Backroom Company",
+    "name": "EVE Online",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Farming Simulator 25",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "MindsEye",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Star Overdrive",
+    "name": "Marvel’s Spider-Man Remastered",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Battlefield™ 6*",
+    "name": "Spirit of the North 2",
     "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "FBC: Firebreak*",
-    "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Monster Hunter Wilds",
+    "name": "ARK: Survival Ascended",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Star Wars Outlaws",
+    "name": "EVERSPACE™ 2",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Bellwright*",
+    "name": "Marvel’s Spider-Man: Miles Morales",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Spirit X Strike",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Assassin’s Creed Shadows",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "EXFIL*",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Fellowship",
+    "name": "Marvel's Spider-Man 2",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Mortal Kombat 1",
+    "name": "Split Fiction",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Starship Troopers: Extermination",
+    "name": "Assetto Corsa Rally",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Beyond Hanwell",
+    "name": "F1® 24",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Mecha BREAK",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Splitgate 2",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Automate It: Factory Puzzle",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Fera: The Sundered Tribes",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Mortal Online 2*",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Steel Seed",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Black Myth: Wukong",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "FINAL FANTASY XVI",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Nachtmahr",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Stellar Blade™",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Blades of Fire",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Firefighting Simulator: Ignite",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "NARAKA: BLADEPOINT",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Still Wakes the Deep",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Bleak Haven",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "FlipScapes",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "New Home: Medieval Village",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Storage Hunter Simulator",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Borderlands® 4",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Forest Doesn’t Care",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "New World: Aeternum",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "STORROR Parkour Pro",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Brickadia",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Fort Solis",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Night of the Dead",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Supermoves",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Call of Duty®: Black Ops 6",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "FragPunk",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Nightingale",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Supraworld",
+    "name": "F1® 25",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Call of Duty®: Black Ops 7*",
+    "name": "MechWarrior 5: Clans",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Titans of the Tide*",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Frostpunk 2*",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "NINJA GAIDEN 2 Black",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "SurrounDead",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Call of Duty®: Warzone™",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Funko Fusion",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "No More Room in Hell 2*",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Tactical Vengeance: Play The Games",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Car Dealer Simulator",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Game of Thrones: Kingsroad",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Off The Grid",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Tales of Wind Online",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Caravan SandWitch",
-    "fsrRedstone": true,
-    "fsr3": false,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Gaming Cafe Simulator",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Otherskin",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Tempest Rising",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Cash Cleaner Simulator",
+    "name": "Avatar: Frontiers of Pandora™",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Ghost of Tsushima DIRECTOR'S CUT",
+    "name": "Farlight 84",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "METAL EDEN",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Squad",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Backroom Company",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Farming Simulator 25",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "PANICORE",
+    "name": "MindsEye",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Star Overdrive",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Alters",
+    "name": "Battlefield™ 6*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "FBC: Firebreak*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Monster Hunter Wilds",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Star Wars Outlaws",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Bellwright*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Fellowship",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Celestial Empire",
+    "name": "Mortal Kombat 1",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "God of War Ragnarök",
+    "name": "Starship Troopers: Extermination",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Beyond Hanwell",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Fera: The Sundered Tribes",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Mortal Online 2*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Steel Seed",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Black Myth: Wukong",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "FINAL FANTASY XVI",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Nachtmahr",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Stellar Blade™",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Blades of Fire",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Firefighting Simulator: Ignite",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "NARAKA: BLADEPOINT",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Still Wakes the Deep",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Bleak Haven",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "FlipScapes",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "New Home: Medieval Village",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Storage Hunter Simulator",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Borderlands® 4",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Forest Doesn’t Care",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "New World: Aeternum",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "STORROR Parkour Pro",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Brickadia",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Fort Solis",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Night of the Dead",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Supermoves",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Call of Duty®: Black Ops 6",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "FragPunk",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Nightingale",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Supraworld",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Pax Dei",
+    "name": "Call of Duty®: Black Ops 7*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Frostpunk 2*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "NINJA GAIDEN 2 Black",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Axis Unseen",
+    "name": "SurrounDead",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Call of Duty®: Warzone™",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Funko Fusion",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Chernobylite 2: Exclusion Zone",
+    "name": "No More Room in Hell 2*",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Tactical Vengeance: Play The Games",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Grand Theft Auto V Enhanced",
+    "name": "Car Dealer Simulator",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Game of Thrones: Kingsroad",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Off The Grid",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Tales of Wind Online",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Caravan SandWitch",
+    "fsrRedstone": true,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Gaming Cafe Simulator",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Otherskin",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Tempest Rising",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Cash Cleaner Simulator",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Pine Harbor",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "The Elder Scrolls IV: Oblivion Remastered",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Chip ‘n Clawz vs. The Brainioids",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Gray Zone Warfare*",
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Planetaries",
+    "name": "PANICORE",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "THE FINALS",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Clair Obscur: Expedition 33*",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Greedland",
+    "name": "The Alters",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Predator: Hunting Grounds",
+    "name": "Celestial Empire",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The First Berserker: Khazan",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Code Alkonost: Awakening of Evil",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Hell is Us",
+    "name": "God of War Ragnarök",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Project Motor Racing",
+    "name": "Pax Dei",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "The Axis Unseen",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Chernobylite 2: Exclusion Zone",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Grand Theft Auto V Enhanced",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "The First Descendant*",
+    "name": "Pine Harbor",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Chip ‘n Clawz vs. The Brainioids",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Gray Zone Warfare*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Commandos: Origins",
+    "name": "Planetaries",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "HELLBREAK",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Prologue: Go Wayback!*",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "The Last Caretaker*",
+    "name": "THE FINALS",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Confronted",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Hogwarts Legacy",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "QANGA",
+    "name": "Clair Obscur: Expedition 33*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "The Last of Us™ Part I",
+    "name": "Greedland",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Creatures of Ava",
+    "name": "Predator: Hunting Grounds",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Horizon Forbidden West™ Complete Edition",
+    "name": "The First Berserker: Khazan",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Quantum Sleeper",
+    "name": "Code Alkonost: Awakening of Evil",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Last of Us™ Part II Remastered",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Cronos: The New Dawn*",
+    "name": "Hell is Us",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Horizon Zero Dawn™ Remastered",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Ranch Simulator - Build, Farm, Hunt",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": true,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "The Midnight Walk",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Cursed Halls",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Hunt: Showdown 1896",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Ratchet & Clank: Rift Apart",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "The Outer Worlds 2*",
+    "name": "Project Motor Racing",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Cyberpunk 2077",
+    "name": "The First Descendant*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Incursion Red River",
+    "name": "Commandos: Origins",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Rem Survival",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "The Sinking City Remastered",
+    "name": "HELLBREAK",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "DAIMON BLADES*",
+    "name": "Prologue: Go Wayback!*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "INDUSTRIA 2 (demo)",
+    "name": "The Last Caretaker*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "REMNANT II®",
+    "name": "Confronted",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Talos Principle: Reawakened",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "DAVY x JONES",
+    "name": "Hogwarts Legacy",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "InFlux Redux",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "RENNSPORT",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "There Exists Nobody",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Deadzone: Rogue",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "inZOI",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Revenge of the Savage Planet",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Titan Quest II*",
+    "name": "QANGA",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Death Relives",
+    "name": "The Last of Us™ Part I",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "KARMA: The Dark World",
+    "name": "Creatures of Ava",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "RoadCraft",
+    "name": "Horizon Forbidden West™ Complete Edition",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Torque Drift 2",
+    "name": "Quantum Sleeper",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Deathground*",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "Keeper",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": true
-  },
-  {
-    "gameName": "RoboCop: Rogue City - Unfinished Business",
+    "name": "The Last of Us™ Part II Remastered",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Until Dawn™",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Deceit 2",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Kegan",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Rune Factory: Guardians of Azuma",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Void Crew",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Deedlee Doo! Carkour!",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Killing Floor 3",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "RoboCop: Rogue City",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "War Thunder",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Delta Force - Black Hawk Down",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Kristala",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "RuneScape: Dragonwilds",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Warhammer 40,000: Darktide",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Dragonkin: The Banished",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Leaf Blower Co.",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Whiskerwood*",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Driving Life",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Like a Dragon: Pirate Yakuza in Hawaii",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-    "fsrRedstone": true,
-    "fsr3": true,
-    "fsr2": false,
-    "fsrFrameGenerationMl": false
-  },
-  {
-    "gameName": "Winter Survival*",
+    "name": "Cronos: The New Dawn*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "171",
+    "name": "Horizon Zero Dawn™ Remastered",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Ranch Simulator - Build, Farm, Hunt",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": true,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "The Midnight Walk",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Cursed Halls",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Hunt: Showdown 1896",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Ratchet & Clank: Rift Apart",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "The Outer Worlds 2*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Incursion Red River",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Rem Survival",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "The Sinking City Remastered",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "DAIMON BLADES*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "INDUSTRIA 2 (demo)",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "REMNANT II®",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "The Talos Principle: Reawakened",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "DAVY x JONES",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "InFlux Redux",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "RENNSPORT",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "There Exists Nobody",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Deadzone: Rogue",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "inZOI",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Revenge of the Savage Planet",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Titan Quest II*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Death Relives",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "KARMA: The Dark World",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "RoadCraft",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Torque Drift 2",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Deathground*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Keeper",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "RoboCop: Rogue City - Unfinished Business",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Until Dawn™",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Deceit 2",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Kegan",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Rune Factory: Guardians of Azuma",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Void Crew",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Deedlee Doo! Carkour!",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Killing Floor 3",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "RoboCop: Rogue City",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "War Thunder",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Delta Force - Black Hawk Down",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Kristala",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "RuneScape: Dragonwilds",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Warhammer 40,000: Darktide",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Dragonkin: The Banished",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Leaf Blower Co.",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Whiskerwood*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Driving Life",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Winter Survival*",
+    "fsrRedstone": true,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "171",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Enshrouded",
+    "name": "Enshrouded",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "7 Days to Die",
+    "name": "7 Days to Die",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "skate.™",
+    "name": "skate.™",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Sons Of The Forest",
+    "name": "Sons Of The Forest",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "EXFIL",
+    "name": "EXFIL",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Assetto Corsa EVO",
+    "name": "Assetto Corsa EVO",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Farming Simulator 22",
+    "name": "Farming Simulator 22",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "METAL GEAR SOLID Δ: SNAKE EATER",
+    "name": "METAL GEAR SOLID Δ: SNAKE EATER",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Microsoft Flight Simulator 2024",
+    "name": "Microsoft Flight Simulator 2024",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "SpongeBob SquarePants: Titans of the Tide",
+    "name": "SpongeBob SquarePants: Titans of the Tide",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Starfield",
+    "name": "Starfield",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Mortal Online 2",
+    "name": "Mortal Online 2",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Battlefield™ 6",
+    "name": "Battlefield™ 6",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "MotorCubs RC",
+    "name": "MotorCubs RC",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Bellwright",
+    "name": "Bellwright",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Black Myth: Wukong (added FSR 3.1)",
+    "name": "Black Myth: Wukong (added FSR 3.1)",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Forgive Me Father 2",
+    "name": "Forgive Me Father 2",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "NBA 2K26",
+    "name": "NBA 2K26",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Forspoken",
+    "name": "Forspoken",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Frostpunk 2",
+    "name": "Frostpunk 2",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "No More Room in Hell 2",
+    "name": "No More Room in Hell 2",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Abyss World: Apocalypse",
+    "name": "Abyss World: Apocalypse",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "EA SPORTS™ WRC",
+    "name": "EA SPORTS™ WRC",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "NBA 2K25",
+    "name": "NBA 2K25",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Test Drive Unlimited Solar Crown",
+    "name": "Test Drive Unlimited Solar Crown",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Achilles: Legends Untold",
+    "name": "Achilles: Legends Untold",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Edge of the Abyss Awaken",
+    "name": "Edge of the Abyss Awaken",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Need for Speed™ Unbound",
+    "name": "Need for Speed™ Unbound",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Bridge Curse Road to Salvation",
+    "name": "The Bridge Curse Road to Salvation",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Ad Infinitum",
+    "name": "Ad Infinitum",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Nemesis: Distress",
+    "name": "Nemesis: Distress",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Callisto Protocol™",
+    "name": "The Callisto Protocol™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Alan Wake 2",
+    "name": "Alan Wake 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Evil Reap",
+    "name": "Evil Reap",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "No Man's Sky",
+    "name": "No Man's Sky",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Chant",
+    "name": "The Chant",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Alone in the Dark (2024)",
+    "name": "Alone in the Dark (2024)",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Exoprimal",
+    "name": "Exoprimal",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "No One Survived",
+    "name": "No One Survived",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Devourer: Hunted Souls",
+    "name": "The Devourer: Hunted Souls",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "ArcheAge WAR",
+    "name": "ArcheAge WAR",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Eyes of War",
+    "name": "Eyes of War",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "No Rest for the Wicked",
+    "name": "No Rest for the Wicked",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Eternal Cylinder",
+    "name": "The Eternal Cylinder",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Aron's Adventure",
+    "name": "Aron's Adventure",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "F1® 22",
+    "name": "F1® 22",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Once Human",
+    "name": "Once Human",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Inquisitor",
+    "name": "The Inquisitor",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Assassin's Creed Mirage",
+    "name": "Assassin's Creed Mirage",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "F1® 23",
+    "name": "F1® 23",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Overwatch® 2",
+    "name": "Overwatch® 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Invincible",
+    "name": "The Invincible",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Asterigos: Curse of the Stars",
+    "name": "Asterigos: Curse of the Stars",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "F1® Manager 2023",
+    "name": "F1® Manager 2023",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Paladin's Passage",
+    "name": "Paladin's Passage",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Lord of the Rings: Gollum™",
+    "name": "The Lord of the Rings: Gollum™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Atlas Fallen",
+    "name": "Atlas Fallen",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "F1® Manager 2024",
+    "name": "F1® Manager 2024",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Park Beyond",
+    "name": "Park Beyond",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Lord of the Rings: Return to Moria™",
+    "name": "The Lord of the Rings: Return to Moria™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Baldur's Gate 3",
+    "name": "Baldur's Gate 3",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Fight or Flight",
+    "name": "Fight or Flight",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Party Animals",
+    "name": "Party Animals",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Outer Worlds: Spacer's Choice Edition",
+    "name": "The Outer Worlds: Spacer's Choice Edition",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Ballads of Hongye",
+    "name": "Ballads of Hongye",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Forever Skies",
+    "name": "Forever Skies",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Path of Exile 2",
+    "name": "Path of Exile 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Outlast Trials",
+    "name": "The Outlast Trials",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Banishers: Ghosts of New Eden",
+    "name": "Banishers: Ghosts of New Eden",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Forza Horizon 5",
+    "name": "Forza Horizon 5",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "PERISH",
+    "name": "PERISH",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Riftbreaker",
+    "name": "The Riftbreaker",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Battle Teams 2",
+    "name": "Battle Teams 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Forza Motorsport",
+    "name": "Forza Motorsport",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Pinball FX",
+    "name": "Pinball FX",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Texas Chain Saw Massacre",
+    "name": "The Texas Chain Saw Massacre",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "BLACKTAIL",
+    "name": "BLACKTAIL",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Genshin Impact",
+    "name": "Genshin Impact",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Pinball M",
+    "name": "Pinball M",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "The Witcher® 3: Wild Hunt",
+    "name": "The Witcher® 3: Wild Hunt",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Bright Memory: Infinite",
+    "name": "Bright Memory: Infinite",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Ghostrunner 2",
+    "name": "Ghostrunner 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "There Won't be Light",
+    "name": "There Won't be Light",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Brothers: A Tale of Two Sons Remake",
+    "name": "Brothers: A Tale of Two Sons Remake",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Ghostwire: Tokyo",
+    "name": "Ghostwire: Tokyo",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Red Dead Redemption 2",
+    "name": "Red Dead Redemption 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "THRONE AND LIBERTY",
+    "name": "THRONE AND LIBERTY",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Bulletstorm VR",
+    "name": "Bulletstorm VR",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "God of War",
+    "name": "God of War",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Redfall",
+    "name": "Redfall",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Thymesia",
+    "name": "Thymesia",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Call of Duty®: Modern Warfare® II",
+    "name": "Call of Duty®: Modern Warfare® II",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Gord",
+    "name": "Gord",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Resident Evil 4",
+    "name": "Resident Evil 4",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Tiny Tina's Wonderlands",
+    "name": "Tiny Tina's Wonderlands",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Century: Age of Ashes",
+    "name": "Century: Age of Ashes",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Gotham Knights",
+    "name": "Gotham Knights",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Returnal™",
+    "name": "Returnal™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Tom Clancy's Rainbow Six® Siege",
+    "name": "Tom Clancy's Rainbow Six® Siege",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Cepheus Protocol",
+    "name": "Cepheus Protocol",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Gungrave G.O.R.E",
+    "name": "Gungrave G.O.R.E",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Riven",
+    "name": "Riven",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "UBOAT",
+    "name": "UBOAT",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Chernobylite",
+    "name": "Chernobylite",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "HAWKED",
+    "name": "HAWKED",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Saints Row",
+    "name": "Saints Row",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "UNCHARTED™: Legacy of Thieves Collection",
+    "name": "UNCHARTED™: Legacy of Thieves Collection",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Choo-Choo Charles",
+    "name": "Choo-Choo Charles",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "High On Life",
+    "name": "High On Life",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Sands of Aura",
+    "name": "Sands of Aura",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "UNITED 1944",
+    "name": "UNITED 1944",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Clash: Artifacts of Chaos",
+    "name": "Clash: Artifacts of Chaos",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Highline Volleyball VR",
+    "name": "Highline Volleyball VR",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Scathe",
+    "name": "Scathe",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Unknown 9: Awakening",
+    "name": "Unknown 9: Awakening",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Company of Heroes 3",
+    "name": "Company of Heroes 3",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "HITMAN World of Assassination",
+    "name": "HITMAN World of Assassination",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Scorn",
+    "name": "Scorn",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "VAIL VR",
+    "name": "VAIL VR",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Conqueror's Blade",
+    "name": "Conqueror's Blade",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Hoiwa Hub",
+    "name": "Hoiwa Hub",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "SCUM",
+    "name": "SCUM",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Vampire: The Masquerade – Bloodhunt",
+    "name": "Vampire: The Masquerade – Bloodhunt",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Cyberless: Online",
+    "name": "Cyberless: Online",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Jagged Alliance 3",
+    "name": "Jagged Alliance 3",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Sengoku Dynasty",
+    "name": "Sengoku Dynasty",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Vampire: The Masquerade – Swansong",
+    "name": "Vampire: The Masquerade – Swansong",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Dark and Darker",
+    "name": "Dark and Darker",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Jected - Rivals",
+    "name": "Jected - Rivals",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Shibainu - VR Katana Simulator",
+    "name": "Shibainu - VR Katana Simulator",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Visions of Mana",
+    "name": "Visions of Mana",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Daymare: 1994 Sandcastle",
+    "name": "Daymare: 1994 Sandcastle",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Judgment",
+    "name": "Judgment",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Six Days in Fallujah",
+    "name": "Six Days in Fallujah",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Wanted: Dead",
+    "name": "Wanted: Dead",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Dead Island 2",
+    "name": "Dead Island 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Jusant",
+    "name": "Jusant",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Skull and Bones™",
+    "name": "Skull and Bones™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Warframe",
+    "name": "Warframe",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Dead Space™",
+    "name": "Dead Space™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "JX3 Ultimate",
+    "name": "JX3 Ultimate",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Smalland: Survive the Wilds",
+    "name": "Smalland: Survive the Wilds",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Warhammer 40,000: Speed Freeks",
+    "name": "Warhammer 40,000: Speed Freeks",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "DEATH STRANDING DIRECTOR’S CUT",
+    "name": "DEATH STRANDING DIRECTOR’S CUT",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Killer Klowns from Outer Space: The Game",
+    "name": "Killer Klowns from Outer Space: The Game",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Soulmask",
+    "name": "Soulmask",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Warhammer: Vermintide 2",
+    "name": "Warhammer: Vermintide 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Deathbound",
+    "name": "Deathbound",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Kingshunt",
+    "name": "Kingshunt",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Star Citizen",
+    "name": "Star Citizen",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Warhaven",
+    "name": "Warhaven",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "DEATHLOOP",
+    "name": "DEATHLOOP",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Last Train Home",
+    "name": "Last Train Home",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "STAR WARS Jedi: Survivor™",
+    "name": "STAR WARS Jedi: Survivor™",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Warstride Challenges",
+    "name": "Warstride Challenges",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Deep Rock Galactic",
+    "name": "Deep Rock Galactic",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Layers of Fear",
+    "name": "Layers of Fear",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Stranded: Alien Dawn",
+    "name": "Stranded: Alien Dawn",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Wayfinder",
+    "name": "Wayfinder",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Deliver Us Mars",
+    "name": "Deliver Us Mars",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Lightyear Frontier",
+    "name": "Lightyear Frontier",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Strayed Lights",
+    "name": "Strayed Lights",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Welcome to ParadiZe",
+    "name": "Welcome to ParadiZe",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Delta Force",
+    "name": "Delta Force",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Like a Dragon: Ishin!",
+    "name": "Like a Dragon: Ishin!",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Suicide Squad: Kill the Justice League",
+    "name": "Suicide Squad: Kill the Justice League",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Will To Live Online",
+    "name": "Will To Live Online",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Demonologist",
+    "name": "Demonologist",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Lost Judgment",
+    "name": "Lost Judgment",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Swordsman HD",
+    "name": "Swordsman HD",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Witchfire",
+    "name": "Witchfire",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "DESORDRE: A Puzzle Game Adventure",
+    "name": "DESORDRE: A Puzzle Game Adventure",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Martha Is Dead",
+    "name": "Martha Is Dead",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "SYNCED",
+    "name": "SYNCED",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Wo Long: Fallen Dynasty",
+    "name": "Wo Long: Fallen Dynasty",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Destroy All Humans! 2 – Reprobed",
+    "name": "Destroy All Humans! 2 – Reprobed",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Marvel's Midnight Suns",
+    "name": "Marvel's Midnight Suns",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Tales of Kenzera: ZAU",
+    "name": "Tales of Kenzera: ZAU",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "World War Z: Aftermath",
+    "name": "World War Z: Aftermath",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Diablo® IV",
+    "name": "Diablo® IV",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Meet Your Maker",
+    "name": "Meet Your Maker",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Tchia",
+    "name": "Tchia",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Wuthering Waves",
+    "name": "Wuthering Waves",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Dragon Age™: The Veilguard",
+    "name": "Dragon Age™: The Veilguard",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Microsoft Flight Simulator",
+    "name": "Microsoft Flight Simulator",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "TEKKEN 8",
+    "name": "TEKKEN 8",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": true,
     "fsrFrameGenerationMl": false
   },
   {
-    "gameName": "Dying Light: The Beast*",
+    "name": "Dying Light: The Beast*",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Borderlands 4",
+    "name": "Borderlands 4",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Ships At Sea",
+    "name": "Ships At Sea",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
   {
-    "gameName": "Wreckfest 2",
+    "name": "Wreckfest 2",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": false,

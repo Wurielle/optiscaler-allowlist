@@ -61,10 +61,7 @@ export function resetCache(): void {
  *
  * @returns AntiCheatResult or null if status cannot be determined
  */
-export async function checkAntiCheat(
-	appId: string,
-	gameName: string,
-): Promise<AntiCheatResult | null> {
+export async function checkAntiCheat(appId: string, game: string): Promise<AntiCheatResult | null> {
 	const checkedAt = new Date().toISOString();
 
 	// Try AWACY dataset first
@@ -94,8 +91,8 @@ export async function checkAntiCheat(
 	// AI fallback
 	try {
 		const result = await extractStructuredData(
-			gameName,
-			`Determine if the PC game "${gameName}" (Steam App ID: ${appId}) uses an anti-cheat system that would block third-party DLL injection (such as OptiScaler or ReShade). 
+			game,
+			`Determine if the PC game "${game}" (Steam App ID: ${appId}) uses an anti-cheat system that would block third-party DLL injection (such as OptiScaler or ReShade). 
 
 Anti-cheat systems that typically block injection: Easy Anti-Cheat (EAC), BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard.
 

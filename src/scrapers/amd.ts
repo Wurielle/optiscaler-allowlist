@@ -83,7 +83,7 @@ function mergeIntoGames(extracted: z.infer<typeof amdExtractionSchema>): AmdGame
 				existing[section.key] = true;
 			} else {
 				gameMap.set(trimmed, {
-					gameName: trimmed,
+					name: trimmed,
 					fsrRedstone: section.key === "fsrRedstone",
 					fsr3: section.key === "fsr3",
 					fsr2: section.key === "fsr2",

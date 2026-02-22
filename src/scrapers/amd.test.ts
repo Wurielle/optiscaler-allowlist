@@ -48,9 +48,9 @@ describe("scrapeAmd", () => {
 		const result = await scrapeAmd({ outputDir: tmpDir });
 
 		// Game A appears in Redstone, FSR3, and FG ML
-		const gameA = result.find((g) => g.gameName === "Game A");
+		const gameA = result.find((g) => g.name === "Game A");
 		expect(gameA).toEqual({
-			gameName: "Game A",
+			name: "Game A",
 			fsrRedstone: true,
 			fsr3: true,
 			fsr2: false,
@@ -58,9 +58,9 @@ describe("scrapeAmd", () => {
 		});
 
 		// Game B only in Redstone
-		const gameB = result.find((g) => g.gameName === "Game B");
+		const gameB = result.find((g) => g.name === "Game B");
 		expect(gameB).toEqual({
-			gameName: "Game B",
+			name: "Game B",
 			fsrRedstone: true,
 			fsr3: false,
 			fsr2: false,
@@ -68,9 +68,9 @@ describe("scrapeAmd", () => {
 		});
 
 		// Game C in FSR3 and FSR2
-		const gameC = result.find((g) => g.gameName === "Game C");
+		const gameC = result.find((g) => g.name === "Game C");
 		expect(gameC).toEqual({
-			gameName: "Game C",
+			name: "Game C",
 			fsrRedstone: false,
 			fsr3: true,
 			fsr2: true,
@@ -141,7 +141,7 @@ describe("scrapeAmd", () => {
 		const result = await scrapeAmd({ outputDir: tmpDir });
 		expect(result).toHaveLength(1);
 		expect(result[0]).toEqual({
-			gameName: "Multi-Section Game",
+			name: "Multi-Section Game",
 			fsrRedstone: true,
 			fsr3: true,
 			fsr2: true,

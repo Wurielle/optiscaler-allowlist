@@ -63,10 +63,10 @@ export async function checkAll(options?: CheckerOptions): Promise<CheckResult> {
 	const results: AntiCheatData = { ...existing };
 
 	// Collect non-null app IDs with their game names
-	const appIdEntries: { appId: string; gameName: string }[] = [];
-	for (const [gameName, entry] of Object.entries(storeMappings)) {
+	const appIdEntries: { appId: string; game: string }[] = [];
+	for (const [game, entry] of Object.entries(storeMappings)) {
 		if (entry.appId !== null) {
-			appIdEntries.push({ appId: entry.appId.toString(), gameName });
+			appIdEntries.push({ appId: entry.appId.toString(), game });
 		}
 	}
 
@@ -82,12 +82,12 @@ export async function checkAll(options?: CheckerOptions): Promise<CheckResult> {
 	resetCache();
 
 	for (const entry of newEntries) {
-		const result = await checkAntiCheat(entry.appId, entry.gameName);
+		const result = await checkAntiCheat(entry.appId, entry.game);
 
 		if (result === null) {
 			// Cannot determine — skip and log warning
 			console.warn(
-				`Warning: Could not determine anti-cheat status for ${entry.gameName} (appId: ${entry.appId})`,
+				`Warning: Could not determine anti-cheat status for ${entry.game} (appId: ${entry.appId})`,
 			);
 			skipped++;
 			continue;

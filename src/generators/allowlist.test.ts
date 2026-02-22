@@ -29,7 +29,7 @@ describe("generateAllowlist", () => {
 	it("should include games with appId and safe anti-cheat", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Safe Game",
+				name: "Safe Game",
 				dlssMultiFrameGeneration: "Yes",
 				dlssFrameGeneration: "Yes",
 				dlssSuperResolution: "Yes",
@@ -55,7 +55,7 @@ describe("generateAllowlist", () => {
 		const allowlist = JSON.parse(
 			await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8"),
 		) as AllowlistEntry[];
-		expect(allowlist[0].gameName).toBe("Safe Game");
+		expect(allowlist[0].name).toBe("Safe Game");
 		expect(allowlist[0].stores.steam.appId).toBe(100);
 		expect(allowlist[0].providers.nvidia?.dlssSuperResolution).toBe("Yes");
 	});
@@ -63,7 +63,7 @@ describe("generateAllowlist", () => {
 	it("should exclude games with safe=false", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Unsafe Game",
+				name: "Unsafe Game",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -90,7 +90,7 @@ describe("generateAllowlist", () => {
 	it("should exclude games with null appId", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "No Match",
+				name: "No Match",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -110,7 +110,7 @@ describe("generateAllowlist", () => {
 	it("should exclude games with no anti-cheat check yet", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Unchecked",
+				name: "Unchecked",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -131,7 +131,7 @@ describe("generateAllowlist", () => {
 	it("should merge provider features from multiple providers", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Multi Provider",
+				name: "Multi Provider",
 				dlssMultiFrameGeneration: "Yes",
 				dlssFrameGeneration: "Yes",
 				dlssSuperResolution: "Yes",
@@ -142,7 +142,7 @@ describe("generateAllowlist", () => {
 		]);
 		await writeJson(node_path.join(dataDir, "providers/amd.json"), [
 			{
-				gameName: "Multi Provider",
+				name: "Multi Provider",
 				fsrRedstone: true,
 				fsr3: true,
 				fsr2: false,
@@ -150,7 +150,7 @@ describe("generateAllowlist", () => {
 			},
 		]);
 		await writeJson(node_path.join(dataDir, "providers/intel.json"), [
-			{ gameName: "Multi Provider", xess2: true, xess: true },
+			{ name: "Multi Provider", xess2: true, xess: true },
 		]);
 		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
 			"Multi Provider": { appId: 400 },
@@ -177,7 +177,7 @@ describe("generateAllowlist", () => {
 	it("should sort entries alphabetically by game name", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Zelda",
+				name: "Zelda",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -186,7 +186,7 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "Ark",
+				name: "Ark",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -195,7 +195,7 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 			{
-				gameName: "DOOM",
+				name: "DOOM",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -232,13 +232,13 @@ describe("generateAllowlist", () => {
 		const allowlist = JSON.parse(
 			await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8"),
 		) as AllowlistEntry[];
-		expect(allowlist.map((e) => e.gameName)).toEqual(["Ark", "DOOM", "Zelda"]);
+		expect(allowlist.map((e) => e.name)).toEqual(["Ark", "DOOM", "Zelda"]);
 	});
 
 	it("should produce identical output on repeated runs (idempotent)", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				gameName: "Stable Game",
+				name: "Stable Game",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",

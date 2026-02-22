@@ -46,25 +46,25 @@ describe("scrapeIntel", () => {
 		const result = await scrapeIntel({ outputDir: tmpDir });
 
 		// Game A only in XeSS 2
-		const gameA = result.find((g) => g.gameName === "Game A");
+		const gameA = result.find((g) => g.name === "Game A");
 		expect(gameA).toEqual({
-			gameName: "Game A",
+			name: "Game A",
 			xess2: true,
 			xess: false,
 		});
 
 		// Game B in both
-		const gameB = result.find((g) => g.gameName === "Game B");
+		const gameB = result.find((g) => g.name === "Game B");
 		expect(gameB).toEqual({
-			gameName: "Game B",
+			name: "Game B",
 			xess2: true,
 			xess: true,
 		});
 
 		// Game C only in XeSS
-		const gameC = result.find((g) => g.gameName === "Game C");
+		const gameC = result.find((g) => g.name === "Game C");
 		expect(gameC).toEqual({
-			gameName: "Game C",
+			name: "Game C",
 			xess2: false,
 			xess: true,
 		});
@@ -126,7 +126,7 @@ describe("scrapeIntel", () => {
 		const result = await scrapeIntel({ outputDir: tmpDir });
 		expect(result).toHaveLength(1);
 		expect(result[0]).toEqual({
-			gameName: "Dual Game",
+			name: "Dual Game",
 			xess2: true,
 			xess: true,
 		});
@@ -142,7 +142,7 @@ describe("scrapeIntel", () => {
 		const result = await scrapeIntel({ outputDir: tmpDir });
 		expect(result).toHaveLength(1);
 		expect(result[0]).toEqual({
-			gameName: "Legacy Game",
+			name: "Legacy Game",
 			xess2: false,
 			xess: true,
 		});

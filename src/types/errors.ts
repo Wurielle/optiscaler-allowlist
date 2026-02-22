@@ -11,12 +11,12 @@ export class ScraperError extends Error {
 }
 
 export class MatcherError extends Error {
-	readonly gameName: string;
+	readonly game: string;
 
-	constructor(message: string, gameName: string) {
+	constructor(message: string, game: string) {
 		super(message);
 		this.name = "MatcherError";
-		this.gameName = gameName;
+		this.game = game;
 	}
 }
 
