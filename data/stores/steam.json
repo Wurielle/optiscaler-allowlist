@@ -28,5 +28,80 @@
   },
   "AI Limit": {
     "appId": 2407270
+  },
+  "AION2": {
+    "appId": null
+  },
+  "AirportSim": {
+    "appId": 1715280
+  },
+  "Akimbot": {
+    "appId": 1843540
+  },
+  "Alan Wake Remastered": {
+    "appId": null
+  },
+  "Alan Wake 2": {
+    "appId": null
+  },
+  "Alien: Rogue Incursion - Part One: Evolved Edition": {
+    "appId": null
+  },
+  "Alone In The Dark": {
+    "appId": 1310410
+  },
+  "Ambulance Life: A Paramedic Simulator": {
+    "appId": 1926520
+  },
+  "AMID EVIL": {
+    "appId": 673130
+  },
+  "Anatomy Of Fear": {
+    "appId": 1662940
+  },
+  "Animalia Survival": {
+    "appId": 1364290
+  },
+  "Anno 117: Pax Romana": {
+    "appId": 3274580
+  },
+  "Anthem": {
+    "appId": 2656490
+  },
+  "Apocalypse: 2.0 Edition": {
+    "appId": 1291680
+  },
+  "Arcadegeddon": {
+    "appId": 1515640
+  },
+  "ARC Raiders": {
+    "appId": 1808500
+  },
+  "Arena Breakout: Infinite": {
+    "appId": 2073620
+  },
+  "Arknights: Endfield": {
+    "appId": null
+  },
+  "ARK: Survival Ascended": {
+    "appId": 2399830
+  },
+  "Aron's Adventure": {
+    "appId": 1013910
+  },
+  "Assassin's Creed Mirage": {
+    "appId": 3035570
+  },
+  "Assassin's Creed Shadows": {
+    "appId": 3159330
+  },
+  "Assetto Corsa Competizione": {
+    "appId": 805550
+  },
+  "Assetto Corsa EVO": {
+    "appId": 3058630
+  },
+  "Assetto Corsa Rally": {
+    "appId": 3917090
   }
 }
