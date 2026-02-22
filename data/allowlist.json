@@ -24,24 +24,6 @@
     }
   },
   {
-    "name": "7 Days To Die",
-    "stores": {
-      "steam": {
-        "appId": 251570
-      }
-    },
-    "providers": {
-      "nvidia": {
-        "dlssMultiFrameGeneration": "",
-        "dlssFrameGeneration": "",
-        "dlssSuperResolution": "NV, T",
-        "dlssRayReconstruction": "",
-        "dlaa": "Yes",
-        "rayTracing": ""
-      }
-    }
-  },
-  {
     "name": "A Difficult Game About ROLLING - ReUpRise",
     "stores": {
       "steam": {
@@ -376,82 +358,6 @@
         "dlssRayReconstruction": "",
         "dlaa": "",
         "rayTracing": ""
-      }
-    }
-  },
-  {
-    "name": "ARC Raiders",
-    "stores": {
-      "steam": {
-        "appId": 1808500
-      }
-    },
-    "providers": {
-      "nvidia": {
-        "dlssMultiFrameGeneration": "Yes",
-        "dlssFrameGeneration": "Yes",
-        "dlssSuperResolution": "Yes",
-        "dlssRayReconstruction": "",
-        "dlaa": "Yes",
-        "rayTracing": "Yes"
-      },
-      "amd": {
-        "fsrRedstone": true,
-        "fsr3": true,
-        "fsr2": false,
-        "fsrFrameGenerationMl": true
-      },
-      "intel": {
-        "xess2": false,
-        "xess": true
-      }
-    }
-  },
-  {
-    "name": "Arena Breakout: Infinite",
-    "stores": {
-      "steam": {
-        "appId": 2073620
-      }
-    },
-    "providers": {
-      "nvidia": {
-        "dlssMultiFrameGeneration": "NV",
-        "dlssFrameGeneration": "NV, U",
-        "dlssSuperResolution": "NV, T",
-        "dlssRayReconstruction": "",
-        "dlaa": "NV, T",
-        "rayTracing": ""
-      },
-      "amd": {
-        "fsrRedstone": true,
-        "fsr3": true,
-        "fsr2": false,
-        "fsrFrameGenerationMl": false
-      }
-    }
-  },
-  {
-    "name": "ARK: Survival Ascended",
-    "stores": {
-      "steam": {
-        "appId": 2399830
-      }
-    },
-    "providers": {
-      "nvidia": {
-        "dlssMultiFrameGeneration": "NV",
-        "dlssFrameGeneration": "NV, U",
-        "dlssSuperResolution": "NV, T",
-        "dlssRayReconstruction": "",
-        "dlaa": "NV, T",
-        "rayTracing": ""
-      },
-      "amd": {
-        "fsrRedstone": true,
-        "fsr3": true,
-        "fsr2": false,
-        "fsrFrameGenerationMl": false
       }
     }
   },
