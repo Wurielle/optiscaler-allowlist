@@ -287,12 +287,12 @@
   {
     "name": "NARAKA: BLADEPOINT",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Nioh 3",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Otherskin",
@@ -340,7 +340,47 @@
     "xess": false
   },
   {
-    "name": "Russian Soul Simulator",
+    "name": "RoboCop: Rogue City",
+    "xess2": true,
+    "xess": false
+  },
+  {
+    "name": "Robocop: Rogue City Unfinished Business",
+    "xess2": true,
+    "xess": false
+  },
+  {
+    "name": "RF Online Next",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Riven",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Roadcraft",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Russian Shield: Iraq",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator 2",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator on Mars",
     "xess2": true,
     "xess": true
   },
@@ -495,11 +535,6 @@
     "xess": true
   },
   {
-    "name": "Tales of Kenzera: ZAU",
-    "xess2": true,
-    "xess": true
-  },
-  {
     "name": "Tank Squad",
     "xess2": true,
     "xess": true
@@ -535,12 +570,37 @@
     "xess": true
   },
   {
-    "name": "The Last Caretaker",
+    "name": "The Last of Us Part 2",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "The Outer Worlds 2",
+    "name": "The Legend of Heroes: Kai no Kiseki",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "The Legend of Heroes: Trails through Daybreak II",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "The Riftbreaker",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "The RPG",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "The RPG: My First Dungeon Smells",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "The Swordsmen X: Survival",
     "xess2": true,
     "xess": true
   },
@@ -610,42 +670,37 @@
     "xess": true
   },
   {
-    "name": "Wild West Blast",
+    "name": "Wild Assault",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Witchfire",
+    "name": "Winter Survival",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Wo Long: Fallen Dynasty",
+    "name": "Wreckfest 2",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Ys X: Nordics",
+    "name": "Wuthering Waves",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "平寇志 The Last Soldier of the Ming Dynasty",
+    "name": "Yakuza Kiwami 2",
     "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "武林志2（Wushu Chronicles 2）",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "3DMark",
-    "xess2": false,
     "xess": true
   },
   {
     "name": "22 Racing Series",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "3DMark",
     "xess2": false,
     "xess": true
   },
@@ -890,6 +945,11 @@
     "xess": true
   },
   {
+    "name": "Deadlink",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "Death Relives",
     "xess2": false,
     "xess": true
@@ -1056,11 +1116,6 @@
   },
   {
     "name": "Fortnite",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Forza Horizon 5",
     "xess2": false,
     "xess": true
   },
@@ -1325,57 +1380,7 @@
     "xess": true
   },
   {
-    "name": "NaturesAscendancy",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NBA 2K25",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NBA 2K26",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Need for Speed™ Unbound",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ni Shui Han: Justice",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Night of the Dead",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Nightingale",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NightSpawn",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Niktophobia",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ninja Gaiden 2 Black",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "No Man’s Sky",
+    "name": "Nobody Wants to Die",
     "xess2": false,
     "xess": true
   },
@@ -1386,26 +1391,6 @@
   },
   {
     "name": "No Return",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Nobody Wants to Die",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Once Human",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "One Box One Goal",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Onimusha 2: Samurai’s Destiny",
     "xess2": false,
     "xess": true
   },
@@ -1511,36 +1496,6 @@
   },
   {
     "name": "Revenge of the Savage Planet",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "RF Online Next",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Riven",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Roadcraft",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator on Mars",
     "xess2": false,
     "xess": true
   }
