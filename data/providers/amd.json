@@ -226,7 +226,7 @@
   {
     "name": "Automate It: Factory Puzzle",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -275,7 +275,7 @@
   {
     "name": "Squad",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": true
   },
@@ -296,7 +296,7 @@
   {
     "name": "MindsEye",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -345,7 +345,7 @@
   {
     "name": "Fellowship",
     "fsrRedstone": true,
-    "fsr3": true,
+    "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -373,7 +373,7 @@
   {
     "name": "Fera: The Sundered Tribes",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -408,14 +408,14 @@
   {
     "name": "Nachtmahr",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
     "name": "Stellar Blade™",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -436,7 +436,7 @@
   {
     "name": "NARAKA: BLADEPOINT",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -457,7 +457,7 @@
   {
     "name": "FlipScapes",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -469,11 +469,11 @@
     "fsrFrameGenerationMl": false
   },
   {
-    "name": "Storage Hunter Simulator",
+    "name": "STORROR Parkour Pro",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Borderlands® 4",
@@ -485,7 +485,7 @@
   {
     "name": "Forest Doesn’t Care",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -497,7 +497,7 @@
     "fsrFrameGenerationMl": false
   },
   {
-    "name": "STORROR Parkour Pro",
+    "name": "Supermoves",
     "fsrRedstone": true,
     "fsr3": false,
     "fsr2": false,
@@ -506,7 +506,7 @@
   {
     "name": "Brickadia",
     "fsrRedstone": true,
-    "fsr3": true,
+    "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -525,11 +525,11 @@
     "fsrFrameGenerationMl": false
   },
   {
-    "name": "Supermoves",
+    "name": "Wreckfest 2",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Call of Duty®: Black Ops 6",
@@ -541,7 +541,7 @@
   {
     "name": "FragPunk",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -576,7 +576,7 @@
   {
     "name": "NINJA GAIDEN 2 Black",
     "fsrRedstone": true,
-    "fsr3": true,
+    "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -590,14 +590,14 @@
   {
     "name": "Call of Duty®: Warzone™",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
   {
     "name": "Funko Fusion",
     "fsrRedstone": true,
-    "fsr3": true,
+    "fsr3": false,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -632,7 +632,7 @@
   {
     "name": "Off The Grid",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -646,7 +646,7 @@
   {
     "name": "Caravan SandWitch",
     "fsrRedstone": true,
-    "fsr3": false,
+    "fsr3": true,
     "fsr2": false,
     "fsrFrameGenerationMl": false
   },
@@ -879,7 +879,7 @@
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "QANGA",
@@ -1005,14 +1005,14 @@
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "DAIMON BLADES*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "INDUSTRIA 2 (demo)",
@@ -1075,14 +1075,14 @@
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Revenge of the Savage Planet",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Titan Quest II*",
@@ -1096,21 +1096,21 @@
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "KARMA: The Dark World",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "RoadCraft",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Torque Drift 2",
@@ -1138,147 +1138,147 @@
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Until Dawn™",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Deceit 2",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Kegan",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Rune Factory: Guardians of Azuma",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Void Crew",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Deedlee Doo! Carkour!",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Killing Floor 3",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "RoboCop: Rogue City",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "War Thunder",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Delta Force - Black Hawk Down",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Kristala",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "RuneScape: Dragonwilds",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Warhammer 40,000: Darktide",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Dragonkin: The Banished",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Leaf Blower Co.",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Whiskerwood*",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Driving Life",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Like a Dragon: Pirate Yakuza in Hawaii",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
     "fsrRedstone": true,
     "fsr3": true,
     "fsr2": false,
-    "fsrFrameGenerationMl": false
+    "fsrFrameGenerationMl": true
   },
   {
     "name": "Winter Survival*",
@@ -1365,7 +1365,14 @@
     "fsrFrameGenerationMl": false
   },
   {
-    "name": "Starfield",
+    "name": "FBC: Firebreak",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Avowed",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
@@ -1379,7 +1386,7 @@
     "fsrFrameGenerationMl": false
   },
   {
-    "name": "Battlefield™ 6",
+    "name": "Starfield",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
@@ -1387,6 +1394,13 @@
   },
   {
     "name": "MotorCubs RC",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Battlefield™ 6",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
@@ -1428,6 +1442,13 @@
     "fsrFrameGenerationMl": false
   },
   {
+    "name": "Bodycam",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
     "name": "Frostpunk 2",
     "fsrRedstone": false,
     "fsr3": true,
@@ -1436,6 +1457,48 @@
   },
   {
     "name": "No More Room in Hell 2",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Call of Duty®: Black Ops 7",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Nobody Wants to Die",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Call of Duty®: Modern Warfare® III",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Gears of War: Reloaded",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "TankHead",
+    "fsrRedstone": false,
+    "fsr3": true,
+    "fsr2": false,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Outpost: Infinity Siege",
     "fsrRedstone": false,
     "fsr3": true,
     "fsr2": false,
@@ -2142,6 +2205,34 @@
     "fsrFrameGenerationMl": false
   },
   {
+    "name": "SCP: 5K",
+    "fsrRedstone": false,
+    "fsr3": false,
+    "fsr2": true,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "VALHALL: Harbinger",
+    "fsrRedstone": false,
+    "fsr3": false,
+    "fsr2": true,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Crime Boss: Rockay City",
+    "fsrRedstone": false,
+    "fsr3": false,
+    "fsr2": true,
+    "fsrFrameGenerationMl": false
+  },
+  {
+    "name": "Homeworld 3",
+    "fsrRedstone": false,
+    "fsr3": false,
+    "fsr2": true,
+    "fsrFrameGenerationMl": false
+  },
+  {
     "name": "SCUM",
     "fsrRedstone": false,
     "fsr3": false,
@@ -2618,7 +2709,14 @@
     "fsrFrameGenerationMl": true
   },
   {
-    "name": "Wreckfest 2",
+    "name": "The Talos Principle 2",
+    "fsrRedstone": false,
+    "fsr3": false,
+    "fsr2": false,
+    "fsrFrameGenerationMl": true
+  },
+  {
+    "name": "Dead Rising Deluxe Remaster",
     "fsrRedstone": false,
     "fsr3": false,
     "fsr2": false,

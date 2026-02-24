@@ -242,7 +242,7 @@
   {
     "name": "Marvel Rivals",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Mechwarrior 5: Clans",
@@ -297,90 +297,50 @@
   {
     "name": "Otherskin",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Outbreak Zero",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Painkiller",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Payday 3",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "PirateGate",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Pizza Bandit",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Prologue: Go Wayback!",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Rennsport",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Rise of the Ronin",
     "xess2": true,
-    "xess": false
-  },
-  {
-    "name": "RoboCop: Rogue City",
-    "xess2": true,
-    "xess": false
-  },
-  {
-    "name": "Robocop: Rogue City Unfinished Business",
-    "xess2": true,
-    "xess": false
-  },
-  {
-    "name": "RF Online Next",
-    "xess2": true,
     "xess": true
   },
   {
-    "name": "Riven",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Roadcraft",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Russian Shield: Iraq",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator 2",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Russian Village Simulator on Mars",
+    "name": "Russian Soul Simulator",
     "xess2": true,
     "xess": true
   },
@@ -421,11 +381,6 @@
   },
   {
     "name": "Ship Graveyard Simulator 2",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Ships at Sea",
     "xess2": true,
     "xess": true
   },
@@ -670,27 +625,32 @@
     "xess": true
   },
   {
-    "name": "Wild Assault",
+    "name": "Wild West Blast",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Winter Survival",
+    "name": "Witchfire",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Wreckfest 2",
+    "name": "Wo Long: Fallen Dynasty",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Wuthering Waves",
+    "name": "Ys X: Nordics",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Yakuza Kiwami 2",
+    "name": "平寇志 The Last Soldier of the Ming Dynasty",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "武林志2（Wushu Chronicles 2）",
     "xess2": true,
     "xess": true
   },
@@ -900,6 +860,11 @@
     "xess": true
   },
   {
+    "name": "Conqueror's Blade",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "Crime Boss: Rockay City",
     "xess2": false,
     "xess": true
@@ -955,7 +920,7 @@
     "xess": true
   },
   {
-    "name": "DEATH STRANDING DIRECTOR’S CUT",
+    "name": "Death Stranding Director’s Cut",
     "xess2": false,
     "xess": true
   },
@@ -1030,26 +995,6 @@
     "xess": true
   },
   {
-    "name": "Enlisted",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Enotria: The Last Song",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Entity: The Black Day",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ertugrul of Ulukayin",
-    "xess2": false,
-    "xess": true
-  },
-  {
     "name": "Everspace 2",
     "xess2": false,
     "xess": true
@@ -1116,16 +1061,6 @@
   },
   {
     "name": "Fortnite",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Frostpunk 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Funko Fusion",
     "xess2": false,
     "xess": true
   },
@@ -1231,6 +1166,11 @@
   },
   {
     "name": "Hi-Fi RUSH",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "High On Life",
     "xess2": false,
     "xess": true
   },
@@ -1376,126 +1316,6 @@
   },
   {
     "name": "Myth of Empires",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Nobody Wants to Die",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "No More Room in Hell 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "No Return",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Outpost: Infinity Siege",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Overwatch 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Path of Exile 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Path of Titans",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Pinball FX",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Pinball M",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Portal 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Preserve",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Primeval",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Project Borealis: Prologue",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Promise Mascot Agency",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Quadrober Simulator",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Quarantine Zone: The Last Check",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "RaceHub",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ratchet & Clank: Rift Apart",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Redfall",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Redout 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Remnant II",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Renovation Simulator",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Returnal™",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Revenge of the Savage Planet",
     "xess2": false,
     "xess": true
   }
