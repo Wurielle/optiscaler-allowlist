@@ -287,107 +287,72 @@
   {
     "name": "NARAKA: BLADEPOINT",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Nioh 3",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Otherskin",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Outbreak Zero",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Painkiller",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Payday 3",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "PirateGate",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Pizza Bandit",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Prologue: Go Wayback!",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Rennsport",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Rise of the Ronin",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
-    "name": "Russian Soul Simulator",
+    "name": "RoboCop: Rogue City",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
-    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "name": "Robocop: Rogue City Unfinished Business",
     "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
-    "name": "Salvation Hours",
+    "name": "Shiphard Graveyard Simulator 2",
     "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Sanguivore: Twenty Below",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Satisfactory",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Scathe",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Senua’s Saga: Hellblade 2",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Shadow of the Tomb Raider",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Ship Graveyard Simulator 2",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Shop Life Simulator",
-    "xess2": true,
-    "xess": true
+    "xess": false
   },
   {
     "name": "Silent Hill 2",
@@ -405,92 +370,52 @@
     "xess": true
   },
   {
-    "name": "Skull & Bones",
+    "name": "SKYGUARD",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Skye: The Misty Isle",
+    "name": "Small Spaces",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Somber Echoes",
+    "name": "SpongeBob SquarePants: Titans of the Tide",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Speedy 500",
+    "name": "Star Wars Outlaws",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Spirit Realm",
+    "name": "Steel Seed",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Sports: Renovations",
+    "name": "Still Wakes the Deep",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "SpyFall",
+    "name": "Striden",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Squad",
+    "name": "SUPER PEOPLE 2",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Starfield",
+    "name": "Supraworld",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Starship Troopers: Extermination",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Stone Simulator – Just Be a Rock",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Stranded: Alien Dawn",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Strinova",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Survival Machine",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Surviving Mars: Relaunched",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "SYNCED",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Tactical Vengeance: Play The Games",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "Tank Squad",
+    "name": "TankHead",
     "xess2": true,
     "xess": true
   },
@@ -525,37 +450,12 @@
     "xess": true
   },
   {
-    "name": "The Last of Us Part 2",
+    "name": "The Last Caretaker",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "The Legend of Heroes: Kai no Kiseki",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Legend of Heroes: Trails through Daybreak II",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Riftbreaker",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The RPG",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The RPG: My First Dungeon Smells",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Swordsmen X: Survival",
+    "name": "The Outer Worlds 2",
     "xess2": true,
     "xess": true
   },
@@ -625,42 +525,37 @@
     "xess": true
   },
   {
-    "name": "Wild West Blast",
+    "name": "Wild Assault",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Witchfire",
+    "name": "Winter Survival",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Wo Long: Fallen Dynasty",
+    "name": "Wreckfest 2",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Ys X: Nordics",
+    "name": "Wuthering Waves",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "平寇志 The Last Soldier of the Ming Dynasty",
+    "name": "Yakuza Kiwami 2",
     "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "武林志2（Wushu Chronicles 2）",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "22 Racing Series",
-    "xess2": false,
     "xess": true
   },
   {
     "name": "3DMark",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "22 Racing Series",
     "xess2": false,
     "xess": true
   },
@@ -735,7 +630,7 @@
     "xess": true
   },
   {
-    "name": "Baldur’s Gate 3",
+    "name": "Baldur's Gate 3",
     "xess2": false,
     "xess": true
   },
@@ -920,7 +815,7 @@
     "xess": true
   },
   {
-    "name": "Death Stranding Director’s Cut",
+    "name": "DEATH STRANDING DIRECTOR'S CUT",
     "xess2": false,
     "xess": true
   },
@@ -995,6 +890,26 @@
     "xess": true
   },
   {
+    "name": "Enlisted",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Enotria: The Last Song",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Entity: The Black Day",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ertugrul of Ulukayin",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "Everspace 2",
     "xess2": false,
     "xess": true
@@ -1065,6 +980,16 @@
     "xess": true
   },
   {
+    "name": "Frostpunk 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Funko Fusion",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "G.O.P.O.T.A 2",
     "xess2": false,
     "xess": true
@@ -1075,7 +1000,7 @@
     "xess": true
   },
   {
-    "name": "Ghost of Tsushima: Director’s Cut",
+    "name": "Ghost of Tsushima: Director's Cut",
     "xess2": false,
     "xess": true
   },
@@ -1166,11 +1091,6 @@
   },
   {
     "name": "Hi-Fi RUSH",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "High On Life",
     "xess2": false,
     "xess": true
   },
@@ -1280,6 +1200,26 @@
     "xess": true
   },
   {
+    "name": "Marvel's Avengers – The Definitive Edition",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Marvel's Spider-Man 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Marvel's Spider-Man Remastered",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Marvel's Spider-Man: Miles Morales",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "Mecha Break",
     "xess2": false,
     "xess": true
@@ -1316,6 +1256,281 @@
   },
   {
     "name": "Myth of Empires",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "NaturesAscendancy",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "NBA 2K25",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "NBA 2K26",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Need for Speed™ Unbound",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ni Shui Han: Justice",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Night of the Dead",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Nightingale",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "NightSpawn",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Niktophobia",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ninja Gaiden 2 Black",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "No Man's Sky",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "No More Room in Hell 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "No Return",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Nobody Wants to Die",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Once Human",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "One Box One Goal",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Onimusha 2: Samurai's Destiny",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Outpost: Infinity Siege",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Overwatch 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Path of Exile 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Path of Titans",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Pinball FX",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Pinball M",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Portal 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Preserve",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Primeval",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Project Borealis: Prologue",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Promise Mascot Agency",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Quadrober Simulator",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Quarantine Zone: The Last Check",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "RaceHub",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ratchet & Clank: Rift Apart",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Redfall",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Redout 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Remnant II",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Renovation Simulator",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Returnal™",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Revenge of the Savage Planet",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "RF Online Next",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Riven",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Roadcraft",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Russian Soul Simulator",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Russian Village Simulator on Mars",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Salvation Hours",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Sanguivore: Twenty Below",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Satisfactory",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Scathe",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Senua’s Saga: Hellblade 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Shadow of the Tomb Raider",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ship Graveyard Simulator 2",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Ships at Sea",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Shop Life Simulator",
     "xess2": false,
     "xess": true
   }
