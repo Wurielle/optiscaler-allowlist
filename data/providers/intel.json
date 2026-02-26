@@ -287,12 +287,12 @@
   {
     "name": "NARAKA: BLADEPOINT",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Nioh 3",
     "xess2": true,
-    "xess": false
+    "xess": true
   },
   {
     "name": "Otherskin",
@@ -350,9 +350,54 @@
     "xess": false
   },
   {
-    "name": "Shiphard Graveyard Simulator 2",
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
     "xess2": true,
-    "xess": false
+    "xess": true
+  },
+  {
+    "name": "Salvation Hours",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Sanguivore: Twenty Below",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Satisfactory",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Scathe",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Senua’s Saga: Hellblade 2",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Shadow of the Tomb Raider",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Ship Graveyard Simulator 2",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Ships at Sea",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Shop Life Simulator",
+    "xess2": true,
+    "xess": true
   },
   {
     "name": "Silent Hill 2",
@@ -370,52 +415,97 @@
     "xess": true
   },
   {
-    "name": "SKYGUARD",
+    "name": "Skull & Bones",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Small Spaces",
+    "name": "Skye: The Misty Isle",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "SpongeBob SquarePants: Titans of the Tide",
+    "name": "Somber Echoes",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Star Wars Outlaws",
+    "name": "Speedy 500",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Steel Seed",
+    "name": "Spirit Realm",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Still Wakes the Deep",
+    "name": "Sports: Renovations",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Striden",
+    "name": "SpyFall",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "SUPER PEOPLE 2",
+    "name": "Squad",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "Supraworld",
+    "name": "Starfield",
     "xess2": true,
     "xess": true
   },
   {
-    "name": "TankHead",
+    "name": "Starship Troopers: Extermination",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Stone Simulator – Just Be a Rock",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Stranded: Alien Dawn",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Strinova",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Survival Machine",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Surviving Mars: Relaunched",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "SYNCED",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Tactical Vengeance: Play The Games",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Tales of Kenzera: ZAU",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "Tank Squad",
     "xess2": true,
     "xess": true
   },
@@ -436,16 +526,6 @@
   },
   {
     "name": "The Alters",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Awakener: Forgotten Oath",
-    "xess2": true,
-    "xess": true
-  },
-  {
-    "name": "The Axis Unseen",
     "xess2": true,
     "xess": true
   },
@@ -525,7 +605,7 @@
     "xess": true
   },
   {
-    "name": "Wild Assault",
+    "name": "Wild West Blast",
     "xess2": true,
     "xess": true
   },
@@ -545,7 +625,17 @@
     "xess": true
   },
   {
-    "name": "Yakuza Kiwami 2",
+    "name": "Ys X: Nordics",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "平寇志 The Last Soldier of the Ming Dynasty",
+    "xess2": true,
+    "xess": true
+  },
+  {
+    "name": "武林志2（Wushu Chronicles 2）",
     "xess2": true,
     "xess": true
   },
@@ -630,7 +720,7 @@
     "xess": true
   },
   {
-    "name": "Baldur's Gate 3",
+    "name": "Baldur’s Gate 3",
     "xess2": false,
     "xess": true
   },
@@ -755,11 +845,6 @@
     "xess": true
   },
   {
-    "name": "Conqueror's Blade",
-    "xess2": false,
-    "xess": true
-  },
-  {
     "name": "Crime Boss: Rockay City",
     "xess2": false,
     "xess": true
@@ -815,7 +900,7 @@
     "xess": true
   },
   {
-    "name": "DEATH STRANDING DIRECTOR'S CUT",
+    "name": "DEATH STRANDING DIRECTOR’S CUT",
     "xess2": false,
     "xess": true
   },
@@ -886,6 +971,11 @@
   },
   {
     "name": "Dysterra",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "Eldest Souls",
     "xess2": false,
     "xess": true
   },
@@ -980,6 +1070,11 @@
     "xess": true
   },
   {
+    "name": "Forza Horizon 5",
+    "xess2": false,
+    "xess": true
+  },
+  {
     "name": "Frostpunk 2",
     "xess2": false,
     "xess": true
@@ -1000,7 +1095,7 @@
     "xess": true
   },
   {
-    "name": "Ghost of Tsushima: Director's Cut",
+    "name": "Ghost of Tsushima: Director’s Cut",
     "xess2": false,
     "xess": true
   },
@@ -1091,6 +1186,11 @@
   },
   {
     "name": "Hi-Fi RUSH",
+    "xess2": false,
+    "xess": true
+  },
+  {
+    "name": "High On Life",
     "xess2": false,
     "xess": true
   },
@@ -1260,72 +1360,12 @@
     "xess": true
   },
   {
-    "name": "NaturesAscendancy",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NBA 2K25",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NBA 2K26",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Need for Speed™ Unbound",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ni Shui Han: Justice",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Night of the Dead",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Nightingale",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "NightSpawn",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Niktophobia",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ninja Gaiden 2 Black",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "No Man's Sky",
+    "name": "Nobody Wants to Die",
     "xess2": false,
     "xess": true
   },
   {
     "name": "No More Room in Hell 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "No Return",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Nobody Wants to Die",
     "xess2": false,
     "xess": true
   },
@@ -1465,11 +1505,6 @@
     "xess": true
   },
   {
-    "name": "Russian Soul Simulator",
-    "xess2": false,
-    "xess": true
-  },
-  {
     "name": "Russian Village Simulator",
     "xess2": false,
     "xess": true
@@ -1481,56 +1516,6 @@
   },
   {
     "name": "Russian Village Simulator on Mars",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Salvation Hours",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Sanguivore: Twenty Below",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Satisfactory",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Scathe",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Senua’s Saga: Hellblade 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Shadow of the Tomb Raider",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ship Graveyard Simulator 2",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Ships at Sea",
-    "xess2": false,
-    "xess": true
-  },
-  {
-    "name": "Shop Life Simulator",
     "xess2": false,
     "xess": true
   }
