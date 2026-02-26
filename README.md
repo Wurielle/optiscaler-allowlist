@@ -9,7 +9,7 @@
 </tbody>
 </table>
 
-## Unsafe Games
+## Unsafe/Unsupported Games
 
 <table width="100%">
 <thead><tr><th>Game</th><th>Store</th><th>DLSS</th><th>FSR</th><th>XeSS</th></tr></thead>

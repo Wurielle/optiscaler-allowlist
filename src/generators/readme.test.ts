@@ -47,7 +47,7 @@ describe("renderAllowlistTable", () => {
 describe("compileReadmeTemplate", () => {
 	it("injects generated table and timestamp into placeholders", () => {
 		const template =
-			"# Title\n\nGenerated: {{ALLOWLIST_LAST_UPDATED_UTC}}\n\n## Safe Games\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe Games\n{{UNSAFE_GAMES_TABLE}}\n";
+			"# Title\n\nGenerated: {{ALLOWLIST_LAST_UPDATED_UTC}}\n\n## Safe Games\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe/Unsupported Games\n{{UNSAFE_GAMES_TABLE}}\n";
 		const generated = compileReadmeTemplate(
 			template,
 			[],
@@ -92,7 +92,7 @@ describe("generateReadme", () => {
 
 		await node_fs.writeFile(
 			templatePath,
-			"# OptiScaler Allowlist\n\n## Safe Games\n\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe Games\n\n{{UNSAFE_GAMES_TABLE}}\n",
+			"# OptiScaler Allowlist\n\n## Safe Games\n\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe/Unsupported Games\n\n{{UNSAFE_GAMES_TABLE}}\n",
 			"utf-8",
 		);
 		await writeJson(node_path.join(allowlistDir, "10.json"), {
@@ -157,7 +157,7 @@ describe("generateReadme", () => {
 		expect(result.unsafeCount).toBe(1);
 		const readme = await node_fs.readFile(outputPath, "utf-8");
 		expect(readme).toContain("## Safe Games");
-		expect(readme).toContain("## Unsafe Games");
+		expect(readme).toContain("## Unsafe/Unsupported Games");
 		expect(readme).toContain("<td>Game A</td>");
 		expect(readme).toContain("<td>Game B</td>");
 	});
