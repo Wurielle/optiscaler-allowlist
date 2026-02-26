@@ -6,13 +6,14 @@ import type {
 	AllowlistIntelProvider,
 	AllowlistNvidiaProvider,
 } from "../types/allowlist.js";
-import { allowlistSchema } from "../types/allowlist.js";
+import { allowlistEntrySchema } from "../types/allowlist.js";
 import type { AntiCheatData } from "../types/anticheat.js";
 import type { AmdGame, IntelGame, NvidiaGame } from "../types/providers.js";
 import type { StoreMapping } from "../types/stores.js";
 import { readJson, writeJson } from "../utils/json.js";
 
 const DEFAULT_DATA_DIR = node_path.resolve("data");
+const DEFAULT_ALLOWLIST_PLATFORM = "steam";
 
 export interface GenerateOptions {
 	/** Override the base data directory */
@@ -36,13 +37,15 @@ async function tryReadJson<T>(filePath: string): Promise<T | null> {
 /**
  * Read all provider files, store mappings, and anti-cheat results.
  * Filter to games with non-null appId and safe anti-cheat status.
- * Merge provider features and write data/allowlist.json.
+ * Merge provider features and write per-app allowlist files.
  */
 export async function generateAllowlist(options?: GenerateOptions): Promise<GenerateResult> {
 	const dataDir = options?.dataDir ?? DEFAULT_DATA_DIR;
 	const providersDir = node_path.join(dataDir, "providers");
 	const storesDir = node_path.join(dataDir, "stores");
 	const anticheatDir = node_path.join(dataDir, "anticheat");
+	const allowlistDir = node_path.join(dataDir, "allowlist");
+	const platformDir = node_path.join(allowlistDir, DEFAULT_ALLOWLIST_PLATFORM);
 
 	// Load all data sources
 	const nvidiaGames =
@@ -128,12 +131,18 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 	// Sort alphabetically by game name
 	entries.sort((a, b) => a.name.localeCompare(b.name));
 
-	// Validate
-	allowlistSchema.parse(entries);
+	// Validate + write one file per appId
+	await node_fs.rm(platformDir, { recursive: true, force: true });
+	await node_fs.mkdir(platformDir, { recursive: true });
 
-	// Write output
-	const outputPath = node_path.join(dataDir, "allowlist.json");
-	await writeJson(outputPath, entries);
+	for (const entry of entries) {
+		allowlistEntrySchema.parse(entry);
+		const outputPath = node_path.join(platformDir, `${entry.stores.steam.appId}.json`);
+		await writeJson(outputPath, entry);
+	}
+
+	// Remove legacy monolithic allowlist file if present.
+	await node_fs.rm(node_path.join(dataDir, "allowlist.json"), { force: true });
 
 	return { totalEntries: entries.length };
 }

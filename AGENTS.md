@@ -1,40 +1,36 @@
 # AGENTS.md - OptiScaler Allowlist
 
 ## Purpose
-
-This file guides coding agents working in this repository.
-Follow existing code and tests first, then apply these rules.
+Guidance for coding agents operating in this repository.
+Prefer existing patterns in `src/` and tests when in doubt.
 
 ## Project Summary
-
-This repo maintains OptiScaler compatibility data through a staged pipeline:
-
+Pipeline stages:
 1. Scrape provider support lists (NVIDIA, AMD, Intel)
 2. Match game names to Steam app IDs
 3. Check anti-cheat safety
-4. Generate `data/allowlist.json`
+4. Generate per-game allowlist files in `data/allowlist/steam/[appid].json`
 
-Key detail: AMD and Intel scraping is deterministic HTML parsing (not LLM extraction).
+Important current behavior:
+- AMD/Intel scraping is deterministic HTML parsing (not LLM extraction).
+- Generated data under `data/` is committed.
 
 ## Stack
+- Node.js >= 20 (ESM)
+- TypeScript (strict)
+- Vitest
+- Biome (lint + format)
+- npm
+- GitHub Actions
 
-- Runtime: Node.js >= 20, ESM mode
-- Language: TypeScript (strict)
-- Test runner: Vitest
-- Lint/format: Biome
-- Package manager: npm
-- CI: GitHub Actions
-
-## Command Reference
+## Commands
 
 ## Install
-
 ```bash
 npm ci
 ```
 
-## Build / Typecheck / Lint / Format
-
+## Build, Typecheck, Lint, Format
 ```bash
 npm run build       # tsc
 npm run typecheck   # tsc --noEmit
@@ -44,8 +40,7 @@ npm run format      # biome format --write src/
 npm run ci          # typecheck + lint + test
 ```
 
-## Tests
-
+## Test Commands
 ```bash
 npm test
 npm run test:watch
@@ -53,122 +48,108 @@ npm run test:watch
 # Single test file
 npx vitest run src/scrapers/amd.test.ts
 
-# Single test by test name pattern
+# Single test by name pattern
 npx vitest run -t "should throw ScraperError"
 
-# Single test in one file by name
-npx vitest run src/scrapers/intel.test.ts -t "parsed game count drops"
+# Single test by file + name pattern
+npx vitest run src/generators/allowlist.test.ts -t "should write one file per appId"
 ```
 
 ## Pipeline Commands
-
-Main CLI entry:
-
+CLI entry:
 ```bash
 npx tsx src/index.ts <command> [--limit N]
 ```
 
 Commands:
-
-- `scrape` - scrape provider data into `data/providers/*.json`
-- `match` - resolve names to Steam app IDs
-- `check` - anti-cheat checking for unresolved entries
-- `generate` - build unified allowlist
-- `pipeline` - run all stages in sequence
+- `scrape` - update `data/providers/*.json`
+- `match` - update `data/stores/steam.json`
+- `check` - update `data/anticheat/steam.json`
+- `generate` - write `data/allowlist/steam/*.json`
+- `pipeline` - run all stages
 
 Examples:
-
 ```bash
 npx tsx src/index.ts scrape
 npx tsx src/index.ts match --limit 25
 npx tsx src/index.ts pipeline --limit 10
 ```
 
-## Code Style and Conventions
+## Code Style
 
 ## TypeScript
-
 - Keep strict typing; avoid `any`.
-- Exported functions should have explicit return types.
-- Prefer `interface` for object contracts and `type` for unions/mapped types.
-- Use `const` by default; use `let` only when reassignment is required.
-- Use ESM imports/exports only.
+- Use explicit return types for exported functions.
+- Prefer `interface` for object contracts; use `type` for unions/mapped types.
+- Prefer `const`; use `let` only when needed.
+- ESM imports/exports only.
 
 ## Imports
-
-- Use `node:` prefixes for built-ins (`node:path`, `node:fs/promises`).
-- Keep imports grouped in this order:
+- Use `node:` prefixes for built-ins.
+- Group imports in this order:
   1) node built-ins
   2) third-party packages
-  3) internal relative modules
-- Let Biome enforce import ordering; run lint fix after edits.
+  3) internal relative imports
+- Let Biome handle ordering.
 
 ## Naming
-
-- Files: generally lower-case; existing pattern is folder-based with simple names (`amd.ts`, `intel.ts`, `index.ts`).
 - Variables/functions: `camelCase`
 - Types/interfaces/classes: `PascalCase`
 - Constants: `UPPER_SNAKE_CASE`
-- Test files: `*.test.ts` beside source files
+- Tests: `*.test.ts` next to source files
+- Keep file naming consistent with existing folders (`amd.ts`, `intel.ts`, `index.ts`).
 
 ## Formatting
-
 - Follow Biome output exactly.
-- Keep comments sparse and high-value.
-- Prefer short, focused functions over long procedural blocks.
+- Keep comments minimal and useful.
+- Prefer small focused functions.
 
 ## Error Handling
-
 - Use domain errors from `src/types/errors.ts`:
   - `ScraperError`
   - `MatcherError`
   - `CheckerError`
-- Throw specific errors with actionable messages.
-- Do not silently swallow exceptions.
-- For expected "layout changed" scraper failures, throw `ScraperError` with provider-specific context.
+- Throw specific, actionable error messages.
+- Do not silently swallow errors.
+- For provider layout changes, throw `ScraperError` with provider-specific context.
 
-## Scraper Rules
-
-- Prefer deterministic parsing for provider pages when possible.
-- Validate parsed output with Zod schemas from `src/types/providers.ts`.
-- Preserve defensive guards (e.g., missing heading/table checks, abnormal count drop checks).
-- If structure assumptions change, update tests first or alongside code.
+## Scraper + Generator Rules
+- Prefer deterministic parsing for provider pages.
+- Validate output with Zod schemas in `src/types/` before writing.
+- Preserve defensive guards:
+  - missing heading/table detection
+  - suspicious large drop detection
+- Allowlist generator writes one JSON file per Steam app ID.
+- Keep generator idempotent and clean stale output files.
 
 ## Testing Guidance
+- Mock network calls (`globalThis.fetch = vi.fn(...)`).
+- Do not hit real external services in unit tests.
+- Cover success and failure paths:
+  - HTTP non-OK
+  - structure/layout change failures
+  - sanity guard failures
+  - per-app output behavior and cleanup
 
-- Mock network calls via `globalThis.fetch = vi.fn(...)`.
-- Do not call real external services in unit tests.
-- Cover:
-  - success parsing
-  - HTTP non-OK handling
-  - layout-change failures
-  - sanity guards (suspicious drops, empty extraction)
+## Data + Schema Notes
+- Do not manually edit generated files unless the task explicitly requires it.
+- Provider entries use `name` (not `gameName`).
+- Keep schema compatibility when editing `src/types/*.ts`.
 
-## Data and Schemas
-
-- Generated data is committed under `data/`.
-- Do not hand-edit generated JSON unless task explicitly requires it.
-- Current provider records use `name` (not `gameName`).
-- Preserve schema compatibility in `src/types/*.ts` and validate before write.
-
-## Git and CI Expectations
-
+## Git + CI Expectations
 - Keep commits atomic and descriptive.
-- Do not commit secrets or `.env` files.
-- Scrape workflow opens issues on scrape failure; keep that behavior intact.
-- Workflow files are pinned-action style; do not casually unpin versions.
+- Never commit secrets or `.env` files.
+- Keep workflow behavior that opens issues on scrape failures.
+- Do not casually unpin GitHub Action SHAs.
 
-## Cursor / Copilot Rule Files
-
+## Cursor / Copilot Rules
 Checked paths:
-
 - `.cursor/rules/**/*`
 - `.cursorrules`
 - `.github/copilot-instructions.md`
 
-No Cursor or Copilot rule files currently exist in this repository.
+Current state: no Cursor or Copilot rule files found.
 
-## OpenSpec Notes
-
-OpenSpec artifacts exist under `openspec/`.
-If a task is OpenSpec-driven, keep changes aligned with active artifacts.
+## OpenSpec Note
+OpenSpec artifacts exist in `openspec/`.
+If a task is OpenSpec-driven, align implementation with active artifacts.

@@ -11,20 +11,25 @@ describe("generateAllowlist", () => {
 
 	beforeEach(async () => {
 		dataDir = await node_fs.mkdtemp(node_path.join(node_os.tmpdir(), "allowlist-test-"));
-		await node_fs.mkdir(node_path.join(dataDir, "providers"), {
-			recursive: true,
-		});
-		await node_fs.mkdir(node_path.join(dataDir, "stores"), {
-			recursive: true,
-		});
-		await node_fs.mkdir(node_path.join(dataDir, "anticheat"), {
-			recursive: true,
-		});
+		await node_fs.mkdir(node_path.join(dataDir, "providers"), { recursive: true });
+		await node_fs.mkdir(node_path.join(dataDir, "stores"), { recursive: true });
+		await node_fs.mkdir(node_path.join(dataDir, "anticheat"), { recursive: true });
 	});
 
 	afterEach(async () => {
 		await node_fs.rm(dataDir, { recursive: true, force: true });
 	});
+
+	async function readAllowlistEntry(appId: number): Promise<AllowlistEntry> {
+		const filePath = node_path.join(dataDir, "allowlist", "steam", `${appId}.json`);
+		return JSON.parse(await node_fs.readFile(filePath, "utf-8")) as AllowlistEntry;
+	}
+
+	async function readAllowlistFileNames(): Promise<string[]> {
+		const dirPath = node_path.join(dataDir, "allowlist", "steam");
+		const names = await node_fs.readdir(dirPath);
+		return names.sort();
+	}
 
 	it("should include games with appId and safe anti-cheat", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
@@ -52,12 +57,10 @@ describe("generateAllowlist", () => {
 		const result = await generateAllowlist({ dataDir });
 		expect(result.totalEntries).toBe(1);
 
-		const allowlist = JSON.parse(
-			await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8"),
-		) as AllowlistEntry[];
-		expect(allowlist[0].name).toBe("Safe Game");
-		expect(allowlist[0].stores.steam.appId).toBe(100);
-		expect(allowlist[0].providers.nvidia?.dlssSuperResolution).toBe("Yes");
+		const entry = await readAllowlistEntry(100);
+		expect(entry.name).toBe("Safe Game");
+		expect(entry.stores.steam.appId).toBe(100);
+		expect(entry.providers.nvidia?.dlssSuperResolution).toBe("Yes");
 	});
 
 	it("should exclude games with safe=false", async () => {
@@ -85,47 +88,7 @@ describe("generateAllowlist", () => {
 
 		const result = await generateAllowlist({ dataDir });
 		expect(result.totalEntries).toBe(0);
-	});
-
-	it("should exclude games with null appId", async () => {
-		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
-			{
-				name: "No Match",
-				dlssMultiFrameGeneration: "",
-				dlssFrameGeneration: "",
-				dlssSuperResolution: "Yes",
-				dlssRayReconstruction: "",
-				dlaa: "",
-				rayTracing: "",
-			},
-		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"No Match": { appId: null },
-		});
-
-		const result = await generateAllowlist({ dataDir });
-		expect(result.totalEntries).toBe(0);
-	});
-
-	it("should exclude games with no anti-cheat check yet", async () => {
-		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
-			{
-				name: "Unchecked",
-				dlssMultiFrameGeneration: "",
-				dlssFrameGeneration: "",
-				dlssSuperResolution: "Yes",
-				dlssRayReconstruction: "",
-				dlaa: "",
-				rayTracing: "",
-			},
-		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			Unchecked: { appId: 300 },
-		});
-		// No anticheat data file at all
-
-		const result = await generateAllowlist({ dataDir });
-		expect(result.totalEntries).toBe(0);
+		expect(await readAllowlistFileNames()).toEqual([]);
 	});
 
 	it("should merge provider features from multiple providers", async () => {
@@ -166,18 +129,16 @@ describe("generateAllowlist", () => {
 		const result = await generateAllowlist({ dataDir });
 		expect(result.totalEntries).toBe(1);
 
-		const allowlist = JSON.parse(
-			await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8"),
-		) as AllowlistEntry[];
-		expect(allowlist[0].providers.nvidia).toBeDefined();
-		expect(allowlist[0].providers.amd).toBeDefined();
-		expect(allowlist[0].providers.intel).toBeDefined();
+		const entry = await readAllowlistEntry(400);
+		expect(entry.providers.nvidia).toBeDefined();
+		expect(entry.providers.amd).toBeDefined();
+		expect(entry.providers.intel).toBeDefined();
 	});
 
-	it("should sort entries alphabetically by game name", async () => {
+	it("should write one file per appId", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
-				name: "Zelda",
+				name: "First",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -186,16 +147,7 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 			{
-				name: "Ark",
-				dlssMultiFrameGeneration: "",
-				dlssFrameGeneration: "",
-				dlssSuperResolution: "Yes",
-				dlssRayReconstruction: "",
-				dlaa: "",
-				rayTracing: "",
-			},
-			{
-				name: "DOOM",
+				name: "Second",
 				dlssMultiFrameGeneration: "",
 				dlssFrameGeneration: "",
 				dlssSuperResolution: "Yes",
@@ -205,37 +157,19 @@ describe("generateAllowlist", () => {
 			},
 		]);
 		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			Zelda: { appId: 1 },
-			Ark: { appId: 2 },
-			DOOM: { appId: 3 },
+			First: { appId: 2 },
+			Second: { appId: 1 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
-			"1": {
-				safe: true,
-				source: "test",
-				checkedAt: "2025-01-01T00:00:00.000Z",
-			},
-			"2": {
-				safe: true,
-				source: "test",
-				checkedAt: "2025-01-01T00:00:00.000Z",
-			},
-			"3": {
-				safe: true,
-				source: "test",
-				checkedAt: "2025-01-01T00:00:00.000Z",
-			},
+			"1": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+			"2": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
 		});
 
 		await generateAllowlist({ dataDir });
-
-		const allowlist = JSON.parse(
-			await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8"),
-		) as AllowlistEntry[];
-		expect(allowlist.map((e) => e.name)).toEqual(["Ark", "DOOM", "Zelda"]);
+		expect(await readAllowlistFileNames()).toEqual(["1.json", "2.json"]);
 	});
 
-	it("should produce identical output on repeated runs (idempotent)", async () => {
+	it("should remove stale app files on rerun", async () => {
 		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
 			{
 				name: "Stable Game",
@@ -251,19 +185,44 @@ describe("generateAllowlist", () => {
 			"Stable Game": { appId: 500 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
-			"500": {
-				safe: true,
-				source: "test",
-				checkedAt: "2025-01-01T00:00:00.000Z",
-			},
+			"500": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
 		});
 
 		await generateAllowlist({ dataDir });
-		const first = await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8");
+		expect(await readAllowlistFileNames()).toEqual(["500.json"]);
+
+		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
+			"500": { safe: false, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+		});
+
+		const rerunResult = await generateAllowlist({ dataDir });
+		expect(rerunResult.totalEntries).toBe(0);
+		expect(await readAllowlistFileNames()).toEqual([]);
+	});
+
+	it("should remove legacy allowlist.json on generation", async () => {
+		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
+			{
+				name: "Legacy Migration",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
+			"Legacy Migration": { appId: 777 },
+		});
+		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
+			"777": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+		});
+		await writeJson(node_path.join(dataDir, "allowlist.json"), [{ name: "old" }]);
 
 		await generateAllowlist({ dataDir });
-		const second = await node_fs.readFile(node_path.join(dataDir, "allowlist.json"), "utf-8");
 
-		expect(first).toBe(second);
+		await expect(node_fs.access(node_path.join(dataDir, "allowlist.json"))).rejects.toThrow();
+		expect(await readAllowlistFileNames()).toEqual(["777.json"]);
 	});
 });
