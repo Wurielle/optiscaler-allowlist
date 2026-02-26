@@ -37,7 +37,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/allowlist data/allowlist.json
+          git add -A data/allowlist
+          if git ls-files --error-unmatch data/allowlist.json >/dev/null 2>&1; then
+            git add -A data/allowlist.json
+          fi
           if git diff --cached --quiet; then
             echo "No changes to allowlist"
           else
