@@ -34,10 +34,10 @@ describe("checkAll", () => {
 	});
 
 	it("should check new app IDs and write results", async () => {
-		await writeJson(node_path.join(storesDir, "steam.json"), {
-			"Game A": { appId: 100 },
-			"Game B": { appId: 200 },
-			"Game C": { appId: null },
+		await writeJson(node_path.join(storesDir, "by-game.json"), {
+			"Game A": { steam: 100 },
+			"Game B": { steam: 200 },
+			"Game C": { steam: null },
 		});
 
 		mockCheck
@@ -68,9 +68,9 @@ describe("checkAll", () => {
 	});
 
 	it("should skip already-checked app IDs", async () => {
-		await writeJson(node_path.join(storesDir, "steam.json"), {
-			"Existing Game": { appId: 100 },
-			"New Game": { appId: 200 },
+		await writeJson(node_path.join(storesDir, "by-game.json"), {
+			"Existing Game": { steam: 100 },
+			"New Game": { steam: 200 },
 		});
 
 		await writeJson(node_path.join(anticheatDir, "steam.json"), {
@@ -96,8 +96,8 @@ describe("checkAll", () => {
 	});
 
 	it("should skip and count when checkAntiCheat returns null", async () => {
-		await writeJson(node_path.join(storesDir, "steam.json"), {
-			"Unknown Game": { appId: 300 },
+		await writeJson(node_path.join(storesDir, "by-game.json"), {
+			"Unknown Game": { steam: 300 },
 		});
 
 		mockCheck.mockResolvedValueOnce(null);
@@ -123,12 +123,12 @@ describe("checkAll", () => {
 	});
 
 	it("should respect the limit option and only process that many new app IDs", async () => {
-		await writeJson(node_path.join(storesDir, "steam.json"), {
-			"Game A": { appId: 100 },
-			"Game B": { appId: 200 },
-			"Game C": { appId: 300 },
-			"Game D": { appId: 400 },
-			"Game E": { appId: 500 },
+		await writeJson(node_path.join(storesDir, "by-game.json"), {
+			"Game A": { steam: 100 },
+			"Game B": { steam: 200 },
+			"Game C": { steam: 300 },
+			"Game D": { steam: 400 },
+			"Game E": { steam: 500 },
 		});
 
 		mockCheck.mockResolvedValue({

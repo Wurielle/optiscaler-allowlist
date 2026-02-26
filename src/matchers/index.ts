@@ -52,10 +52,10 @@ async function collectGameNames(providersDir: string): Promise<Set<string>> {
 
 /** Load existing store mappings, or return empty object if file doesn't exist */
 async function loadExistingMappings(storesDir: string): Promise<StoreMapping> {
-	const filePath = node_path.join(storesDir, "steam.json");
+	const byGameFilePath = node_path.join(storesDir, "by-game.json");
 	try {
-		await node_fs.access(filePath);
-		return await readJson<StoreMapping>(filePath);
+		await node_fs.access(byGameFilePath);
+		return await readJson<StoreMapping>(byGameFilePath);
 	} catch {
 		return {};
 	}
@@ -85,7 +85,7 @@ export async function matchAll(options?: MatcherOptions): Promise<MatchResult> {
 		const name = newNames[i];
 
 		const result = await searchSteam(name);
-		mapping[name] = { appId: result.appId };
+		mapping[name] = { steam: result.appId };
 
 		if (result.appId !== null) {
 			matched++;
@@ -100,7 +100,7 @@ export async function matchAll(options?: MatcherOptions): Promise<MatchResult> {
 	}
 
 	// Write updated mappings
-	const outputPath = node_path.join(storesDir, "steam.json");
+	const outputPath = node_path.join(storesDir, "by-game.json");
 	await writeJson(outputPath, mapping);
 
 	return {

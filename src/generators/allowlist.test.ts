@@ -43,8 +43,8 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"Safe Game": { appId: 100 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Safe Game": { steam: 100 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"100": {
@@ -75,8 +75,8 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"Unsafe Game": { appId: 200 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Unsafe Game": { steam: 200 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"200": {
@@ -115,8 +115,8 @@ describe("generateAllowlist", () => {
 		await writeJson(node_path.join(dataDir, "providers/intel.json"), [
 			{ name: "Multi Provider", xess2: true, xess: true },
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"Multi Provider": { appId: 400 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Multi Provider": { steam: 400 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"400": {
@@ -156,9 +156,9 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			First: { appId: 2 },
-			Second: { appId: 1 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			First: { steam: 2 },
+			Second: { steam: 1 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"1": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
@@ -181,8 +181,8 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"Stable Game": { appId: 500 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Stable Game": { steam: 500 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"500": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
@@ -212,8 +212,8 @@ describe("generateAllowlist", () => {
 				rayTracing: "",
 			},
 		]);
-		await writeJson(node_path.join(dataDir, "stores/steam.json"), {
-			"Legacy Migration": { appId: 777 },
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Legacy Migration": { steam: 777 },
 		});
 		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
 			"777": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },

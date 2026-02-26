@@ -7,7 +7,7 @@ Prefer existing patterns in `src/` and tests when in doubt.
 ## Project Summary
 Pipeline stages:
 1. Scrape provider support lists (NVIDIA, AMD, Intel)
-2. Match game names to Steam app IDs
+2. Match game names to store IDs (currently Steam only)
 3. Check anti-cheat safety
 4. Generate per-game allowlist files in `data/allowlist/steam/[appid].json`
 
@@ -63,7 +63,7 @@ npx tsx src/index.ts <command> [--limit N]
 
 Commands:
 - `scrape` - update `data/providers/*.json`
-- `match` - update `data/stores/steam.json`
+- `match` - update `data/stores/by-game.json`
 - `check` - update `data/anticheat/steam.json`
 - `generate` - write `data/allowlist/steam/*.json`
 - `pipeline` - run all stages

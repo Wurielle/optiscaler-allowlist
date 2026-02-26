@@ -29,10 +29,10 @@ export interface CheckResult {
 
 /** Load store mappings, or return empty object if file doesn't exist */
 async function loadStoreMappings(storesDir: string): Promise<StoreMapping> {
-	const filePath = node_path.join(storesDir, "steam.json");
+	const byGameFilePath = node_path.join(storesDir, "by-game.json");
 	try {
-		await node_fs.access(filePath);
-		return await readJson<StoreMapping>(filePath);
+		await node_fs.access(byGameFilePath);
+		return await readJson<StoreMapping>(byGameFilePath);
 	} catch {
 		return {};
 	}
@@ -65,8 +65,8 @@ export async function checkAll(options?: CheckerOptions): Promise<CheckResult> {
 	// Collect non-null app IDs with their game names
 	const appIdEntries: { appId: string; game: string }[] = [];
 	for (const [game, entry] of Object.entries(storeMappings)) {
-		if (entry.appId !== null) {
-			appIdEntries.push({ appId: entry.appId.toString(), game });
+		if (entry.steam !== null) {
+			appIdEntries.push({ appId: entry.steam.toString(), game });
 		}
 	}
 

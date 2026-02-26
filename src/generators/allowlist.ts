@@ -34,6 +34,10 @@ async function tryReadJson<T>(filePath: string): Promise<T | null> {
 	}
 }
 
+async function loadStoreMappings(storesDir: string): Promise<StoreMapping> {
+	return (await tryReadJson<StoreMapping>(node_path.join(storesDir, "by-game.json"))) ?? {};
+}
+
 /**
  * Read all provider files, store mappings, and anti-cheat results.
  * Filter to games with non-null appId and safe anti-cheat status.
@@ -53,8 +57,7 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 	const amdGames = (await tryReadJson<AmdGame[]>(node_path.join(providersDir, "amd.json"))) ?? [];
 	const intelGames =
 		(await tryReadJson<IntelGame[]>(node_path.join(providersDir, "intel.json"))) ?? [];
-	const storeMappings =
-		(await tryReadJson<StoreMapping>(node_path.join(storesDir, "steam.json"))) ?? {};
+	const storeMappings = await loadStoreMappings(storesDir);
 	const anticheatData =
 		(await tryReadJson<AntiCheatData>(node_path.join(anticheatDir, "steam.json"))) ?? {};
 
@@ -71,11 +74,11 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 	for (const name of allGameNames) {
 		// Check store mapping
 		const storeEntry = storeMappings[name];
-		if (!storeEntry || storeEntry.appId === null) {
+		if (!storeEntry || storeEntry.steam === null) {
 			continue; // No store ID — exclude
 		}
 
-		const appIdStr = storeEntry.appId.toString();
+		const appIdStr = storeEntry.steam.toString();
 
 		// Check anti-cheat status
 		const acResult = anticheatData[appIdStr];
@@ -118,7 +121,7 @@ export async function generateAllowlist(options?: GenerateOptions): Promise<Gene
 		entries.push({
 			name,
 			stores: {
-				steam: { appId: storeEntry.appId },
+				steam: { appId: storeEntry.steam },
 			},
 			providers: {
 				...(nvidiaProvider && { nvidia: nvidiaProvider }),

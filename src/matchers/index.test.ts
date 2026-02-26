@@ -68,10 +68,10 @@ describe("matchAll", () => {
 
 		// Verify the output file
 		const mapping = JSON.parse(
-			await node_fs.readFile(node_path.join(storesDir, "steam.json"), "utf-8"),
+			await node_fs.readFile(node_path.join(storesDir, "by-game.json"), "utf-8"),
 		);
-		expect(mapping["Game A"].appId).toBe(100);
-		expect(mapping["Game B"].appId).toBeNull();
+		expect(mapping["Game A"].steam).toBe(100);
+		expect(mapping["Game B"].steam).toBeNull();
 	});
 
 	it("should skip names already in existing mappings", async () => {
@@ -97,8 +97,8 @@ describe("matchAll", () => {
 		]);
 
 		// Pre-existing mapping
-		await writeJson(node_path.join(storesDir, "steam.json"), {
-			"Existing Game": { appId: 500 },
+		await writeJson(node_path.join(storesDir, "by-game.json"), {
+			"Existing Game": { steam: 500 },
 		});
 
 		mockSearch.mockResolvedValueOnce({

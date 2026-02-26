@@ -1,11 +1,11 @@
 import { z } from "zod";
 
 export interface StoreMappingEntry {
-	appId: number | null;
+	steam: number | null;
 }
 
 export const storeMappingEntrySchema = z.object({
-	appId: z.number().int().positive().nullable(),
+	steam: z.number().int().positive().nullable(),
 });
 
 /** Record keyed by game name, mapping to store info */
