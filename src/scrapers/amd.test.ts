@@ -5,15 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { ScraperError } from "../types/errors.js";
 import { scrapeAmd } from "./amd.js";
 
-// Mock the AI module
-vi.mock("../utils/ai.js", () => ({
-	extractStructuredData: vi.fn(),
-}));
-
-import { extractStructuredData } from "../utils/ai.js";
-
 const originalFetch = globalThis.fetch;
-const mockExtract = vi.mocked(extractStructuredData);
 
 function mockHtmlResponse(html: string, status = 200): void {
 	globalThis.fetch = vi.fn().mockResolvedValueOnce(new Response(html, { status }));
@@ -28,7 +20,6 @@ describe("scrapeAmd", () => {
 
 	beforeEach(async () => {
 		tmpDir = await node_fs.mkdtemp(node_path.join(node_os.tmpdir(), "amd-test-"));
-		mockExtract.mockReset();
 	});
 
 	afterEach(async () => {
@@ -36,20 +27,35 @@ describe("scrapeAmd", () => {
 		await node_fs.rm(tmpDir, { recursive: true, force: true });
 	});
 
-	it("should fetch HTML, extract via AI, merge sections, and write AMD game data", async () => {
-		mockHtmlResponse("<html><body>AMD games page</body></html>");
-		mockExtract.mockResolvedValueOnce({
-			fsrRedstone: ["Game A", "Game B"],
-			fsr3: ["Game A", "Game C"],
-			fsr2: ["Game C", "Game D"],
-			fsrFrameGenerationMl: ["Game A"],
-		});
+	it("should fetch HTML, parse deterministic sections, merge games, and write AMD data", async () => {
+		const html = `
+			<html>
+				<body>
+					<h5>AMD FSR Redstone</h5>
+					<table>
+						<tr><td>Game A</td><td>Game B</td></tr>
+					</table>
+					<h5>FSR 3</h5>
+					<table>
+						<tr><td>Game A</td><td>Game C</td></tr>
+					</table>
+					<h5>FSR 2</h5>
+					<table>
+						<tr><td>Game C</td><td>Game D &amp; Friends</td></tr>
+					</table>
+					<h5>AMD FSR Frame Generation (ML) Support</h5>
+					<table>
+						<tr><td>Game A</td></tr>
+					</table>
+				</body>
+			</html>
+		`;
+
+		mockHtmlResponse(html);
 
 		const result = await scrapeAmd({ outputDir: tmpDir });
 
-		// Game A appears in Redstone, FSR3, and FG ML
-		const gameA = result.find((g) => g.name === "Game A");
-		expect(gameA).toEqual({
+		expect(result.find((g) => g.name === "Game A")).toEqual({
 			name: "Game A",
 			fsrRedstone: true,
 			fsr3: true,
@@ -57,9 +63,7 @@ describe("scrapeAmd", () => {
 			fsrFrameGenerationMl: true,
 		});
 
-		// Game B only in Redstone
-		const gameB = result.find((g) => g.name === "Game B");
-		expect(gameB).toEqual({
+		expect(result.find((g) => g.name === "Game B")).toEqual({
 			name: "Game B",
 			fsrRedstone: true,
 			fsr3: false,
@@ -67,9 +71,7 @@ describe("scrapeAmd", () => {
 			fsrFrameGenerationMl: false,
 		});
 
-		// Game C in FSR3 and FSR2
-		const gameC = result.find((g) => g.name === "Game C");
-		expect(gameC).toEqual({
+		expect(result.find((g) => g.name === "Game C")).toEqual({
 			name: "Game C",
 			fsrRedstone: false,
 			fsr3: true,
@@ -77,11 +79,35 @@ describe("scrapeAmd", () => {
 			fsrFrameGenerationMl: false,
 		});
 
+		expect(result.find((g) => g.name === "Game D & Friends")).toEqual({
+			name: "Game D & Friends",
+			fsrRedstone: false,
+			fsr3: false,
+			fsr2: true,
+			fsrFrameGenerationMl: false,
+		});
+
 		expect(result).toHaveLength(4);
 
-		// Verify file was written
 		const written = JSON.parse(await node_fs.readFile(node_path.join(tmpDir, "amd.json"), "utf-8"));
 		expect(written).toHaveLength(4);
+	});
+
+	it("should strip HTML boilerplate before parsing", async () => {
+		const html =
+			"<html><head><script>ignored()</script></head>" +
+			"<nav>ignore nav</nav>" +
+			"<header>ignore header</header>" +
+			"<body><h5>AMD FSR Redstone</h5><table><tr><td>Real Game</td></tr></table>" +
+			"<h5>FSR 3</h5><table><tr><td>Real Game</td></tr></table>" +
+			"<h5>FSR 2</h5><table><tr><td>Legacy Game</td></tr></table>" +
+			"<h5>AMD FSR Frame Generation (ML) Support</h5><table><tr><td>FG Game</td></tr></table></body>" +
+			"<footer>ignore footer</footer></html>";
+
+		mockHtmlResponse(html);
+
+		const result = await scrapeAmd({ outputDir: tmpDir });
+		expect(result.some((g) => g.name === "Real Game")).toBe(true);
 	});
 
 	it("should throw ScraperError on non-200 HTTP response", async () => {
@@ -90,62 +116,56 @@ describe("scrapeAmd", () => {
 		await expect(scrapeAmd({ outputDir: tmpDir })).rejects.toThrow(ScraperError);
 	});
 
-	it("should throw ScraperError when AI returns empty results", async () => {
-		mockHtmlResponse("<html><body>empty page</body></html>");
-		mockExtract.mockResolvedValueOnce({
-			fsrRedstone: [],
-			fsr3: [],
-			fsr2: [],
-			fsrFrameGenerationMl: [],
-		});
+	it("should throw ScraperError when expected heading is missing", async () => {
+		mockHtmlResponse(
+			"<html><body><h5>AMD FSR Redstone</h5><table><tr><td>Game A</td></tr></table></body></html>",
+		);
 
-		await expect(scrapeAmd({ outputDir: tmpDir })).rejects.toThrow(ScraperError);
+		await expect(scrapeAmd({ outputDir: tmpDir })).rejects.toThrow(
+			"AMD page layout changed: missing fsr3 heading",
+		);
 	});
 
-	it("should strip HTML boilerplate before sending to AI", async () => {
-		const html =
-			"<html><head><script>evil()</script></head>" +
-			"<nav>menu</nav>" +
-			"<header>header</header>" +
-			"<body><main>game content</main></body>" +
-			"<footer>footer</footer></html>";
+	it("should throw ScraperError when section table is missing", async () => {
+		mockHtmlResponse(
+			"<html><body>" +
+				"<h5>AMD FSR Redstone</h5><table><tr><td>Game A</td></tr></table>" +
+				"<h5>FSR 3</h5><div>No table here</div>" +
+				"<h5>FSR 2</h5><table><tr><td>Game B</td></tr></table>" +
+				"<h5>AMD FSR Frame Generation (ML) Support</h5><table><tr><td>Game C</td></tr></table>" +
+				"</body></html>",
+		);
 
-		mockHtmlResponse(html);
-		mockExtract.mockResolvedValueOnce({
-			fsrRedstone: ["Test Game"],
-			fsr3: [],
-			fsr2: [],
-			fsrFrameGenerationMl: [],
-		});
-
-		await scrapeAmd({ outputDir: tmpDir });
-
-		// Verify the AI received stripped HTML (no script/nav/footer/header)
-		const calledHtml = mockExtract.mock.calls[0][0];
-		expect(calledHtml).not.toContain("<script");
-		expect(calledHtml).not.toContain("<nav");
-		expect(calledHtml).not.toContain("<footer");
-		expect(calledHtml).not.toContain("<header");
-		expect(calledHtml).toContain("game content");
+		await expect(scrapeAmd({ outputDir: tmpDir })).rejects.toThrow(
+			"AMD page layout changed: missing table for fsr3",
+		);
 	});
 
-	it("should handle games appearing in multiple sections", async () => {
-		mockHtmlResponse("<html>content</html>");
-		mockExtract.mockResolvedValueOnce({
-			fsrRedstone: ["Multi-Section Game"],
-			fsr3: ["Multi-Section Game"],
-			fsr2: ["Multi-Section Game"],
-			fsrFrameGenerationMl: ["Multi-Section Game"],
-		});
-
-		const result = await scrapeAmd({ outputDir: tmpDir });
-		expect(result).toHaveLength(1);
-		expect(result[0]).toEqual({
-			name: "Multi-Section Game",
+	it("should throw ScraperError when parsed game count drops too much versus previous data", async () => {
+		const previous = Array.from({ length: 8 }, (_value, index) => ({
+			name: `Old Game ${index}`,
 			fsrRedstone: true,
 			fsr3: true,
-			fsr2: true,
-			fsrFrameGenerationMl: true,
-		});
+			fsr2: false,
+			fsrFrameGenerationMl: false,
+		}));
+
+		await node_fs.writeFile(
+			node_path.join(tmpDir, "amd.json"),
+			`${JSON.stringify(previous, null, 2)}\n`,
+		);
+
+		mockHtmlResponse(
+			"<html><body>" +
+				"<h5>AMD FSR Redstone</h5><table><tr><td>Game A</td></tr></table>" +
+				"<h5>FSR 3</h5><table><tr><td>Game A</td></tr></table>" +
+				"<h5>FSR 2</h5><table><tr><td>Game B</td></tr></table>" +
+				"<h5>AMD FSR Frame Generation (ML) Support</h5><table><tr><td>Game A</td></tr></table>" +
+				"</body></html>",
+		);
+
+		await expect(scrapeAmd({ outputDir: tmpDir })).rejects.toThrow(
+			"AMD extraction suspicious: 2 games vs 8 previously (>25% drop)",
+		);
 	});
 });

@@ -30,13 +30,34 @@ jobs:
         run: npm ci
 
       - name: Run all provider scrapers
+        id: scrape
         run: npx tsx src/index.ts scrape
+        continue-on-error: true
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
 
+      - name: Open issue on scrape failure
+        if: steps.scrape.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ISSUE_TITLE="Provider scrape failed $(date -u +%Y-%m-%d)"
+          EXISTING_COUNT=$(gh issue list --state open --search "$ISSUE_TITLE in:title" --json number --jq 'length')
+
+          if [ "$EXISTING_COUNT" -gt 0 ]; then
+            echo "Issue already exists: $ISSUE_TITLE"
+            exit 0
+          fi
+
+          gh issue create \
+            --title "$ISSUE_TITLE" \
+            --label "automation,scraper-failure" \
+            --body "Automated provider scrape failed.\n\n- Workflow: ${{ github.workflow }}\n- Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n- Commit: ${{ github.sha }}\n\nThis usually means a provider page layout changed and scraper logic may need to be updated."
+
       - name: Commit updated provider data
+        if: steps.scrape.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -47,3 +68,7 @@ jobs:
             git commit -m "Update provider data $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Fail workflow when scrape fails
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1

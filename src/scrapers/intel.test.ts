@@ -5,15 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { ScraperError } from "../types/errors.js";
 import { scrapeIntel } from "./intel.js";
 
-// Mock the AI module
-vi.mock("../utils/ai.js", () => ({
-	extractStructuredData: vi.fn(),
-}));
-
-import { extractStructuredData } from "../utils/ai.js";
-
 const originalFetch = globalThis.fetch;
-const mockExtract = vi.mocked(extractStructuredData);
 
 function mockHtmlResponse(html: string, status = 200): void {
 	globalThis.fetch = vi.fn().mockResolvedValueOnce(new Response(html, { status }));
@@ -28,7 +20,6 @@ describe("scrapeIntel", () => {
 
 	beforeEach(async () => {
 		tmpDir = await node_fs.mkdtemp(node_path.join(node_os.tmpdir(), "intel-test-"));
-		mockExtract.mockReset();
 	});
 
 	afterEach(async () => {
@@ -36,46 +27,69 @@ describe("scrapeIntel", () => {
 		await node_fs.rm(tmpDir, { recursive: true, force: true });
 	});
 
-	it("should fetch HTML, extract via AI, merge sections, and write Intel game data", async () => {
-		mockHtmlResponse("<html><body>Intel XeSS games page</body></html>");
-		mockExtract.mockResolvedValueOnce({
-			xess2: ["Game A", "Game B"],
-			xess: ["Game B", "Game C"],
-		});
+	it("should fetch HTML, parse deterministic sections, merge games, and write Intel data", async () => {
+		const html = `
+			<html>
+				<body>
+					<h1>XeSS Enabled Games</h1>
+					<h3>XeSS 2 enabled games</h3>
+					<div class="elementor-loop-container">
+						<h1>Game A</h1>
+						<h1>Game B</h1>
+						<h1>Game B</h1>
+					</div>
+					<h3>XeSS Enabled Games</h3>
+					<div class="elementor-loop-container">
+						<h1>Game B</h1>
+						<h1>Game C &amp; Co</h1>
+					</div>
+				</body>
+			</html>
+		`;
+
+		mockHtmlResponse(html);
 
 		const result = await scrapeIntel({ outputDir: tmpDir });
 
-		// Game A only in XeSS 2
-		const gameA = result.find((g) => g.name === "Game A");
-		expect(gameA).toEqual({
+		expect(result.find((g) => g.name === "Game A")).toEqual({
 			name: "Game A",
 			xess2: true,
 			xess: false,
 		});
 
-		// Game B in both
-		const gameB = result.find((g) => g.name === "Game B");
-		expect(gameB).toEqual({
+		expect(result.find((g) => g.name === "Game B")).toEqual({
 			name: "Game B",
 			xess2: true,
 			xess: true,
 		});
 
-		// Game C only in XeSS
-		const gameC = result.find((g) => g.name === "Game C");
-		expect(gameC).toEqual({
-			name: "Game C",
+		expect(result.find((g) => g.name === "Game C & Co")).toEqual({
+			name: "Game C & Co",
 			xess2: false,
 			xess: true,
 		});
 
 		expect(result).toHaveLength(3);
 
-		// Verify file was written
 		const written = JSON.parse(
 			await node_fs.readFile(node_path.join(tmpDir, "intel.json"), "utf-8"),
 		);
 		expect(written).toHaveLength(3);
+	});
+
+	it("should strip HTML boilerplate before parsing", async () => {
+		const html =
+			"<html><head><script>ignored()</script></head>" +
+			"<nav>ignore nav</nav>" +
+			"<body><h3>XeSS 2 enabled games</h3><h1>New Game</h1>" +
+			"<h3>XeSS Enabled Games</h3><h1>Legacy Game</h1></body>" +
+			"<footer>ignore footer</footer></html>";
+
+		mockHtmlResponse(html);
+
+		const result = await scrapeIntel({ outputDir: tmpDir });
+		expect(result.some((g) => g.name === "New Game")).toBe(true);
+		expect(result.some((g) => g.name === "Legacy Game")).toBe(true);
 	});
 
 	it("should throw ScraperError on non-200 HTTP response", async () => {
@@ -84,67 +98,43 @@ describe("scrapeIntel", () => {
 		await expect(scrapeIntel({ outputDir: tmpDir })).rejects.toThrow(ScraperError);
 	});
 
-	it("should throw ScraperError when AI returns empty results", async () => {
-		mockHtmlResponse("<html><body>empty page</body></html>");
-		mockExtract.mockResolvedValueOnce({
-			xess2: [],
-			xess: [],
-		});
+	it("should throw ScraperError when XeSS 2 heading is missing", async () => {
+		mockHtmlResponse("<html><body><h3>XeSS Enabled Games</h3><h1>Game A</h1></body></html>");
 
-		await expect(scrapeIntel({ outputDir: tmpDir })).rejects.toThrow(ScraperError);
+		await expect(scrapeIntel({ outputDir: tmpDir })).rejects.toThrow(
+			"Intel page layout changed: missing XeSS 2 enabled games heading",
+		);
 	});
 
-	it("should strip HTML boilerplate before sending to AI", async () => {
-		const html =
-			"<html><head><script>evil()</script></head>" +
-			"<nav>menu</nav>" +
-			"<body><main>xess content</main></body>" +
-			"<footer>footer</footer></html>";
+	it("should throw ScraperError when XeSS section heading is missing", async () => {
+		mockHtmlResponse("<html><body><h3>XeSS 2 enabled games</h3><h1>Game A</h1></body></html>");
 
-		mockHtmlResponse(html);
-		mockExtract.mockResolvedValueOnce({
-			xess2: ["Test Game"],
-			xess: [],
-		});
-
-		await scrapeIntel({ outputDir: tmpDir });
-
-		const calledHtml = mockExtract.mock.calls[0][0];
-		expect(calledHtml).not.toContain("<script");
-		expect(calledHtml).not.toContain("<nav");
-		expect(calledHtml).not.toContain("<footer");
-		expect(calledHtml).toContain("xess content");
+		await expect(scrapeIntel({ outputDir: tmpDir })).rejects.toThrow(
+			"Intel page layout changed: missing XeSS enabled games heading",
+		);
 	});
 
-	it("should handle game in both XeSS versions", async () => {
-		mockHtmlResponse("<html>content</html>");
-		mockExtract.mockResolvedValueOnce({
-			xess2: ["Dual Game"],
-			xess: ["Dual Game"],
-		});
-
-		const result = await scrapeIntel({ outputDir: tmpDir });
-		expect(result).toHaveLength(1);
-		expect(result[0]).toEqual({
-			name: "Dual Game",
+	it("should throw ScraperError when parsed game count drops too much versus previous data", async () => {
+		const previous = Array.from({ length: 8 }, (_value, index) => ({
+			name: `Old Intel Game ${index}`,
 			xess2: true,
 			xess: true,
-		});
-	});
+		}));
 
-	it("should handle only XeSS 1 games", async () => {
-		mockHtmlResponse("<html>content</html>");
-		mockExtract.mockResolvedValueOnce({
-			xess2: [],
-			xess: ["Legacy Game"],
-		});
+		await node_fs.writeFile(
+			node_path.join(tmpDir, "intel.json"),
+			`${JSON.stringify(previous, null, 2)}\n`,
+		);
 
-		const result = await scrapeIntel({ outputDir: tmpDir });
-		expect(result).toHaveLength(1);
-		expect(result[0]).toEqual({
-			name: "Legacy Game",
-			xess2: false,
-			xess: true,
-		});
+		mockHtmlResponse(
+			"<html><body>" +
+				"<h3>XeSS 2 enabled games</h3><h1>Game A</h1>" +
+				"<h3>XeSS Enabled Games</h3><h1>Game B</h1>" +
+				"</body></html>",
+		);
+
+		await expect(scrapeIntel({ outputDir: tmpDir })).rejects.toThrow(
+			"Intel extraction suspicious: 2 games vs 8 previously (>25% drop)",
+		);
 	});
 });

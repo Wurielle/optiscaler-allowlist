@@ -1,36 +1,23 @@
+import node_fs from "node:fs/promises";
 import node_path from "node:path";
-import { z } from "zod";
 import { ScraperError } from "../types/errors.js";
 import type { IntelGame } from "../types/providers.js";
 import { intelGameArraySchema } from "../types/providers.js";
-import { extractStructuredData } from "../utils/ai.js";
+import { extractTagTexts, parseHeadings, uniqueValues } from "../utils/html.js";
 import { fetchWithRetry } from "../utils/http.js";
-import { writeJson } from "../utils/json.js";
+import { readJson, writeJson } from "../utils/json.js";
 
 const INTEL_URL = "https://game.intel.com/us/xess-enabled-games/";
 
 const DEFAULT_OUTPUT_DIR = node_path.resolve("data/providers");
 
-const gameListSchema = z.array(z.string().min(1));
+// A large one-day drop is usually a broken parse or partial upstream page, not a real catalog change.
+const MAX_ALLOWED_DROP_RATIO = 0.25;
 
-const EXTRACTION_PROMPT = `Extract the game names from this HTML content. The page lists Intel XeSS enabled games in two sections:
-
-1. "XeSS 2" enabled games - the newer version
-2. "XeSS" enabled games (XeSS 1) - the original version
-
-Return a JSON object with these exact keys:
-{
-  "xess2": ["Game Name 1", "Game Name 2", ...],
-  "xess": ["Game Name 1", "Game Name 2", ...]
+interface IntelExtraction {
+	xess2: string[];
+	xess: string[];
 }
-
-If a section is not found or empty, return an empty array for that key.
-Return ONLY the JSON object, no other text.`;
-
-const intelExtractionSchema = z.object({
-	xess2: gameListSchema,
-	xess: gameListSchema,
-});
 
 interface ScrapeIntelOptions {
 	/** Override the output directory (defaults to data/providers) */
@@ -47,8 +34,64 @@ function stripBoilerplate(html: string): string {
 	return stripped;
 }
 
+function extractIntelSections(html: string): IntelExtraction {
+	const headings = parseHeadings(html);
+
+	const xess2Heading = headings.find((heading) => /^xess\s*2\s*enabled games$/i.test(heading.text));
+	if (!xess2Heading) {
+		throw new ScraperError(
+			"Intel page layout changed: missing XeSS 2 enabled games heading",
+			"intel",
+		);
+	}
+
+	const xessHeading = headings.find(
+		(heading) => /^xess\s*enabled games$/i.test(heading.text) && heading.start > xess2Heading.start,
+	);
+
+	if (!xessHeading) {
+		throw new ScraperError(
+			"Intel page layout changed: missing XeSS enabled games heading",
+			"intel",
+		);
+	}
+
+	const xess2Section = html.slice(xess2Heading.end, xessHeading.start);
+	const xessSection = html.slice(xessHeading.end);
+
+	const xess2 = uniqueValues(extractTagTexts(xess2Section, "h1"));
+	const xess = uniqueValues(extractTagTexts(xessSection, "h1"));
+
+	return { xess2, xess };
+}
+
+async function getPreviousGameCount(outputPath: string): Promise<number | null> {
+	try {
+		await node_fs.access(outputPath);
+	} catch {
+		return null;
+	}
+
+	const previous = await readJson<IntelGame[]>(outputPath);
+	return previous.length;
+}
+
+function assertNoLargeDrop(previousCount: number | null, nextCount: number): void {
+	if (previousCount === null || previousCount === 0) {
+		return;
+	}
+
+	const minAllowedCount = Math.ceil(previousCount * (1 - MAX_ALLOWED_DROP_RATIO));
+	if (nextCount < minAllowedCount) {
+		throw new ScraperError(
+			`Intel extraction suspicious: ${nextCount} games vs ${previousCount} previously (>25% drop)`,
+			"intel",
+		);
+	}
+}
+
 /** Merge extracted section lists into IntelGame[] */
-function mergeIntoGames(extracted: z.infer<typeof intelExtractionSchema>): IntelGame[] {
+function mergeIntoGames(extracted: IntelExtraction): IntelGame[] {
 	const gameMap = new Map<string, IntelGame>();
 
 	for (const name of extracted.xess2) {
@@ -71,7 +114,7 @@ function mergeIntoGames(extracted: z.infer<typeof intelExtractionSchema>): Intel
 	return Array.from(gameMap.values());
 }
 
-/** Fetch Intel XeSS page, extract game data via AI, validate, and write to disk */
+/** Fetch Intel XeSS page, parse game data, validate, and write to disk */
 export async function scrapeIntel(options?: ScrapeIntelOptions): Promise<IntelGame[]> {
 	const outputDir = options?.outputDir ?? DEFAULT_OUTPUT_DIR;
 	const response = await fetchWithRetry(INTEL_URL);
@@ -82,14 +125,13 @@ export async function scrapeIntel(options?: ScrapeIntelOptions): Promise<IntelGa
 
 	const html = await response.text();
 	const stripped = stripBoilerplate(html);
-
-	const extracted = await extractStructuredData(stripped, EXTRACTION_PROMPT, intelExtractionSchema);
+	const extracted = extractIntelSections(stripped);
 
 	const totalGames = extracted.xess2.length + extracted.xess.length;
 
 	if (totalGames === 0) {
 		throw new ScraperError(
-			"AI extraction returned empty results for all Intel sections — page structure may have changed",
+			"Extraction returned empty results for all Intel sections — page structure may have changed",
 			"intel",
 		);
 	}
@@ -98,6 +140,8 @@ export async function scrapeIntel(options?: ScrapeIntelOptions): Promise<IntelGa
 	const validated = intelGameArraySchema.parse(games);
 
 	const outputPath = node_path.join(outputDir, "intel.json");
+	const previousCount = await getPreviousGameCount(outputPath);
+	assertNoLargeDrop(previousCount, validated.length);
 	await writeJson(outputPath, validated);
 
 	return validated;

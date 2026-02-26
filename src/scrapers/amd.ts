@@ -1,19 +1,19 @@
+import node_fs from "node:fs/promises";
 import node_path from "node:path";
-import { z } from "zod";
 import { ScraperError } from "../types/errors.js";
 import type { AmdGame } from "../types/providers.js";
 import { amdGameArraySchema } from "../types/providers.js";
-import { extractStructuredData } from "../utils/ai.js";
+import { extractTagTexts, parseHeadings, uniqueValues } from "../utils/html.js";
 import { fetchWithRetry } from "../utils/http.js";
-import { writeJson } from "../utils/json.js";
+import { readJson, writeJson } from "../utils/json.js";
 
 const AMD_URL =
 	"https://www.amd.com/en/products/graphics/technologies/fidelityfx/supported-games.html";
 
 const DEFAULT_OUTPUT_DIR = node_path.resolve("data/providers");
 
-/** Schema for AI extraction result per section */
-const gameListSchema = z.array(z.string().min(1));
+// A large one-day drop is usually a broken parse or partial upstream page, not a real catalog change.
+const MAX_ALLOWED_DROP_RATIO = 0.25;
 
 /** Sections to extract from the AMD page */
 const AMD_SECTIONS = [
@@ -23,31 +23,9 @@ const AMD_SECTIONS = [
 	{ key: "fsrFrameGenerationMl" as const, label: "FSR Frame Generation (ML)" },
 ] as const;
 
-const EXTRACTION_PROMPT = `Extract the game names from this HTML content. The page contains AMD FidelityFX / FSR supported games organized in tabbed sections.
+type AmdSectionKey = (typeof AMD_SECTIONS)[number]["key"];
 
-For each of the following sections, return the list of game names found:
-1. "FSR Redstone" or "FSR 4" section - the newest FSR technology
-2. "FSR 3" section
-3. "FSR 2" section  
-4. "FSR Frame Generation (ML)" section
-
-Return a JSON object with these exact keys:
-{
-  "fsrRedstone": ["Game Name 1", "Game Name 2", ...],
-  "fsr3": ["Game Name 1", "Game Name 2", ...],
-  "fsr2": ["Game Name 1", "Game Name 2", ...],
-  "fsrFrameGenerationMl": ["Game Name 1", "Game Name 2", ...]
-}
-
-If a section is not found or empty, return an empty array for that key.
-Return ONLY the JSON object, no other text.`;
-
-const amdExtractionSchema = z.object({
-	fsrRedstone: gameListSchema,
-	fsr3: gameListSchema,
-	fsr2: gameListSchema,
-	fsrFrameGenerationMl: gameListSchema,
-});
+type AmdExtraction = Record<AmdSectionKey, string[]>;
 
 interface ScrapeAmdOptions {
 	/** Override the output directory (defaults to data/providers) */
@@ -68,8 +46,78 @@ function stripBoilerplate(html: string): string {
 	return stripped;
 }
 
+function getSectionHeadingMatcher(sectionKey: AmdSectionKey): (headingText: string) => boolean {
+	switch (sectionKey) {
+		case "fsrRedstone":
+			return (headingText) => /\bfsr\b/i.test(headingText) && /redstone|\b4\b/i.test(headingText);
+		case "fsr3":
+			return (headingText) => /^fsr\s*3\b/i.test(headingText);
+		case "fsr2":
+			return (headingText) => /^fsr\s*2\b/i.test(headingText);
+		case "fsrFrameGenerationMl":
+			return (headingText) => /frame generation\s*\(\s*ml\s*\)/i.test(headingText);
+	}
+}
+
+function extractSectionGames(html: string, sectionKey: AmdSectionKey): string[] {
+	const headings = parseHeadings(html);
+	const matchHeading = getSectionHeadingMatcher(sectionKey);
+	const sectionHeading = headings.find((heading) => matchHeading(heading.text));
+
+	if (!sectionHeading) {
+		throw new ScraperError(`AMD page layout changed: missing ${sectionKey} heading`, "amd");
+	}
+
+	const nextHeading = headings.find(
+		(heading) => heading.level === sectionHeading.level && heading.start > sectionHeading.start,
+	);
+
+	const sectionHtml = html.slice(sectionHeading.end, nextHeading?.start ?? html.length);
+	const tableMatch = sectionHtml.match(/<table[\s\S]*?<\/table>/i);
+
+	if (!tableMatch) {
+		throw new ScraperError(`AMD page layout changed: missing table for ${sectionKey}`, "amd");
+	}
+
+	return uniqueValues(extractTagTexts(tableMatch[0], "td"));
+}
+
+function extractAmdSections(html: string): AmdExtraction {
+	return {
+		fsrRedstone: extractSectionGames(html, "fsrRedstone"),
+		fsr3: extractSectionGames(html, "fsr3"),
+		fsr2: extractSectionGames(html, "fsr2"),
+		fsrFrameGenerationMl: extractSectionGames(html, "fsrFrameGenerationMl"),
+	};
+}
+
+async function getPreviousGameCount(outputPath: string): Promise<number | null> {
+	try {
+		await node_fs.access(outputPath);
+	} catch {
+		return null;
+	}
+
+	const previous = await readJson<AmdGame[]>(outputPath);
+	return previous.length;
+}
+
+function assertNoLargeDrop(previousCount: number | null, nextCount: number): void {
+	if (previousCount === null || previousCount === 0) {
+		return;
+	}
+
+	const minAllowedCount = Math.ceil(previousCount * (1 - MAX_ALLOWED_DROP_RATIO));
+	if (nextCount < minAllowedCount) {
+		throw new ScraperError(
+			`AMD extraction suspicious: ${nextCount} games vs ${previousCount} previously (>25% drop)`,
+			"amd",
+		);
+	}
+}
+
 /** Merge extracted section lists into AmdGame[] */
-function mergeIntoGames(extracted: z.infer<typeof amdExtractionSchema>): AmdGame[] {
+function mergeIntoGames(extracted: AmdExtraction): AmdGame[] {
 	const gameMap = new Map<string, AmdGame>();
 
 	for (const section of AMD_SECTIONS) {
@@ -96,7 +144,7 @@ function mergeIntoGames(extracted: z.infer<typeof amdExtractionSchema>): AmdGame
 	return Array.from(gameMap.values());
 }
 
-/** Fetch AMD FidelityFX page, extract game data via AI, validate, and write to disk */
+/** Fetch AMD FidelityFX page, parse game data, validate, and write to disk */
 export async function scrapeAmd(options?: ScrapeAmdOptions): Promise<AmdGame[]> {
 	const outputDir = options?.outputDir ?? DEFAULT_OUTPUT_DIR;
 	const response = await fetchWithRetry(AMD_URL);
@@ -107,8 +155,7 @@ export async function scrapeAmd(options?: ScrapeAmdOptions): Promise<AmdGame[]> 
 
 	const html = await response.text();
 	const stripped = stripBoilerplate(html);
-
-	const extracted = await extractStructuredData(stripped, EXTRACTION_PROMPT, amdExtractionSchema);
+	const extracted = extractAmdSections(stripped);
 
 	// Check for completely empty extraction
 	const totalGames =
@@ -119,7 +166,7 @@ export async function scrapeAmd(options?: ScrapeAmdOptions): Promise<AmdGame[]> 
 
 	if (totalGames === 0) {
 		throw new ScraperError(
-			"AI extraction returned empty results for all AMD sections — page structure may have changed",
+			"Extraction returned empty results for all AMD sections — page structure may have changed",
 			"amd",
 		);
 	}
@@ -128,6 +175,8 @@ export async function scrapeAmd(options?: ScrapeAmdOptions): Promise<AmdGame[]> 
 	const validated = amdGameArraySchema.parse(games);
 
 	const outputPath = node_path.join(outputDir, "amd.json");
+	const previousCount = await getPreviousGameCount(outputPath);
+	assertNoLargeDrop(previousCount, validated.length);
 	await writeJson(outputPath, validated);
 
 	return validated;
