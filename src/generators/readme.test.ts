@@ -36,9 +36,10 @@ describe("renderAllowlistTable", () => {
 		];
 
 		const table = renderAllowlistTable(entries);
-		expect(table).toContain("| Game | Store | DLSS | FSR | XeSS |");
+		expect(table).toContain('<table width="100%">');
+		expect(table).toContain("<th>Game</th><th>Store</th><th>DLSS</th><th>FSR</th><th>XeSS</th>");
 		expect(table).toContain(
-			"| AMID EVIL | [Steam](https://store.steampowered.com/app/673130/) | [x] | [x] | [x] |",
+			'<tr><td>AMID EVIL</td><td><a href="https://store.steampowered.com/app/673130/">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>',
 		);
 	});
 });
@@ -100,6 +101,6 @@ describe("generateReadme", () => {
 
 		expect(result.entryCount).toBe(1);
 		const readme = await node_fs.readFile(outputPath, "utf-8");
-		expect(readme).toContain("| Game A |");
+		expect(readme).toContain("<td>Game A</td>");
 	});
 });

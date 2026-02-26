@@ -21,7 +21,7 @@ export interface GenerateReadmeResult {
 }
 
 function checkbox(value: boolean): string {
-	return value ? "[x]" : "[ ]";
+	return value ? "✅" : "❌";
 }
 
 function hasNvidiaFeature(value: string | undefined): boolean {
@@ -29,21 +29,18 @@ function hasNvidiaFeature(value: string | undefined): boolean {
 }
 
 function escapeCell(value: string): string {
-	return value.replaceAll("|", "\\|");
+	return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
 function formatStore(entry: AllowlistEntry): string {
 	const appId = entry.stores.steam.appId;
-	return `[Steam](https://store.steampowered.com/app/${appId}/)`;
+	return `<a href="https://store.steampowered.com/app/${appId}/">Steam</a>`;
 }
 
 export function renderAllowlistTable(entries: AllowlistEntry[]): string {
 	if (entries.length === 0) {
 		return "No allowlist entries found.";
 	}
-
-	const header = "| Game | Store | DLSS | FSR | XeSS |";
-	const separator = "| --- | --- | --- | --- | --- |";
 
 	const rows = entries
 		.slice()
@@ -73,9 +70,17 @@ export function renderAllowlistTable(entries: AllowlistEntry[]): string {
 				checkbox(hasXess),
 			];
 		})
-		.map((cells) => `| ${cells.join(" | ")} |`);
+		.map(
+			(cells) =>
+				`<tr><td>${cells[0]}</td><td>${cells[1]}</td><td>${cells[2]}</td><td>${cells[3]}</td><td>${cells[4]}</td></tr>`,
+		);
 
-	return [header, separator, ...rows].join("\n");
+	return [
+		'<table width="100%">',
+		"<thead><tr><th>Game</th><th>Store</th><th>DLSS</th><th>FSR</th><th>XeSS</th></tr></thead>",
+		`<tbody>${rows.join("")}</tbody>`,
+		"</table>",
+	].join("\n");
 }
 
 export function compileReadmeTemplate(
