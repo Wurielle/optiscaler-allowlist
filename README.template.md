@@ -1,5 +1,9 @@
 # OptiScaler Allowlist
 
-## Supported Games
+## Safe Games
 
-{{ALLOWLIST_TABLE}}
+{{SAFE_GAMES_TABLE}}
+
+## Unsafe Games
+
+{{UNSAFE_GAMES_TABLE}}

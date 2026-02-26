@@ -7,7 +7,7 @@ import { writeJson } from "../utils/json.js";
 import { compileReadmeTemplate, generateReadme, renderAllowlistTable } from "./readme.js";
 
 describe("renderAllowlistTable", () => {
-	it("renders checkbox columns for provider features", () => {
+	it("renders emoji feature columns and steam links", () => {
 		const entries: AllowlistEntry[] = [
 			{
 				name: "AMID EVIL",
@@ -39,7 +39,7 @@ describe("renderAllowlistTable", () => {
 		expect(table).toContain('<table width="100%">');
 		expect(table).toContain("<th>Game</th><th>Store</th><th>DLSS</th><th>FSR</th><th>XeSS</th>");
 		expect(table).toContain(
-			'<tr><td>AMID EVIL</td><td><a href="https://store.steampowered.com/app/673130/">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>',
+			'<tr><td>AMID EVIL</td><td><a href="https://store.steampowered.com/app/673130/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>',
 		);
 	});
 });
@@ -47,11 +47,25 @@ describe("renderAllowlistTable", () => {
 describe("compileReadmeTemplate", () => {
 	it("injects generated table and timestamp into placeholders", () => {
 		const template =
-			"# Title\n\nGenerated: {{ALLOWLIST_LAST_UPDATED_UTC}}\n\n{{ALLOWLIST_TABLE}}\n";
-		const generated = compileReadmeTemplate(template, [], new Date("2026-02-26T00:00:00.000Z"));
+			"# Title\n\nGenerated: {{ALLOWLIST_LAST_UPDATED_UTC}}\n\n## Safe Games\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe Games\n{{UNSAFE_GAMES_TABLE}}\n";
+		const generated = compileReadmeTemplate(
+			template,
+			[],
+			[
+				{
+					name: "Game B",
+					steamAppId: null,
+					hasDlss: false,
+					hasFsr: true,
+					hasXess: false,
+				},
+			],
+			new Date("2026-02-26T00:00:00.000Z"),
+		);
 
 		expect(generated).toContain("Generated: 2026-02-26T00:00:00.000Z");
-		expect(generated).toContain("No allowlist entries found.");
+		expect(generated).toContain("No games found.");
+		expect(generated).toContain("<td>Game B</td>");
 	});
 });
 
@@ -61,20 +75,24 @@ describe("generateReadme", () => {
 	beforeEach(async () => {
 		tempDir = await node_fs.mkdtemp(node_path.join(node_os.tmpdir(), "readme-gen-test-"));
 		await node_fs.mkdir(node_path.join(tempDir, "allowlist"), { recursive: true });
+		await node_fs.mkdir(node_path.join(tempDir, "providers"), { recursive: true });
+		await node_fs.mkdir(node_path.join(tempDir, "stores"), { recursive: true });
 	});
 
 	afterEach(async () => {
 		await node_fs.rm(tempDir, { recursive: true, force: true });
 	});
 
-	it("writes README from template and allowlist files", async () => {
+	it("writes README with safe and unsafe sections", async () => {
 		const templatePath = node_path.join(tempDir, "README.template.md");
 		const outputPath = node_path.join(tempDir, "README.md");
 		const allowlistDir = node_path.join(tempDir, "allowlist");
+		const providersDir = node_path.join(tempDir, "providers");
+		const storeMappingsPath = node_path.join(tempDir, "stores", "by-game.json");
 
 		await node_fs.writeFile(
 			templatePath,
-			"# OptiScaler Allowlist\n\n{{ALLOWLIST_TABLE}}\n",
+			"# OptiScaler Allowlist\n\n## Safe Games\n\n{{SAFE_GAMES_TABLE}}\n\n## Unsafe Games\n\n{{UNSAFE_GAMES_TABLE}}\n",
 			"utf-8",
 		);
 		await writeJson(node_path.join(allowlistDir, "10.json"), {
@@ -91,16 +109,56 @@ describe("generateReadme", () => {
 				},
 			},
 		});
+		await writeJson(node_path.join(providersDir, "nvidia.json"), [
+			{
+				name: "Game A",
+				dlssMultiFrameGeneration: "Yes",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+			{
+				name: "Game B",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(providersDir, "amd.json"), [
+			{
+				name: "Game B",
+				fsrRedstone: false,
+				fsr3: true,
+				fsr2: false,
+				fsrFrameGenerationMl: false,
+			},
+		]);
+		await writeJson(node_path.join(providersDir, "intel.json"), []);
+		await writeJson(storeMappingsPath, {
+			"Game A": { steam: 10 },
+			"Game B": { steam: 20 },
+		});
 
 		const result = await generateReadme({
 			allowlistDir,
+			providersDir,
+			storeMappingsPath,
 			templatePath,
 			outputPath,
 			generatedAt: new Date("2026-02-26T12:00:00.000Z"),
 		});
 
-		expect(result.entryCount).toBe(1);
+		expect(result.safeCount).toBe(1);
+		expect(result.unsafeCount).toBe(1);
 		const readme = await node_fs.readFile(outputPath, "utf-8");
+		expect(readme).toContain("## Safe Games");
+		expect(readme).toContain("## Unsafe Games");
 		expect(readme).toContain("<td>Game A</td>");
+		expect(readme).toContain("<td>Game B</td>");
 	});
 });
