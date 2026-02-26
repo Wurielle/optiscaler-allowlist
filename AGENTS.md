@@ -1,169 +1,174 @@
-# AGENTS.md — OptiScaler Allowlist
+# AGENTS.md - OptiScaler Allowlist
 
-## Project Overview
+## Purpose
 
-Automated pipeline that maintains a compatibility list of games for [OptiScaler](https://github.com/cdozdil/OptiScaler). The system scrapes upscaler support tables from NVIDIA, AMD, and Intel webpages, matches game names to store IDs (Steam, Epic, Xbox), checks anti-cheat safety, and publishes a unified allowlist. Everything runs via GitHub Actions crons with AI-assisted page parsing.
+This file guides coding agents working in this repository.
+Follow existing code and tests first, then apply these rules.
 
-## Tech Stack
+## Project Summary
 
-- **Runtime:** Node.js >= 20 with ESM (`"type": "module"` in package.json)
-- **Language:** TypeScript (strict mode)
-- **Test runner:** Vitest
-- **Linter/Formatter:** Biome
-- **Package manager:** npm
-- **CI:** GitHub Actions
-- **Spec workflow:** OpenSpec (`openspec/` directory, `@fission-ai/openspec` CLI)
+This repo maintains OptiScaler compatibility data through a staged pipeline:
 
-## Build / Lint / Test Commands
+1. Scrape provider support lists (NVIDIA, AMD, Intel)
+2. Match game names to Steam app IDs
+3. Check anti-cheat safety
+4. Generate `data/allowlist.json`
+
+Key detail: AMD and Intel scraping is deterministic HTML parsing (not LLM extraction).
+
+## Stack
+
+- Runtime: Node.js >= 20, ESM mode
+- Language: TypeScript (strict)
+- Test runner: Vitest
+- Lint/format: Biome
+- Package manager: npm
+- CI: GitHub Actions
+
+## Command Reference
+
+## Install
 
 ```bash
-# Build
-npm run build              # tsc compiles src/ -> dist/
-
-# Lint & format
-npm run lint               # biome check src/
-npm run lint:fix           # biome check --write src/
-npm run format             # biome format --write src/
-
-# Test
-npm test                   # vitest run
-npm run test:watch         # vitest (watch mode)
-npx vitest run src/path/to/file.test.ts          # single test file
-npx vitest run -t "test name pattern"             # single test by name
-
-# Type check
-npm run typecheck          # tsc --noEmit
-
-# CI (runs all checks)
-npm run ci                 # typecheck && lint && test
+npm ci
 ```
 
-## Repository Structure
+## Build / Typecheck / Lint / Format
 
-```
-data/                       # Generated JSON data files (committed)
-  providers/
-    nvidia.json             # Scraped NVIDIA upscaler support table
-    amd.json                # Scraped AMD upscaler support table
-    intel.json              # Scraped Intel upscaler support table
-  stores/
-    steam.json              # Game name -> Steam appId mapping
-  anticheat/
-    steam.json              # Store ID -> anti-cheat safety boolean
-  allowlist.json            # Final unified allowlist
-
-src/
-  scrapers/                 # Web scrapers for provider pages
-  matchers/                 # Game name -> store ID resolution
-  checkers/                 # Anti-cheat safety verification
-  types/                    # Shared TypeScript types and schemas
-  utils/                    # Shared utilities
-  index.ts                  # Main entry / orchestrator
-
-.github/workflows/          # GitHub Actions
-  scrape.yml                # Daily cron: scrape provider pages
-  match.yml                 # Triggered: resolve store IDs for new entries
-  anticheat.yml             # Triggered: check anti-cheat for new entries
-
-openspec/                   # OpenSpec workflow artifacts
-  config.yaml
-  changes/                  # Active changes (spec-driven workflow)
+```bash
+npm run build       # tsc
+npm run typecheck   # tsc --noEmit
+npm run lint        # biome check src/
+npm run lint:fix    # biome check --write src/
+npm run format      # biome format --write src/
+npm run ci          # typecheck + lint + test
 ```
 
-## Code Style
+## Tests
 
-### TypeScript
+```bash
+npm test
+npm run test:watch
 
-- **Strict mode** always (`"strict": true` in tsconfig)
-- **ESM only** — use `import`/`export`, never `require()`
-- Prefer `interface` over `type` for object shapes; use `type` for unions/intersections
-- Prefer `const` over `let`; never use `var`
-- Use `unknown` over `any`; if `any` is unavoidable, add `// eslint-disable-next-line` with justification
-- Explicit return types on exported functions; inferred types for local/private functions
+# Single test file
+npx vitest run src/scrapers/amd.test.ts
 
-### Naming
+# Single test by test name pattern
+npx vitest run -t "should throw ScraperError"
 
-| Element          | Convention        | Example                    |
-|------------------|-------------------|----------------------------|
-| Files/dirs       | kebab-case        | `steam-matcher.ts`         |
-| Variables/funcs  | camelCase         | `fetchProviderData`        |
-| Types/interfaces | PascalCase        | `GameEntry`, `ProviderData`|
-| Constants        | UPPER_SNAKE_CASE  | `MAX_RETRY_COUNT`          |
-| Enums            | PascalCase        | `Provider.Nvidia`          |
-| JSON data keys   | camelCase         | `"appId"`, `"gameName"`    |
-| Test files       | `*.test.ts`       | `steam-matcher.test.ts`    |
-
-### Imports
-
-- Group imports in this order, separated by blank lines:
-  1. Node built-ins (`node:fs`, `node:path`)
-  2. External packages
-  3. Internal absolute paths (`@/`)
-  4. Relative imports
-- Use `node:` prefix for all Node.js built-in imports
-- Prefer named exports over default exports
-
-### Error Handling
-
-- Use typed custom errors extending `Error` (e.g., `ScraperError`, `MatcherError`)
-- Never swallow errors silently — always log or rethrow
-- Use `Result<T, E>` pattern for expected failures (scrape misses, API 404s)
-- Use `try/catch` only for truly exceptional cases (network down, parse crash)
-- All scraper/matcher/checker functions must handle rate limits and retries
-
-### Data Files (JSON)
-
-- All generated data lives in `data/` and is committed to the repo
-- JSON files use 2-space indentation and trailing newline
-- Provider JSON schema: array of objects with `gameName`, provider-specific fields (upscaler version, MFG support, etc.)
-- Store mapping schema: `{ [gameName: string]: { appId: number | null } }`
-- Anti-cheat schema: `{ [appId: string]: { safe: boolean, source: string, checkedAt: string } }`
-- The final `allowlist.json` is derived — never edit manually
-
-### Testing
-
-- Co-locate test files next to source: `steam-matcher.ts` / `steam-matcher.test.ts`
-- Use `describe` blocks grouped by function name
-- Test names follow pattern: `"should <expected behavior> when <condition>"`
-- Mock external HTTP calls; never hit real APIs in tests
-- Fixtures go in `__fixtures__/` directories next to test files
-
-### Git & Commits
-
-- Commit messages: sentence-case, imperative mood, start with verb ("Add ...", "Fix ...", "Update ...")
-- No conventional commit prefixes (`feat:`, `fix:`, etc.)
-- Atomic commits — one logical change per commit
-- Never commit `.env` files or API keys
-- Data file changes from automation get their own commits
-
-### GitHub Actions
-
-- Cron workflows run daily; use concurrency groups to prevent overlap
-- Triggered workflows fire on `data/providers/**` or `data/stores/**` changes
-- All workflows pin action versions to full SHA
-- Secrets for AI API keys stored in GitHub repository secrets
-- Each workflow step should have a descriptive `name:`
-
-## OpenSpec Workflow
-
-This project uses OpenSpec for structured change management. Changes follow the artifact sequence:
-
-```
-Explore -> Proposal -> Specs -> Design -> Tasks -> Apply -> Verify -> Archive
+# Single test in one file by name
+npx vitest run src/scrapers/intel.test.ts -t "parsed game count drops"
 ```
 
-- Run `openspec status` to check current state
-- Active changes live in `openspec/changes/<change-name>/`
-- Use the `/opsx-*` slash commands in OpenCode to drive the workflow
-- Never manually edit OpenSpec artifacts after creation — use the CLI/commands
-- Archived changes go to `openspec/changes/archive/YYYY-MM-DD-<name>/`
+## Pipeline Commands
 
-## Key Domain Concepts
+Main CLI entry:
 
-- **Provider:** GPU vendor (NVIDIA, AMD, Intel) that publishes upscaler-compatible game lists
-- **Upscaler:** Technology like DLSS (NVIDIA), FSR (AMD), XeSS (Intel)
-- **MFG:** Multi-Frame Generation — an advanced upscaler feature (boolean per game)
-- **Store:** Game distribution platform (Steam, Epic Games Store, Xbox)
-- **AppId:** Platform-specific game identifier (e.g., Steam app ID is numeric)
-- **Anti-cheat safe:** Whether a game's anti-cheat system allows OptiScaler injection
-- **Allowlist:** The final curated list of games safe to use with OptiScaler
+```bash
+npx tsx src/index.ts <command> [--limit N]
+```
+
+Commands:
+
+- `scrape` - scrape provider data into `data/providers/*.json`
+- `match` - resolve names to Steam app IDs
+- `check` - anti-cheat checking for unresolved entries
+- `generate` - build unified allowlist
+- `pipeline` - run all stages in sequence
+
+Examples:
+
+```bash
+npx tsx src/index.ts scrape
+npx tsx src/index.ts match --limit 25
+npx tsx src/index.ts pipeline --limit 10
+```
+
+## Code Style and Conventions
+
+## TypeScript
+
+- Keep strict typing; avoid `any`.
+- Exported functions should have explicit return types.
+- Prefer `interface` for object contracts and `type` for unions/mapped types.
+- Use `const` by default; use `let` only when reassignment is required.
+- Use ESM imports/exports only.
+
+## Imports
+
+- Use `node:` prefixes for built-ins (`node:path`, `node:fs/promises`).
+- Keep imports grouped in this order:
+  1) node built-ins
+  2) third-party packages
+  3) internal relative modules
+- Let Biome enforce import ordering; run lint fix after edits.
+
+## Naming
+
+- Files: generally lower-case; existing pattern is folder-based with simple names (`amd.ts`, `intel.ts`, `index.ts`).
+- Variables/functions: `camelCase`
+- Types/interfaces/classes: `PascalCase`
+- Constants: `UPPER_SNAKE_CASE`
+- Test files: `*.test.ts` beside source files
+
+## Formatting
+
+- Follow Biome output exactly.
+- Keep comments sparse and high-value.
+- Prefer short, focused functions over long procedural blocks.
+
+## Error Handling
+
+- Use domain errors from `src/types/errors.ts`:
+  - `ScraperError`
+  - `MatcherError`
+  - `CheckerError`
+- Throw specific errors with actionable messages.
+- Do not silently swallow exceptions.
+- For expected "layout changed" scraper failures, throw `ScraperError` with provider-specific context.
+
+## Scraper Rules
+
+- Prefer deterministic parsing for provider pages when possible.
+- Validate parsed output with Zod schemas from `src/types/providers.ts`.
+- Preserve defensive guards (e.g., missing heading/table checks, abnormal count drop checks).
+- If structure assumptions change, update tests first or alongside code.
+
+## Testing Guidance
+
+- Mock network calls via `globalThis.fetch = vi.fn(...)`.
+- Do not call real external services in unit tests.
+- Cover:
+  - success parsing
+  - HTTP non-OK handling
+  - layout-change failures
+  - sanity guards (suspicious drops, empty extraction)
+
+## Data and Schemas
+
+- Generated data is committed under `data/`.
+- Do not hand-edit generated JSON unless task explicitly requires it.
+- Current provider records use `name` (not `gameName`).
+- Preserve schema compatibility in `src/types/*.ts` and validate before write.
+
+## Git and CI Expectations
+
+- Keep commits atomic and descriptive.
+- Do not commit secrets or `.env` files.
+- Scrape workflow opens issues on scrape failure; keep that behavior intact.
+- Workflow files are pinned-action style; do not casually unpin versions.
+
+## Cursor / Copilot Rule Files
+
+Checked paths:
+
+- `.cursor/rules/**/*`
+- `.cursorrules`
+- `.github/copilot-instructions.md`
+
+No Cursor or Copilot rule files currently exist in this repository.
+
+## OpenSpec Notes
+
+OpenSpec artifacts exist under `openspec/`.
+If a task is OpenSpec-driven, keep changes aligned with active artifacts.
