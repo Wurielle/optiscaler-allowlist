@@ -107,41 +107,41 @@
 <tr><td>Bellwright</td><td><a href="https://store.steampowered.com/app/1812450/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Bellwright*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Beyond Enemy Lines 2</td><td><a href="https://store.steampowered.com/app/1049990/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Beyond Hanwell</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Beyond Hanwell</td><td><a href="https://store.steampowered.com/app/2565550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Black Hawk Down</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Black Myth: Wukong</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Black Myth: Wukong</td><td><a href="https://store.steampowered.com/app/2358720/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Black Myth: Wukong (added FSR 3.1)</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>BLACKTAIL</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>BLACKTAIL</td><td><a href="https://store.steampowered.com/app/1532690/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Blade &amp; Soul Heroes</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Blades of Fire</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
-<tr><td>Bleak Faith: Forsaken</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Bleak Faith: Forsaken</td><td><a href="https://store.steampowered.com/app/1173220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Bleak Haven</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Blind Fate: Edo no Yami</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Blood Bowl 3</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Blind Fate: Edo no Yami</td><td><a href="https://store.steampowered.com/app/1294880/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Blood Bowl 3</td><td><a href="https://store.steampowered.com/app/1016950/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>BLOODKILL: Goreblast Overkill</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Bodies of Water VR</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Bodycam</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Borderlands 4</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Bodies of Water VR</td><td><a href="https://store.steampowered.com/app/1639480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Bodycam</td><td><a href="https://store.steampowered.com/app/2406770/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Borderlands 4</td><td><a href="https://store.steampowered.com/app/1285190/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Borderlands® 4</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Boti: Byteland Overclocked</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Boti: Byteland Overclocked</td><td><a href="https://store.steampowered.com/app/2161050/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Boundary</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Brickadia</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Bright Memory</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Bright Memory: Infinite</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Broken Pieces</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Brothers: A Tale of Two Sons Remake</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Brickadia</td><td><a href="https://store.steampowered.com/app/2199420/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Bright Memory</td><td><a href="https://store.steampowered.com/app/955050/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Bright Memory: Infinite</td><td><a href="https://store.steampowered.com/app/1178830/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Broken Pieces</td><td><a href="https://store.steampowered.com/app/1293730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Brothers: A Tale of Two Sons Remake</td><td><a href="https://store.steampowered.com/app/2153350/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Bulletstorm VR</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Bum: Revenge</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Bus Simulator 21</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Bum: Revenge</td><td><a href="https://store.steampowered.com/app/3702930/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Bus Simulator 21</td><td><a href="https://store.steampowered.com/app/976590/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Bytebond</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Call of Duty Modern Warfare II</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Call of Duty: Black Ops 6</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Call of Duty: Black Ops 7</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Call of Duty: Black Ops Cold War</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Call of Duty: Modern Warfare</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Call of Duty: Modern Warfare II</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Call of Duty: Modern Warfare III</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Call of Duty: Vanguard</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Call of Duty: Black Ops 6</td><td><a href="https://store.steampowered.com/app/2933620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
+<tr><td>Call of Duty: Black Ops 7</td><td><a href="https://store.steampowered.com/app/3606480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
+<tr><td>Call of Duty: Black Ops Cold War</td><td><a href="https://store.steampowered.com/app/1985810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Call of Duty: Modern Warfare</td><td><a href="https://store.steampowered.com/app/2000950/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Call of Duty: Modern Warfare II</td><td><a href="https://store.steampowered.com/app/10180/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Call of Duty: Modern Warfare III</td><td><a href="https://store.steampowered.com/app/3595270/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
+<tr><td>Call of Duty: Vanguard</td><td><a href="https://store.steampowered.com/app/1985820/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone (2020)</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone (2022)</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone 2.0</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
