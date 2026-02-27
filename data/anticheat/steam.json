@@ -34,6 +34,11 @@
     "source": "ai",
     "checkedAt": "2026-02-26T10:10:18.035Z"
   },
+  "1049990": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-27T03:54:00.318Z"
+  },
   "1086940": {
     "safe": false,
     "source": "ai",
@@ -43,6 +48,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:35.895Z"
+  },
+  "1145630": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-27T03:53:57.920Z"
   },
   "1182900": {
     "safe": false,
@@ -68,6 +78,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T10:10:15.639Z"
+  },
+  "1309620": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-27T03:53:55.680Z"
   },
   "1310410": {
     "safe": false,
@@ -118,6 +133,11 @@
     "safe": false,
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-26T10:10:18.035Z"
+  },
+  "1812450": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-02-27T03:53:58.823Z"
   },
   "1843540": {
     "safe": false,
