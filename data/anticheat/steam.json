@@ -14,6 +14,16 @@
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-27T21:31:19.254Z"
   },
+  "428660": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:01.164Z"
+  },
+  "548430": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T03:59:55.490Z"
+  },
   "619500": {
     "safe": true,
     "source": "ai",
@@ -38,6 +48,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:25.690Z"
+  },
+  "782330": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:11.576Z"
   },
   "805550": {
     "safe": false,
@@ -84,6 +99,11 @@
     "source": "ai",
     "checkedAt": "2026-02-27T20:11:19.204Z"
   },
+  "1038250": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:08.327Z"
+  },
   "1049990": {
     "safe": false,
     "source": "ai",
@@ -113,6 +133,16 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:08.428Z"
+  },
+  "1154670": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:04.870Z"
+  },
+  "1172710": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-02-28T04:00:19.184Z"
   },
   "1173220": {
     "safe": false,
@@ -144,10 +174,20 @@
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-26T14:09:38.400Z"
   },
+  "1246490": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:09.958Z"
+  },
   "1252330": {
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:59.451Z"
+  },
+  "1266700": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:04.014Z"
   },
   "1269370": {
     "safe": false,
@@ -198,6 +238,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:05.408Z"
+  },
+  "1345890": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T03:59:59.616Z"
   },
   "1364290": {
     "safe": false,
@@ -258,6 +303,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:02.403Z"
+  },
+  "1619350": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T03:59:57.473Z"
   },
   "1639480": {
     "safe": true,
@@ -334,10 +384,25 @@
     "source": "ai",
     "checkedAt": "2026-02-26T10:10:04.542Z"
   },
+  "1845910": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:13.489Z"
+  },
+  "1849250": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-02-28T04:00:22.231Z"
+  },
   "1850570": {
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:57.739Z"
+  },
+  "1863430": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:15.596Z"
   },
   "1901130": {
     "safe": false,
@@ -384,6 +449,11 @@
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-28T00:46:39.431Z"
   },
+  "2054970": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:14.503Z"
+  },
   "2062030": {
     "safe": true,
     "source": "ai",
@@ -404,6 +474,11 @@
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:04.018Z"
   },
+  "2084450": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:06.795Z"
+  },
   "2096600": {
     "safe": false,
     "source": "ai",
@@ -413,6 +488,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:21.307Z"
+  },
+  "2097490": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:03.194Z"
   },
   "2101960": {
     "safe": false,
@@ -454,6 +534,11 @@
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:27.727Z"
   },
+  "2344520": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-02-28T04:00:04.870Z"
+  },
   "2353250": {
     "safe": false,
     "source": "ai",
@@ -468,6 +553,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:15.885Z"
+  },
+  "2384580": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:20.137Z"
   },
   "2399830": {
     "safe": false,
@@ -493,6 +583,16 @@
     "safe": true,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:22.123Z"
+  },
+  "2497900": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:10.752Z"
+  },
+  "2507950": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:02.362Z"
   },
   "2527390": {
     "safe": false,
@@ -529,6 +629,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:53.130Z"
   },
+  "2682580": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-02-28T04:00:18.334Z"
+  },
   "2695430": {
     "safe": false,
     "source": "ai",
@@ -558,6 +663,16 @@
     "safe": false,
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-27T20:11:33.320Z"
+  },
+  "3008130": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:19.184Z"
+  },
+  "3017860": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:12.522Z"
   },
   "3030250": {
     "safe": false,
@@ -614,6 +729,11 @@
     "source": "ai",
     "checkedAt": "2026-02-27T21:30:59.195Z"
   },
+  "3484300": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:16.970Z"
+  },
   "3582590": {
     "safe": false,
     "source": "ai",
@@ -638,6 +758,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:14.421Z"
+  },
+  "3950020": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-02-28T04:00:18.334Z"
   },
   "4124950": {
     "safe": false,
