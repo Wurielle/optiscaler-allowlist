@@ -132,7 +132,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "NV, T",
     "dlaa": "Yes",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Alien: Rogue Incursion - Part One: Evolved Edition",
@@ -555,7 +555,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "BLACKTAIL",
@@ -1077,7 +1077,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "Yes",
     "dlaa": "Yes",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "cyubeVR",
@@ -1212,7 +1212,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "NV, T",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "DEADCAM | ANALOG • SURVIVAL • HORROR",
@@ -1248,7 +1248,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "NV, T",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "DeathSprint 66",
@@ -1374,7 +1374,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Destroy All Humans! 2 - Reprobed",
@@ -1491,7 +1491,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "",
     "dlaa": "Yes",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Dragon Age: The Veilguard",
@@ -1932,7 +1932,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "Yes",
     "dlaa": "Yes",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "F1 Manager 2023",
@@ -2013,7 +2013,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "Yes",
     "dlaa": "Yes",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Fera: The Sundered Tribes",
@@ -2544,7 +2544,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Half Sword",
@@ -2850,7 +2850,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "NV, T",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "INDIKA",
@@ -2988,6 +2988,15 @@
     "rayTracing": ""
   },
   {
+    "name": "John Carpenter's Toxic Commando Demo",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "Yes",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
     "name": "Jotunnslayer: Hordes of Hel",
     "dlssMultiFrameGeneration": "",
     "dlssFrameGeneration": "",
@@ -3048,7 +3057,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "JX3 Online RTX Version",
@@ -3660,7 +3669,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Monster Energy Supercross 25 - The Official Video Game",
@@ -4032,6 +4041,15 @@
     "rayTracing": ""
   },
   {
+    "name": "NORSE: Oath of Blood",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
     "name": "Nowhere Near",
     "dlssMultiFrameGeneration": "NV",
     "dlssFrameGeneration": "NV, U",
@@ -4371,7 +4389,7 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "Yes",
     "dlaa": "NV, T",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Portal: Prelude RTX",
@@ -4380,7 +4398,7 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Postal 4: No Regerts",
@@ -4479,7 +4497,7 @@
     "dlssSuperResolution": "",
     "dlssRayReconstruction": "",
     "dlaa": "",
-    "rayTracing": "Full RT"
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Raji: An Ancient Epic",
@@ -4669,6 +4687,15 @@
     "dlssRayReconstruction": "",
     "dlaa": "",
     "rayTracing": "Yes"
+  },
+  {
+    "name": "Resident Evil Requiem",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "Yes",
+    "dlaa": "Yes",
+    "rayTracing": "Path Tracing"
   },
   {
     "name": "Resident Evil Village",
@@ -5406,6 +5433,15 @@
     "dlssSuperResolution": "Yes",
     "dlssRayReconstruction": "",
     "dlaa": "",
+    "rayTracing": ""
+  },
+  {
+    "name": "Star Trek: Voyager",
+    "dlssMultiFrameGeneration": "Yes",
+    "dlssFrameGeneration": "Yes",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "Yes",
     "rayTracing": ""
   },
   {
