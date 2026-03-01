@@ -1,0 +1,18 @@
+{
+  "name": "Hydroneer",
+  "stores": {
+    "steam": {
+      "appId": 1106840
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Firmament",
+  "stores": {
+    "steam": {
+      "appId": 754890
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

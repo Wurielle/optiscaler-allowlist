@@ -1,0 +1,18 @@
+{
+  "name": "MAVRIX By Matt Jones",
+  "stores": {
+    "steam": {
+      "appId": 2926900
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

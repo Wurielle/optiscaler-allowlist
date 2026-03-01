@@ -1,0 +1,22 @@
+{
+  "name": "Finnish Cottage Simulator",
+  "stores": {
+    "steam": {
+      "appId": 1723780
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

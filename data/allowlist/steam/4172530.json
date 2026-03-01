@@ -1,0 +1,18 @@
+{
+  "name": "Legend of Ymir",
+  "stores": {
+    "steam": {
+      "appId": 4172530
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}
