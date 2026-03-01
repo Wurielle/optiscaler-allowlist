@@ -129,6 +129,11 @@
     "source": "ai",
     "checkedAt": "2026-02-26T10:10:09.017Z"
   },
+  "680420": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:21.753Z"
+  },
   "703680": {
     "safe": false,
     "source": "ai",
@@ -249,6 +254,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T21:29:42.339Z"
   },
+  "1013140": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:18.659Z"
+  },
   "1013910": {
     "safe": false,
     "source": "ai",
@@ -268,6 +278,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T03:54:00.318Z"
+  },
+  "1056640": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-01T15:30:32.404Z"
   },
   "1063730": {
     "safe": false,
@@ -379,6 +394,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T04:00:04.870Z"
   },
+  "1160220": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:26.707Z"
+  },
   "1170950": {
     "safe": false,
     "source": "ai",
@@ -469,6 +489,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:59.451Z"
   },
+  "1260320": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:28.951Z"
+  },
   "1266700": {
     "safe": false,
     "source": "ai",
@@ -484,6 +509,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T18:31:53.251Z"
   },
+  "1272080": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:31.264Z"
+  },
   "1273560": {
     "safe": false,
     "source": "ai",
@@ -498,6 +528,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T10:10:15.639Z"
+  },
+  "1293540": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:20.202Z"
   },
   "1293730": {
     "safe": false,
@@ -659,6 +694,11 @@
     "source": "ai",
     "checkedAt": "2026-03-01T04:08:49.550Z"
   },
+  "1458140": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:23.363Z"
+  },
   "1460650": {
     "safe": false,
     "source": "ai",
@@ -784,6 +824,11 @@
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-03-01T00:58:35.899Z"
   },
+  "1566690": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-01T15:30:21.753Z"
+  },
   "1572470": {
     "safe": false,
     "source": "ai",
@@ -828,6 +873,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T18:31:34.217Z"
+  },
+  "1623730": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:24.693Z"
   },
   "1625960": {
     "safe": false,
@@ -1119,6 +1169,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T12:32:29.568Z"
   },
+  "1932190": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:16.529Z"
+  },
   "1939970": {
     "safe": false,
     "source": "ai",
@@ -1173,6 +1228,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:55.800Z"
+  },
+  "1995520": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-01T15:30:31.264Z"
   },
   "2000950": {
     "safe": false,
@@ -1394,6 +1454,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T15:29:53.530Z"
   },
+  "2328760": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:32.404Z"
+  },
   "2336440": {
     "safe": false,
     "source": "ai",
@@ -1508,6 +1573,11 @@
     "safe": true,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:22.123Z"
+  },
+  "2475010": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:33.108Z"
   },
   "2479810": {
     "safe": false,
@@ -1644,10 +1714,25 @@
     "source": "ai",
     "checkedAt": "2026-02-28T15:29:50.000Z"
   },
+  "2688950": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:34.707Z"
+  },
+  "2694490": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:29.619Z"
+  },
   "2695430": {
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T10:09:59.615Z"
+  },
+  "2695940": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:26.118Z"
   },
   "2727670": {
     "safe": false,
@@ -1678,6 +1763,11 @@
     "safe": true,
     "source": "ai",
     "checkedAt": "2026-02-28T06:32:03.863Z"
+  },
+  "2832220": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:27.444Z"
   },
   "2840770": {
     "safe": false,
@@ -1928,6 +2018,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T04:00:18.334Z"
+  },
+  "4021890": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-01T15:30:34.073Z"
   },
   "4124950": {
     "safe": false,
