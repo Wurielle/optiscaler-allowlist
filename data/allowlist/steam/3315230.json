@@ -1,0 +1,18 @@
+{
+  "name": "Rocket Squad: Infinity",
+  "stores": {
+    "steam": {
+      "appId": 3315230
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

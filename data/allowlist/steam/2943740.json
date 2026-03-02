@@ -1,0 +1,28 @@
+{
+  "name": "Prologue: Go Wayback!",
+  "stores": {
+    "steam": {
+      "appId": 2943740
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

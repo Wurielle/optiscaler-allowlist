@@ -1,0 +1,22 @@
+{
+  "name": "Pizza Bandit",
+  "stores": {
+    "steam": {
+      "appId": 2475010
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

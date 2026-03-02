@@ -1,0 +1,28 @@
+{
+  "name": "Riven",
+  "stores": {
+    "steam": {
+      "appId": 1712350
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": "Yes"
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": false,
+      "fsr2": true,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}
