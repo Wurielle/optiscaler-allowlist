@@ -11,6 +11,11 @@ vi.mock("./anticheat.js", () => ({
 	resetCache: vi.fn(),
 }));
 
+// Mock the steam checker module
+vi.mock("./steam.js", () => ({
+	resetSteamCache: vi.fn(),
+}));
+
 import { checkAntiCheat } from "./anticheat.js";
 
 const mockCheck = vi.mocked(checkAntiCheat);

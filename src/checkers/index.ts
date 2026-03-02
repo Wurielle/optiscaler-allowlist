@@ -4,6 +4,7 @@ import type { AntiCheatData } from "../types/anticheat.js";
 import type { StoreMapping } from "../types/stores.js";
 import { readJson, writeJson } from "../utils/json.js";
 import { checkAntiCheat, resetCache } from "./anticheat.js";
+import { resetSteamCache } from "./steam.js";
 
 const DEFAULT_STORES_DIR = node_path.resolve("data/stores");
 const DEFAULT_ANTICHEAT_DIR = node_path.resolve("data/anticheat");
@@ -78,8 +79,9 @@ export async function checkAll(options?: CheckerOptions): Promise<CheckResult> {
 	let unsafe = 0;
 	let skipped = 0;
 
-	// Reset AWACY cache for fresh data each run
+	// Reset caches for fresh data each run
 	resetCache();
+	resetSteamCache();
 
 	for (const entry of newEntries) {
 		const result = await checkAntiCheat(entry.appId, entry.game);
