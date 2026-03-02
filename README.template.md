@@ -4,6 +4,14 @@
 
 {{SAFE_GAMES_TABLE}}
 
-## Unsafe/Unsupported Games
+## Unsafe Games
 
 {{UNSAFE_GAMES_TABLE}}
+
+## Not Checked Games
+
+{{NOT_CHECKED_GAMES_TABLE}}
+
+## Unsupported Games
+
+{{UNSUPPORTED_GAMES_TABLE}}

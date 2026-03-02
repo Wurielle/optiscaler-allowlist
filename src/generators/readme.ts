@@ -3,6 +3,8 @@ import node_path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { AllowlistEntry } from "../types/allowlist.js";
 import { allowlistEntrySchema } from "../types/allowlist.js";
+import type { AntiCheatData } from "../types/anticheat.js";
+import { antiCheatDataSchema } from "../types/anticheat.js";
 import {
 	amdGameArraySchema,
 	intelGameArraySchema,
@@ -13,6 +15,7 @@ import { storeMappingSchema } from "../types/stores.js";
 const DEFAULT_ALLOWLIST_DIR = node_path.resolve("data", "allowlist", "steam");
 const DEFAULT_PROVIDERS_DIR = node_path.resolve("data", "providers");
 const DEFAULT_STORE_MAPPINGS_PATH = node_path.resolve("data", "stores", "by-game.json");
+const DEFAULT_ANTICHEAT_PATH = node_path.resolve("data", "anticheat", "steam.json");
 const DEFAULT_TEMPLATE_PATH = node_path.resolve("README.template.md");
 const DEFAULT_OUTPUT_PATH = node_path.resolve("README.md");
 
@@ -28,6 +31,7 @@ export interface GenerateReadmeOptions {
 	allowlistDir?: string;
 	providersDir?: string;
 	storeMappingsPath?: string;
+	anticheatPath?: string;
 	templatePath?: string;
 	outputPath?: string;
 	generatedAt?: Date;
@@ -36,6 +40,8 @@ export interface GenerateReadmeOptions {
 export interface GenerateReadmeResult {
 	safeCount: number;
 	unsafeCount: number;
+	notCheckedCount: number;
+	unsupportedCount: number;
 	outputPath: string;
 }
 
@@ -201,12 +207,16 @@ export function compileReadmeTemplate(
 	template: string,
 	safeEntries: AllowlistEntry[],
 	unsafeRows: ReadmeTableRow[],
+	notCheckedRows: ReadmeTableRow[],
+	unsupportedRows: ReadmeTableRow[],
 	generatedAt: Date,
 ): string {
 	return template
 		.replaceAll("{{ALLOWLIST_TABLE}}", renderAllowlistTable(safeEntries))
 		.replaceAll("{{SAFE_GAMES_TABLE}}", renderAllowlistTable(safeEntries))
 		.replaceAll("{{UNSAFE_GAMES_TABLE}}", renderGamesTable(unsafeRows))
+		.replaceAll("{{NOT_CHECKED_GAMES_TABLE}}", renderGamesTable(notCheckedRows))
+		.replaceAll("{{UNSUPPORTED_GAMES_TABLE}}", renderGamesTable(unsupportedRows))
 		.replaceAll("{{ALLOWLIST_LAST_UPDATED_UTC}}", generatedAt.toISOString());
 }
 
@@ -236,31 +246,76 @@ export async function generateReadme(
 	const allowlistDir = options?.allowlistDir ?? DEFAULT_ALLOWLIST_DIR;
 	const providersDir = options?.providersDir ?? DEFAULT_PROVIDERS_DIR;
 	const storeMappingsPath = options?.storeMappingsPath ?? DEFAULT_STORE_MAPPINGS_PATH;
+	const anticheatPath = options?.anticheatPath ?? DEFAULT_ANTICHEAT_PATH;
 	const templatePath = options?.templatePath ?? DEFAULT_TEMPLATE_PATH;
 	const outputPath = options?.outputPath ?? DEFAULT_OUTPUT_PATH;
 	const generatedAt = options?.generatedAt ?? new Date();
 
-	const [template, safeEntries, allRows] = await Promise.all([
+	const [template, safeEntries, allRows, anticheatData] = await Promise.all([
 		node_fs.readFile(templatePath, "utf-8"),
 		loadAllowlistEntries(allowlistDir),
 		loadAllGameRows(providersDir, storeMappingsPath),
+		tryReadJsonFile(anticheatPath, (value) => antiCheatDataSchema.parse(value), {}),
 	]);
 
 	const safeGameNames = new Set(safeEntries.map((entry) => entry.name));
-	const unsafeRows = allRows
-		.filter((row) => !safeGameNames.has(row.name))
-		.sort((a, b) => a.name.localeCompare(b.name));
 
-	const readme = compileReadmeTemplate(template, safeEntries, unsafeRows, generatedAt);
+	const unsafeRows: ReadmeTableRow[] = [];
+	const notCheckedRows: ReadmeTableRow[] = [];
+	const unsupportedRows: ReadmeTableRow[] = [];
+
+	for (const row of allRows) {
+		if (safeGameNames.has(row.name)) {
+			continue;
+		}
+
+		// Games with no upscaling support from any provider
+		if (!row.hasDlss && !row.hasFsr && !row.hasXess) {
+			unsupportedRows.push(row);
+			continue;
+		}
+
+		// Games with a Steam app ID can be classified by anti-cheat status
+		if (row.steamAppId !== null) {
+			const acResult = anticheatData[row.steamAppId.toString()];
+			if (acResult && !acResult.safe) {
+				unsafeRows.push(row);
+				continue;
+			}
+		}
+
+		// Not in anti-cheat data, or no Steam app ID to check against
+		notCheckedRows.push(row);
+	}
+
+	unsafeRows.sort((a, b) => a.name.localeCompare(b.name));
+	notCheckedRows.sort((a, b) => a.name.localeCompare(b.name));
+	unsupportedRows.sort((a, b) => a.name.localeCompare(b.name));
+
+	const readme = compileReadmeTemplate(
+		template,
+		safeEntries,
+		unsafeRows,
+		notCheckedRows,
+		unsupportedRows,
+		generatedAt,
+	);
 	await node_fs.writeFile(outputPath, `${readme.trimEnd()}\n`, "utf-8");
 
-	return { safeCount: safeEntries.length, unsafeCount: unsafeRows.length, outputPath };
+	return {
+		safeCount: safeEntries.length,
+		unsafeCount: unsafeRows.length,
+		notCheckedCount: notCheckedRows.length,
+		unsupportedCount: unsupportedRows.length,
+		outputPath,
+	};
 }
 
 async function main(): Promise<void> {
 	const result = await generateReadme();
+	const plural = (n: number): string => (n === 1 ? "y" : "ies");
 	console.log(
-		`Generated README with ${result.safeCount} safe entr${result.safeCount === 1 ? "y" : "ies"} and ${result.unsafeCount} unsafe entr${result.unsafeCount === 1 ? "y" : "ies"}.`,
+		`Generated README with ${result.safeCount} safe entr${plural(result.safeCount)}, ${result.unsafeCount} unsafe entr${plural(result.unsafeCount)}, ${result.notCheckedCount} not-checked entr${plural(result.notCheckedCount)}, and ${result.unsupportedCount} unsupported entr${plural(result.unsupportedCount)}.`,
 	);
 }
 
