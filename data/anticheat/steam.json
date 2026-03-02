@@ -14,6 +14,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T15:30:05.070Z"
   },
+  "24880": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:35.465Z"
+  },
   "39210": {
     "safe": false,
     "source": "ai",
@@ -23,6 +28,11 @@
     "safe": false,
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-02-26T10:09:50.535Z"
+  },
+  "252490": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-02T00:52:35.465Z"
   },
   "261550": {
     "safe": false,
@@ -104,10 +114,20 @@
     "source": "ai",
     "checkedAt": "2026-02-28T04:00:01.164Z"
   },
+  "513710": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-02T00:52:42.683Z"
+  },
   "515960": {
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-03-01T06:33:12.277Z"
+  },
+  "526870": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:40.879Z"
   },
   "548430": {
     "safe": false,
@@ -154,6 +174,11 @@
     "source": "ai",
     "checkedAt": "2026-03-01T15:30:21.753Z"
   },
+  "695330": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:43.598Z"
+  },
   "703680": {
     "safe": false,
     "source": "ai",
@@ -178,6 +203,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-03-01T18:31:43.141Z"
+  },
+  "742420": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:37.315Z"
   },
   "747660": {
     "safe": false,
@@ -233,6 +263,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-28T21:29:40.602Z"
+  },
+  "872670": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:41.475Z"
   },
   "874450": {
     "safe": false,
@@ -409,6 +444,11 @@
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:35.895Z"
   },
+  "1119840": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:39.257Z"
+  },
   "1128920": {
     "safe": false,
     "source": "ai",
@@ -504,6 +544,11 @@
     "source": "ai",
     "checkedAt": "2026-03-01T18:31:40.397Z"
   },
+  "1192810": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:32.456Z"
+  },
   "1196590": {
     "safe": false,
     "source": "ai",
@@ -533,6 +578,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-03-01T09:31:20.325Z"
+  },
+  "1227690": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:45.120Z"
   },
   "1234430": {
     "safe": false,
@@ -989,6 +1039,11 @@
     "source": "ai",
     "checkedAt": "2026-02-27T21:31:02.403Z"
   },
+  "1599660": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:36.433Z"
+  },
   "1601580": {
     "safe": false,
     "source": "ai",
@@ -1104,6 +1159,11 @@
     "source": "ai",
     "checkedAt": "2026-02-28T00:46:48.132Z"
   },
+  "1702010": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:46.600Z"
+  },
   "1702590": {
     "safe": false,
     "source": "ai",
@@ -1143,6 +1203,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-03-01T04:09:10.753Z"
+  },
+  "1743050": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:29.543Z"
   },
   "1755240": {
     "safe": false,
@@ -1834,6 +1899,11 @@
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-03-01T09:31:18.632Z"
   },
+  "2582140": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:42.683Z"
+  },
   "2591280": {
     "safe": false,
     "source": "ai",
@@ -1973,6 +2043,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-26T14:09:23.782Z"
+  },
+  "2864560": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:34.617Z"
   },
   "2909400": {
     "safe": false,
@@ -2144,6 +2219,11 @@
     "source": "ai",
     "checkedAt": "2026-03-01T09:31:26.459Z"
   },
+  "3315230": {
+    "safe": true,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:30.797Z"
+  },
   "3352690": {
     "safe": true,
     "source": "ai",
@@ -2208,6 +2288,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-02-27T20:11:30.332Z"
+  },
+  "3743240": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-02T00:52:27.916Z"
   },
   "3764200": {
     "safe": false,
