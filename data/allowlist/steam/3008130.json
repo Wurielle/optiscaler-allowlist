@@ -15,10 +15,10 @@
       "rayTracing": "Yes"
     },
     "amd": {
-      "fsrRedstone": false,
-      "fsr3": true,
+      "fsrRedstone": true,
+      "fsr3": false,
       "fsr2": false,
-      "fsrFrameGenerationMl": false
+      "fsrFrameGenerationMl": true
     },
     "intel": {
       "xess2": true,
