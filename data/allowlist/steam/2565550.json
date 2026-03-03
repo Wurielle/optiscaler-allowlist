@@ -1,0 +1,28 @@
+{
+  "name": "Beyond Hanwell",
+  "stores": {
+    "steam": {
+      "appId": 2565550
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

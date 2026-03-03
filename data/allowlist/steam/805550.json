@@ -1,0 +1,18 @@
+{
+  "name": "Assetto Corsa Competizione",
+  "stores": {
+    "steam": {
+      "appId": 805550
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

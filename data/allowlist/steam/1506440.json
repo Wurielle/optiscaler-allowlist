@@ -1,0 +1,18 @@
+{
+  "name": "Batora: Lost Haven",
+  "stores": {
+    "steam": {
+      "appId": 1506440
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": "Yes"
+    }
+  }
+}

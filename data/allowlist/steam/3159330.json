@@ -1,0 +1,20 @@
+{
+  "name": "Assassin’s Creed Shadows",
+  "stores": {
+    "steam": {
+      "appId": 3159330
+    }
+  },
+  "providers": {
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

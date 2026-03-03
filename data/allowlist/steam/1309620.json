@@ -1,0 +1,18 @@
+{
+  "name": "Bears In Space",
+  "stores": {
+    "steam": {
+      "appId": 1309620
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

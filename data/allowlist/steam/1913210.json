@@ -1,0 +1,22 @@
+{
+  "name": "AEW: Fight Forever",
+  "stores": {
+    "steam": {
+      "appId": 1913210
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

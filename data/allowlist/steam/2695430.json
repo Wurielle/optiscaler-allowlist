@@ -1,0 +1,18 @@
+{
+  "name": "A.I.L.A",
+  "stores": {
+    "steam": {
+      "appId": 2695430
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

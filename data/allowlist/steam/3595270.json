@@ -1,0 +1,22 @@
+{
+  "name": "Call of Duty: Modern Warfare III",
+  "stores": {
+    "steam": {
+      "appId": 3595270
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "Yes",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

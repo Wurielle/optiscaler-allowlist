@@ -1,0 +1,18 @@
+{
+  "name": "Crysis 2 Remastered",
+  "stores": {
+    "steam": {
+      "appId": 2096600
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": "Yes"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Astral Tracks",
+  "stores": {
+    "steam": {
+      "appId": 2190380
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

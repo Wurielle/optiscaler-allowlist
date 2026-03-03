@@ -1,0 +1,22 @@
+{
+  "name": "Chorus",
+  "stores": {
+    "steam": {
+      "appId": 1153640
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "Yes",
+      "rayTracing": "Yes"
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

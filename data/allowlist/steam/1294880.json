@@ -1,0 +1,18 @@
+{
+  "name": "Blind Fate: Edo no Yami",
+  "stores": {
+    "steam": {
+      "appId": 1294880
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": "Yes"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "BEAST: False Prophet",
+  "stores": {
+    "steam": {
+      "appId": 1145630
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

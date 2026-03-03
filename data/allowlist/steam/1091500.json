@@ -1,0 +1,28 @@
+{
+  "name": "Cyberpunk 2077",
+  "stores": {
+    "steam": {
+      "appId": 1091500
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "Yes",
+      "dlaa": "Yes",
+      "rayTracing": "Path Tracing"
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": true
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

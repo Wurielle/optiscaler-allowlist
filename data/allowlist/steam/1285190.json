@@ -1,0 +1,16 @@
+{
+  "name": "Borderlands® 4",
+  "stores": {
+    "steam": {
+      "appId": 1285190
+    }
+  },
+  "providers": {
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}

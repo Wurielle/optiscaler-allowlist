@@ -1,0 +1,16 @@
+{
+  "name": "Avatar: Frontiers of Pandora™",
+  "stores": {
+    "steam": {
+      "appId": 2840770
+    }
+  },
+  "providers": {
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": true
+    }
+  }
+}

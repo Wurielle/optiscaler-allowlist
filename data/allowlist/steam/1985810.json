@@ -1,0 +1,18 @@
+{
+  "name": "Call of Duty: Black Ops Cold War",
+  "stores": {
+    "steam": {
+      "appId": 1985810
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": "Yes"
+    }
+  }
+}

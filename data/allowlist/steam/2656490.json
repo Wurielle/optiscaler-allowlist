@@ -1,0 +1,18 @@
+{
+  "name": "Anthem",
+  "stores": {
+    "steam": {
+      "appId": 2656490
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

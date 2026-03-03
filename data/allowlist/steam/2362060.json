@@ -1,0 +1,18 @@
+{
+  "name": "CODE VEIN II",
+  "stores": {
+    "steam": {
+      "appId": 2362060
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    }
+  }
+}

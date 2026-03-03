@@ -1,0 +1,16 @@
+{
+  "name": "Bellwright*",
+  "stores": {
+    "steam": {
+      "appId": 1812450
+    }
+  },
+  "providers": {
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": false,
+      "fsr2": false,
+      "fsrFrameGenerationMl": true
+    }
+  }
+}
