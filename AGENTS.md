@@ -136,6 +136,24 @@ npx tsx src/index.ts pipeline --limit 10
 - Provider entries use `name` (not `gameName`).
 - Keep schema compatibility when editing `src/types/*.ts`.
 
+## Name Normalization
+Game names from different providers may differ due to TM/R symbols, apostrophe variants,
+diacritics, case, or dash types. The normalization layer (`src/utils/normalize.ts`) handles this:
+
+- `normalizeGameName(name)` - Returns lowercase normalized key for grouping/deduplication
+- `toCanonicalName(name)` - Returns title-cased canonical name for output
+
+Normalizations applied:
+- Strip TM (™), R (®), C (©) symbols
+- Normalize curly apostrophes to straight (`'` → `'`)
+- Strip diacritics (ö → o, é → e)
+- Normalize dash variants to hyphen
+- Collapse irregular whitespace
+
+Applied at:
+- Match stage: deduplicates game names before Steam lookup
+- Generate stage: merges provider features for same game across name variants
+
 ## Git + CI Expectations
 - Keep commits atomic and descriptive.
 - Never commit secrets or `.env` files.
