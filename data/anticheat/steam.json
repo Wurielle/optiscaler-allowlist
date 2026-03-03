@@ -9,6 +9,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T04:03:24.160Z"
   },
+  "39210": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:37:36.107Z"
+  },
   "251570": {
     "safe": false,
     "source": "steam",
@@ -28,6 +33,11 @@
     "safe": false,
     "source": "steam",
     "checkedAt": "2026-03-03T04:03:35.482Z"
+  },
+  "420560": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:39:00.780Z"
   },
   "428660": {
     "safe": true,
@@ -59,10 +69,20 @@
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:38.943Z"
   },
+  "747660": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:39:11.829Z"
+  },
   "750200": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:48.771Z"
+  },
+  "754890": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:39:06.637Z"
   },
   "782330": {
     "safe": true,
@@ -139,6 +159,16 @@
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:39.232Z"
   },
+  "1092140": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:35:26.902Z"
+  },
+  "1107750": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:23.941Z"
+  },
   "1115450": {
     "safe": true,
     "source": "steam",
@@ -214,6 +244,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T09:33:00.589Z"
   },
+  "1248130": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:36.691Z"
+  },
   "1252330": {
     "safe": true,
     "source": "steam",
@@ -254,6 +289,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:25.423Z"
   },
+  "1298140": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:40:00.359Z"
+  },
   "1309620": {
     "safe": true,
     "source": "steam",
@@ -268,6 +308,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:12.052Z"
+  },
+  "1330470": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:35:39.339Z"
   },
   "1332430": {
     "safe": true,
@@ -313,6 +358,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:50.566Z"
+  },
+  "1496470": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:12.453Z"
   },
   "1506440": {
     "safe": true,
@@ -374,6 +424,11 @@
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:14.742Z"
   },
+  "1669480": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:38:34.371Z"
+  },
   "1671240": {
     "safe": true,
     "source": "steam",
@@ -409,6 +464,11 @@
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:13.476Z"
   },
+  "1723780": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:38:25.566Z"
+  },
   "1766740": {
     "safe": true,
     "source": "steam",
@@ -428,6 +488,11 @@
     "safe": false,
     "source": "steam",
     "checkedAt": "2026-03-03T04:03:29.102Z"
+  },
+  "1832040": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:39:36.717Z"
   },
   "1836730": {
     "safe": true,
@@ -484,6 +549,11 @@
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:14.226Z"
   },
+  "1928420": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-03T15:36:36.209Z"
+  },
   "1985810": {
     "safe": true,
     "source": "steam",
@@ -503,6 +573,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:29.673Z"
+  },
+  "2005090": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:35:13.949Z"
   },
   "2016590": {
     "safe": false,
@@ -599,15 +674,30 @@
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:11.822Z"
   },
+  "2272540": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:58.686Z"
+  },
   "2275020": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:49.608Z"
   },
+  "2287220": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:35:53.455Z"
+  },
   "2287330": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T12:33:23.019Z"
+  },
+  "2300320": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:48.987Z"
   },
   "2344520": {
     "safe": true,
@@ -628,6 +718,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T04:03:33.083Z"
+  },
+  "2369390": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:17.901Z"
   },
   "2384580": {
     "safe": true,
@@ -654,10 +749,20 @@
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:48.533Z"
   },
+  "2469200": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:37:17.026Z"
+  },
   "2472770": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:47.825Z"
+  },
+  "2488620": {
+    "safe": false,
+    "source": "steam",
+    "checkedAt": "2026-03-03T15:35:52.811Z"
   },
   "2497900": {
     "safe": true,
@@ -668,6 +773,11 @@
     "safe": false,
     "source": "steam",
     "checkedAt": "2026-03-03T09:32:58.747Z"
+  },
+  "2515020": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:38:08.569Z"
   },
   "2517220": {
     "safe": true,
@@ -683,6 +793,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:24.610Z"
+  },
+  "2591280": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:36:05.282Z"
   },
   "2599300": {
     "safe": true,
@@ -739,6 +854,11 @@
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:48.230Z"
   },
+  "2909400": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T15:37:25.914Z"
+  },
   "2933080": {
     "safe": true,
     "source": "steam",
@@ -778,6 +898,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:45.964Z"
+  },
+  "3059520": {
+    "safe": false,
+    "source": "steam",
+    "checkedAt": "2026-03-03T15:35:53.244Z"
   },
   "3060170": {
     "safe": true,
