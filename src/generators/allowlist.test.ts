@@ -225,4 +225,111 @@ describe("generateAllowlist", () => {
 		await expect(node_fs.access(node_path.join(dataDir, "allowlist.json"))).rejects.toThrow();
 		expect(await readAllowlistFileNames()).toEqual(["777.json"]);
 	});
+
+	it("should merge features from name variants (TM/R symbols)", async () => {
+		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
+			{
+				name: "Diablo IV",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "providers/amd.json"), [
+			{
+				name: "Diablo\u00AE IV",
+				fsrRedstone: true,
+				fsr3: true,
+				fsr2: false,
+				fsrFrameGenerationMl: false,
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Diablo IV": { steam: 100 },
+		});
+		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
+			"100": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+		});
+
+		const result = await generateAllowlist({ dataDir });
+		expect(result.totalEntries).toBe(1);
+
+		const entry = await readAllowlistEntry(100);
+		expect(entry.name).toBe("Diablo IV");
+		expect(entry.providers.nvidia?.dlssSuperResolution).toBe("Yes");
+		expect(entry.providers.amd?.fsr3).toBe(true);
+	});
+
+	it("should merge features from name variants (apostrophes)", async () => {
+		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
+			{
+				name: "Assassin's Creed",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "providers/intel.json"), [
+			{
+				name: "Assassin\u2019s Creed",
+				xess2: false,
+				xess: true,
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"Assassin's Creed": { steam: 200 },
+		});
+		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
+			"200": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+		});
+
+		const result = await generateAllowlist({ dataDir });
+		expect(result.totalEntries).toBe(1);
+
+		const entry = await readAllowlistEntry(200);
+		expect(entry.name).toBe("Assassin's Creed");
+		expect(entry.providers.nvidia?.dlssSuperResolution).toBe("Yes");
+		expect(entry.providers.intel?.xess).toBe(true);
+	});
+
+	it("should merge features from name variants (diacritics)", async () => {
+		await writeJson(node_path.join(dataDir, "providers/nvidia.json"), [
+			{
+				name: "God of War Ragnar\u00F6k",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "providers/intel.json"), [
+			{
+				name: "God of War Ragnarok",
+				xess2: true,
+				xess: false,
+			},
+		]);
+		await writeJson(node_path.join(dataDir, "stores/by-game.json"), {
+			"God of War Ragnarok": { steam: 300 },
+		});
+		await writeJson(node_path.join(dataDir, "anticheat/steam.json"), {
+			"300": { safe: true, source: "test", checkedAt: "2025-01-01T00:00:00.000Z" },
+		});
+
+		const result = await generateAllowlist({ dataDir });
+		expect(result.totalEntries).toBe(1);
+
+		const entry = await readAllowlistEntry(300);
+		expect(entry.name).toBe("God of War Ragnarok");
+		expect(entry.providers.nvidia?.dlssSuperResolution).toBe("Yes");
+		expect(entry.providers.intel?.xess2).toBe(true);
+	});
 });
