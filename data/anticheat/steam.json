@@ -69,6 +69,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:38.943Z"
   },
+  "715400": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-03T18:35:23.491Z"
+  },
   "747660": {
     "safe": false,
     "source": "ai",
@@ -164,6 +169,11 @@
     "source": "ai",
     "checkedAt": "2026-03-03T15:35:26.902Z"
   },
+  "1098130": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:36:36.524Z"
+  },
   "1107750": {
     "safe": false,
     "source": "ai",
@@ -178,6 +188,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T12:33:26.788Z"
+  },
+  "1134100": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:35:23.711Z"
   },
   "1145630": {
     "safe": true,
@@ -324,6 +339,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T09:32:58.396Z"
   },
+  "1351000": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:36:18.195Z"
+  },
   "1364290": {
     "safe": true,
     "source": "steam",
@@ -343,6 +363,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:41.269Z"
+  },
+  "1475810": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:37:47.765Z"
   },
   "1479730": {
     "safe": true,
@@ -394,6 +419,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:40.384Z"
   },
+  "1551360": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:34:38.345Z"
+  },
   "1577240": {
     "safe": true,
     "source": "steam",
@@ -404,10 +434,20 @@
     "source": "steam",
     "checkedAt": "2026-03-03T12:33:25.000Z"
   },
+  "1593500": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:38:30.880Z"
+  },
   "1595710": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T04:03:27.063Z"
+  },
+  "1601580": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:35:04.874Z"
   },
   "1619350": {
     "safe": true,
@@ -418,6 +458,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:25.977Z"
+  },
+  "1641960": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:33:47.004Z"
   },
   "1662940": {
     "safe": true,
@@ -438,6 +483,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:42.270Z"
+  },
+  "1680880": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:34:17.680Z"
   },
   "1693980": {
     "safe": true,
@@ -468,6 +518,11 @@
     "safe": false,
     "source": "ai",
     "checkedAt": "2026-03-03T15:38:25.566Z"
+  },
+  "1762930": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:38:03.191Z"
   },
   "1766740": {
     "safe": true,
@@ -503,6 +558,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T06:33:39.845Z"
+  },
+  "1843310": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:35:44.121Z"
   },
   "1843540": {
     "safe": true,
@@ -553,6 +613,11 @@
     "safe": false,
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-03-03T15:36:36.209Z"
+  },
+  "1931730": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:34:24.540Z"
   },
   "1985810": {
     "safe": true,
@@ -649,6 +714,11 @@
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:49.420Z"
   },
+  "2144740": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:37:18.723Z"
+  },
   "2153350": {
     "safe": true,
     "source": "steam",
@@ -669,10 +739,20 @@
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:27.121Z"
   },
+  "2215430": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-03T18:37:04.741Z"
+  },
   "2233120": {
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:11.822Z"
+  },
+  "2272250": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:34:03.390Z"
   },
   "2272540": {
     "safe": false,
@@ -699,6 +779,11 @@
     "source": "ai",
     "checkedAt": "2026-03-03T15:36:48.987Z"
   },
+  "2322010": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:38:40.070Z"
+  },
   "2344520": {
     "safe": true,
     "source": "steam",
@@ -724,6 +809,11 @@
     "source": "ai",
     "checkedAt": "2026-03-03T15:36:17.901Z"
   },
+  "2383990": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:36:50.109Z"
+  },
   "2384580": {
     "safe": true,
     "source": "steam",
@@ -743,6 +833,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T18:33:13.004Z"
+  },
+  "2440510": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:34:51.247Z"
   },
   "2457220": {
     "safe": true,
@@ -783,6 +878,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T12:33:24.710Z"
+  },
+  "2523720": {
+    "safe": false,
+    "source": "steam",
+    "checkedAt": "2026-03-03T18:36:36.320Z"
   },
   "2527390": {
     "safe": true,
@@ -829,6 +929,11 @@
     "source": "steam",
     "checkedAt": "2026-03-03T09:33:02.281Z"
   },
+  "2687400": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:38:12.393Z"
+  },
   "2695430": {
     "safe": true,
     "source": "steam",
@@ -868,6 +973,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-03T00:53:28.932Z"
+  },
+  "2943650": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-03T18:35:04.588Z"
   },
   "3008130": {
     "safe": true,
@@ -918,6 +1028,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:45.330Z"
+  },
+  "3183280": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:36:04.965Z"
   },
   "3228590": {
     "safe": true,
@@ -983,6 +1098,11 @@
     "safe": true,
     "source": "steam",
     "checkedAt": "2026-03-02T21:32:46.235Z"
+  },
+  "3922100": {
+    "safe": false,
+    "source": "ai",
+    "checkedAt": "2026-03-03T18:33:39.651Z"
   },
   "3932890": {
     "safe": false,
