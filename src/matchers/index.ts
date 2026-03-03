@@ -3,6 +3,7 @@ import node_path from "node:path";
 import type { AmdGame, IntelGame, NvidiaGame } from "../types/providers.js";
 import type { StoreMapping } from "../types/stores.js";
 import { readJson, writeJson } from "../utils/json.js";
+import { normalizeGameName, toCanonicalName } from "../utils/normalize.js";
 import { searchSteam, throttle } from "./steam.js";
 
 const DEFAULT_PROVIDERS_DIR = node_path.resolve("data/providers");
@@ -26,9 +27,9 @@ export interface MatchResult {
 	unmatched: number;
 }
 
-/** Collect all unique game names from provider JSON files */
-async function collectGameNames(providersDir: string): Promise<Set<string>> {
-	const names = new Set<string>();
+/** Collect all unique game names from provider JSON files, normalizing to avoid duplicates */
+async function collectGameNames(providersDir: string): Promise<Map<string, string>> {
+	const names = new Map<string, string>();
 
 	const tryRead = async <T extends { name: string }>(filename: string): Promise<void> => {
 		const filePath = node_path.join(providersDir, filename);
@@ -36,7 +37,10 @@ async function collectGameNames(providersDir: string): Promise<Set<string>> {
 			await node_fs.access(filePath);
 			const data = await readJson<T[]>(filePath);
 			for (const entry of data) {
-				names.add(entry.name);
+				const normalizedKey = normalizeGameName(entry.name);
+				if (!names.has(normalizedKey)) {
+					names.set(normalizedKey, toCanonicalName(entry.name));
+				}
 			}
 		} catch {
 			// File doesn't exist yet — skip
@@ -74,8 +78,8 @@ export async function matchAll(options?: MatcherOptions): Promise<MatchResult> {
 	const existing = await loadExistingMappings(storesDir);
 	const mapping: StoreMapping = { ...existing };
 
-	// Find names not yet in the mapping, capped at limit
-	const allNewNames = [...allNames].filter((name) => !(name in mapping));
+	const canonicalNames = [...allNames.values()];
+	const allNewNames = canonicalNames.filter((name) => !(name in mapping));
 	const newNames = allNewNames.slice(0, limit);
 
 	let matched = 0;
@@ -93,13 +97,11 @@ export async function matchAll(options?: MatcherOptions): Promise<MatchResult> {
 			unmatched++;
 		}
 
-		// Throttle between requests (skip after last)
 		if (i < newNames.length - 1) {
 			await throttle();
 		}
 	}
 
-	// Write updated mappings
 	const outputPath = node_path.join(storesDir, "by-game.json");
 	await writeJson(outputPath, mapping);
 

@@ -153,9 +153,108 @@ describe("matchAll", () => {
 
 		const result = await matchAll({ providersDir, storesDir });
 
-		// "Shared Game" should only appear once (deduplicated via Set)
+		// "Shared Game" should only appear once (deduplicated via normalized key)
 		expect(result.totalNames).toBe(2);
 		expect(result.newNames).toBe(2);
+	});
+
+	it("should deduplicate names with case and TM/R variations", async () => {
+		await writeJson(node_path.join(providersDir, "nvidia.json"), [
+			{
+				name: "Diablo IV",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(providersDir, "amd.json"), [
+			{
+				name: "Diablo\u00AE IV",
+				fsrRedstone: true,
+				fsr3: false,
+				fsr2: false,
+				fsrFrameGenerationMl: false,
+			},
+		]);
+
+		mockSearch.mockResolvedValueOnce({
+			appId: 100,
+			matchedName: "Diablo IV",
+		});
+
+		const result = await matchAll({ providersDir, storesDir });
+
+		expect(result.totalNames).toBe(1);
+		expect(result.newNames).toBe(1);
+		expect(mockSearch).toHaveBeenCalledTimes(1);
+		expect(mockSearch).toHaveBeenCalledWith("Diablo IV");
+	});
+
+	it("should deduplicate names with apostrophe variations", async () => {
+		await writeJson(node_path.join(providersDir, "nvidia.json"), [
+			{
+				name: "Assassin's Creed",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(providersDir, "intel.json"), [
+			{
+				name: "Assassin\u2019s Creed",
+				xess2: false,
+				xess: true,
+			},
+		]);
+
+		mockSearch.mockResolvedValueOnce({
+			appId: 200,
+			matchedName: "Assassin's Creed",
+		});
+
+		const result = await matchAll({ providersDir, storesDir });
+
+		expect(result.totalNames).toBe(1);
+		expect(result.newNames).toBe(1);
+		expect(mockSearch).toHaveBeenCalledWith("Assassin's Creed");
+	});
+
+	it("should deduplicate names with diacritics", async () => {
+		await writeJson(node_path.join(providersDir, "nvidia.json"), [
+			{
+				name: "God of War Ragnar\u00F6k",
+				dlssMultiFrameGeneration: "",
+				dlssFrameGeneration: "",
+				dlssSuperResolution: "Yes",
+				dlssRayReconstruction: "",
+				dlaa: "",
+				rayTracing: "",
+			},
+		]);
+		await writeJson(node_path.join(providersDir, "intel.json"), [
+			{
+				name: "God of War Ragnarok",
+				xess2: false,
+				xess: true,
+			},
+		]);
+
+		mockSearch.mockResolvedValueOnce({
+			appId: 300,
+			matchedName: "God of War Ragnarok",
+		});
+
+		const result = await matchAll({ providersDir, storesDir });
+
+		expect(result.totalNames).toBe(1);
+		expect(result.newNames).toBe(1);
+		expect(mockSearch).toHaveBeenCalledWith("God of War Ragnarok");
 	});
 
 	it("should handle missing provider files gracefully", async () => {
