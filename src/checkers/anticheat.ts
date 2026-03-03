@@ -43,37 +43,37 @@ export function resetCache(): void {
 }
 
 /**
- * Check whether a game uses any anti-cheat system using a 3-tier approach:
+ * Check whether a game uses any anti-cheat system using a multi-tier approach:
  *
- * 1. **Steam store page** (most authoritative) — Steam requires developers to
- *    disclose kernel-level anti-cheat. Deterministic HTML parsing.
- * 2. **AreWeAntiCheatYet dataset** — Community-maintained list of games with
- *    anti-cheat systems.
- * 3. **AI fallback** — LLM analysis grounded with actual Steam page content
- *    (when available) for better accuracy than pure parametric knowledge.
+ * 1. **Steam store page** — If kernel-level anti-cheat is disclosed, definitively UNSAFE.
+ *    If no disclosure, continue to next tier (older games may use VAC without disclosure).
+ * 2. **AreWeAntiCheatYet dataset** — Community-maintained list of games with anti-cheat.
+ * 3. **AI fallback** — LLM analysis for games not found in either source.
  *
- * A game is unsafe if it uses ANY anti-cheat system, as all anti-cheat can
- * block DLL injection tools like OptiScaler.
+ * A game is only marked safe after passing all applicable checks.
+ * A game is unsafe if ANY check finds anti-cheat.
  *
  * @returns AntiCheatResult or null if status cannot be determined
  */
 export async function checkAntiCheat(appId: string, game: string): Promise<AntiCheatResult | null> {
 	const checkedAt = new Date().toISOString();
 
-	// Tier 1: Steam store page — deterministic, most authoritative
+	// Tier 1: Steam store page — if kernel-level anti-cheat is disclosed, definitively unsafe
 	try {
 		const steamResult = await checkSteamAntiCheat(appId);
 
-		if (steamResult) {
+		if (steamResult?.hasAntiCheat) {
+			// Definitive: Steam explicitly discloses anti-cheat
 			return {
-				safe: !steamResult.hasAntiCheat,
+				safe: false,
 				source: "steam",
 				checkedAt,
 			};
 		}
-		// steamResult is null — page unavailable, fall through
+		// No anti-cheat disclosure found on Steam page — continue to next tier
+		// (older games like CoD may use VAC without the modern disclosure section)
 	} catch {
-		// Steam check failed — fall through to AWACY
+		// Steam check failed — continue to next tier
 	}
 
 	// Tier 2: AreWeAntiCheatYet dataset
@@ -92,7 +92,7 @@ export async function checkAntiCheat(appId: string, game: string): Promise<AntiC
 			};
 		}
 	} catch {
-		// AWACY dataset unavailable — fall through to AI
+		// AWACY dataset unavailable — continue to AI
 	}
 
 	// Tier 3: AI fallback — grounded with Steam page content when available
@@ -128,13 +128,14 @@ Determine if this game uses ANY anti-cheat system that would block third-party D
 
 Look for these indicators in the page content:
 - Anti-cheat disclosures (e.g. "Uses Kernel Level Anti-Cheat", "Uses Anti-Cheat")
-- References to anti-cheat systems: Easy Anti-Cheat (EAC), BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard, Mhyprot, Denuvo Anti-Cheat, Javelin, or any other
+- References to anti-cheat systems: Easy Anti-Cheat (EAC), BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard, Mhyprot, Denuvo Anti-Cheat, Javelin, VAC (Valve Anti-Cheat), or any other
 - DRM notices mentioning anti-cheat
 - Game categories or descriptions mentioning competitive multiplayer with anti-cheat
+- "VAC secured" or "Valve Anti-Cheat" badges or mentions
 
-If the game uses ANY anti-cheat system at all, it is NOT safe. Only games with NO anti-cheat system are safe.
+IMPORTANT: Many older competitive games (especially Call of Duty, Counter-Strike, Team Fortress 2, etc.) use VAC without displaying a modern anti-cheat disclosure section. VAC bans are permanent and cannot be appealed. If the game has any competitive multiplayer component, especially from major studios like Activision, EA, or Valve, it likely uses VAC.
 
-Single-player games and games without any anti-cheat disclosure are typically safe.
+If the game uses ANY anti-cheat system at all (including VAC), it is NOT safe. Only games with NO anti-cheat system are safe.
 
 Return a JSON object:
 {"safe": true/false, "reasoning": "brief explanation based on what you found in the page"}`;
@@ -142,15 +143,17 @@ Return a JSON object:
 
 	return `Determine if the PC game "${game}" (Steam App ID: ${appId}) uses ANY anti-cheat system.
 
-Any anti-cheat system (e.g., Easy Anti-Cheat, BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard, Mhyprot, Denuvo Anti-Cheat, Javelin, or any other) can block third-party DLL injection tools like OptiScaler or ReShade.
+Any anti-cheat system (e.g., Easy Anti-Cheat, BattlEye, Vanguard, XIGNCODE3, nProtect GameGuard, Mhyprot, Denuvo Anti-Cheat, Javelin, VAC/Valve Anti-Cheat, or any other) can block third-party DLL injection tools like OptiScaler or ReShade.
 
-Important guidelines:
+IMPORTANT GUIDELINES:
 - If the game is single-player only with no online competitive component, it almost certainly does NOT use anti-cheat. Mark it as safe.
-- If the game is a competitive online multiplayer game (FPS, battle royale, etc.), it is more likely to use anti-cheat.
+- If the game is a competitive online multiplayer game (FPS, battle royale, etc.), it IS LIKELY to use anti-cheat. Mark it as unsafe.
+- Major franchises like Call of Duty, Battlefield, Counter-Strike, Valorant, etc. ALMOST ALWAYS use anti-cheat.
+- VAC (Valve Anti-Cheat) is used by many older competitive games and results in permanent bans.
 - Do NOT assume a game has anti-cheat just because it has multiplayer. Many co-op and casual multiplayer games do not use anti-cheat.
-- When uncertain, lean towards marking single-player and co-op games as safe, and competitive multiplayer games as unsafe.
+- When uncertain about a competitive multiplayer game, lean towards marking it as UNSAFE.
 
-If the game uses ANY anti-cheat system at all, it is NOT safe. There are no exceptions.
+If the game uses ANY anti-cheat system at all (including VAC), it is NOT safe. There are no exceptions.
 Only games with NO anti-cheat system are safe.
 
 Return a JSON object:

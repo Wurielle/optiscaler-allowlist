@@ -56,29 +56,34 @@ describe("checkAntiCheat", () => {
 		expect(result?.source).toBe("steam");
 	});
 
-	it("should return safe=true when Steam finds no anti-cheat", async () => {
+	it("should fall through to AWACY when Steam finds no anti-cheat disclosure", async () => {
 		mockSteamCheck.mockResolvedValueOnce({
 			hasAntiCheat: false,
 			details: [],
 		});
+		mockAwacyDataset([
+			{
+				name: "Call of Duty",
+				storeIds: { steam: 10180 },
+				anticheats: ["VAC"],
+			},
+		]);
 
-		const result = await checkAntiCheat("1903340", "Clair Obscur: Expedition 33");
+		const result = await checkAntiCheat("10180", "Call of Duty: Modern Warfare 2");
 		expect(result).not.toBeNull();
-		expect(result?.safe).toBe(true);
-		expect(result?.source).toBe("steam");
+		expect(result?.safe).toBe(false);
+		expect(result?.source).toBe("areweanticheatyet.com");
 	});
 
-	it("should not call AWACY when Steam provides a result", async () => {
+	it("should not call AWACY when Steam definitively reports anti-cheat", async () => {
 		mockSteamCheck.mockResolvedValueOnce({
-			hasAntiCheat: false,
-			details: [],
+			hasAntiCheat: true,
+			details: ["Easy Anti-Cheat"],
 		});
 
-		// Replace fetch with a spy to verify it's not called
 		globalThis.fetch = vi.fn();
 
 		await checkAntiCheat("12345", "Some Game");
-		// fetch should not be called (AWACY uses globalThis.fetch)
 		expect(globalThis.fetch).not.toHaveBeenCalled();
 	});
 
@@ -248,8 +253,8 @@ describe("checkAntiCheat", () => {
 
 	it("should include checkedAt timestamp", async () => {
 		mockSteamCheck.mockResolvedValueOnce({
-			hasAntiCheat: false,
-			details: [],
+			hasAntiCheat: true,
+			details: ["Easy Anti-Cheat"],
 		});
 
 		const before = new Date().toISOString();
