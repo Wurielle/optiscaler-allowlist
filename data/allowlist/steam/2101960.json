@@ -1,28 +1,16 @@
 {
-  "name": "Cronos: The New Dawn",
+  "name": "Cronos: The New Dawn*",
   "stores": {
     "steam": {
       "appId": 2101960
     }
   },
   "providers": {
-    "nvidia": {
-      "dlssMultiFrameGeneration": "NV",
-      "dlssFrameGeneration": "NV, U",
-      "dlssSuperResolution": "NV, T",
-      "dlssRayReconstruction": "",
-      "dlaa": "NV, T",
-      "rayTracing": "Yes"
-    },
     "amd": {
-      "fsrRedstone": false,
-      "fsr3": true,
+      "fsrRedstone": true,
+      "fsr3": false,
       "fsr2": false,
-      "fsrFrameGenerationMl": false
-    },
-    "intel": {
-      "xess2": true,
-      "xess": false
+      "fsrFrameGenerationMl": true
     }
   }
 }

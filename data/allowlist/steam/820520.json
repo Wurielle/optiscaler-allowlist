@@ -1,0 +1,22 @@
+{
+  "name": "Deceive Inc.",
+  "stores": {
+    "steam": {
+      "appId": 820520
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

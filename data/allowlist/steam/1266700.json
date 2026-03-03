@@ -1,0 +1,18 @@
+{
+  "name": "Destroy All Humans! 2 - Reprobed",
+  "stores": {
+    "steam": {
+      "appId": 1266700
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

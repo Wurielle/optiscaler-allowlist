@@ -1,0 +1,18 @@
+{
+  "name": "Edge of Eternity",
+  "stores": {
+    "steam": {
+      "appId": 269190
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    }
+  }
+}

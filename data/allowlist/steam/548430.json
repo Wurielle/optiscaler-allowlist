@@ -1,0 +1,24 @@
+{
+  "name": "Deep Rock Galactic",
+  "stores": {
+    "steam": {
+      "appId": 548430
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": false,
+      "fsr2": true,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}

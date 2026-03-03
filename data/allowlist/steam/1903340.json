@@ -1,28 +1,16 @@
 {
-  "name": "Clair Obscur: Expedition 33",
+  "name": "Clair Obscur: Expedition 33*",
   "stores": {
     "steam": {
       "appId": 1903340
     }
   },
   "providers": {
-    "nvidia": {
-      "dlssMultiFrameGeneration": "Yes",
-      "dlssFrameGeneration": "NV, U",
-      "dlssSuperResolution": "NV, T",
-      "dlssRayReconstruction": "",
-      "dlaa": "NV, T",
-      "rayTracing": ""
-    },
     "amd": {
-      "fsrRedstone": false,
-      "fsr3": true,
+      "fsrRedstone": true,
+      "fsr3": false,
       "fsr2": false,
-      "fsrFrameGenerationMl": false
-    },
-    "intel": {
-      "xess2": true,
-      "xess": false
+      "fsrFrameGenerationMl": true
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "Elden Ring",
+  "stores": {
+    "steam": {
+      "appId": 1245620
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": "Yes"
+    }
+  }
+}

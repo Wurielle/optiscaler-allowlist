@@ -1,0 +1,24 @@
+{
+  "name": "Dragon's Dogma 2",
+  "stores": {
+    "steam": {
+      "appId": 2054970
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": "Yes"
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}

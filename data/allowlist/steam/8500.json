@@ -1,0 +1,24 @@
+{
+  "name": "EVE Online",
+  "stores": {
+    "steam": {
+      "appId": 8500
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": "Yes"
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}

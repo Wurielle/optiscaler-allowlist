@@ -1,0 +1,22 @@
+{
+  "name": "Dragon Age: The Veilguard",
+  "stores": {
+    "steam": {
+      "appId": 1845910
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": "Yes"
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
+    }
+  }
+}

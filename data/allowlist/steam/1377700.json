@@ -1,0 +1,28 @@
+{
+  "name": "Empyreal",
+  "stores": {
+    "steam": {
+      "appId": 1377700
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

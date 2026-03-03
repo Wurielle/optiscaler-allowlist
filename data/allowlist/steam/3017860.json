@@ -1,0 +1,24 @@
+{
+  "name": "DOOM: The Dark Ages",
+  "stores": {
+    "steam": {
+      "appId": 3017860
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "Yes",
+      "rayTracing": "Path Tracing"
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}

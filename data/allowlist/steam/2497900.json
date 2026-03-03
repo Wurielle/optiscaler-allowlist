@@ -1,0 +1,24 @@
+{
+  "name": "DON'T SCREAM",
+  "stores": {
+    "steam": {
+      "appId": 2497900
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}
