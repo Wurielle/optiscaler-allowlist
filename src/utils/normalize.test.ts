@@ -45,6 +45,12 @@ describe("normalizeGameName", () => {
 			"call of duty: modern warfare iii",
 		);
 	});
+
+	it("should strip trailing asterisks", () => {
+		expect(normalizeGameName("Battlefield\u2122 6*")).toBe("battlefield 6");
+		expect(normalizeGameName("Game Title*")).toBe("game title");
+		expect(normalizeGameName("Game**")).toBe("game");
+	});
 });
 
 describe("toCanonicalName", () => {
@@ -92,5 +98,10 @@ describe("toCanonicalName", () => {
 
 	it("should handle colons in titles", () => {
 		expect(toCanonicalName("DOOM: The Dark Ages")).toBe("Doom: the Dark Ages");
+	});
+
+	it("should strip trailing asterisks", () => {
+		expect(toCanonicalName("Battlefield\u2122 6*")).toBe("Battlefield 6");
+		expect(toCanonicalName("Game Title*")).toBe("Game Title");
 	});
 });

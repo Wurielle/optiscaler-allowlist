@@ -4,10 +4,12 @@ const DASH_VARIANTS = /[-\u2010-\u2015]/g;
 // biome-ignore lint/suspicious/noMisleadingCharacterClass: intentionally matches combining diacritical marks
 const DIACRITICS = /[\u0300-\u036f]/g;
 const WHITESPACE = /[ \t\r\n\u00A0]+/g;
+const TRAILING_SPECIAL = /\s*[*]+$/g;
 
 export function normalizeGameName(name: string): string {
 	return name
 		.replace(SPECIAL_SYMBOLS, "")
+		.replace(TRAILING_SPECIAL, "")
 		.normalize("NFKD")
 		.replace(DIACRITICS, "")
 		.replace(APOSTROPHE_VARIANTS, "'")
@@ -41,6 +43,7 @@ const MINOR_WORDS = new Set([
 export function toCanonicalName(name: string): string {
 	const cleaned = name
 		.replace(SPECIAL_SYMBOLS, "")
+		.replace(TRAILING_SPECIAL, "")
 		.normalize("NFKD")
 		.replace(DIACRITICS, "")
 		.replace(APOSTROPHE_VARIANTS, "'")
