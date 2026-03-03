@@ -1,5 +1,5 @@
 {
-  "name": "DOOM: The Dark Ages",
+  "name": "Doom: the Dark Ages",
   "stores": {
     "steam": {
       "appId": 3017860
@@ -19,6 +19,10 @@
       "fsr3": true,
       "fsr2": false,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
     }
   }
 }

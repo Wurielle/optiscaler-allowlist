@@ -1,5 +1,5 @@
 {
-  "name": "DYNASTY WARRIORS: ORIGINS",
+  "name": "Dynasty Warriors: Origins",
   "stores": {
     "steam": {
       "appId": 2384580
@@ -19,6 +19,10 @@
       "fsr3": true,
       "fsr2": false,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
     }
   }
 }

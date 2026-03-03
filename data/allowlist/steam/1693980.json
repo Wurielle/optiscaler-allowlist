@@ -13,6 +13,12 @@
       "dlssRayReconstruction": "",
       "dlaa": "",
       "rayTracing": "Yes"
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": false,
+      "fsr2": true,
+      "fsrFrameGenerationMl": false
     }
   }
 }

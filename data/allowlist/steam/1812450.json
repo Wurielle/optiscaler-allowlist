@@ -1,16 +1,28 @@
 {
-  "name": "Bellwright*",
+  "name": "Bellwright",
   "stores": {
     "steam": {
       "appId": 1812450
     }
   },
   "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
     "amd": {
       "fsrRedstone": true,
       "fsr3": false,
       "fsr2": false,
       "fsrFrameGenerationMl": true
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
     }
   }
 }

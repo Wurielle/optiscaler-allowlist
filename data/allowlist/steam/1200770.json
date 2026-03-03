@@ -1,16 +1,28 @@
 {
-  "name": "Deathground*",
+  "name": "Deathground",
   "stores": {
     "steam": {
       "appId": 1200770
     }
   },
   "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "NV",
+      "dlssFrameGeneration": "NV, U",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
     "amd": {
       "fsrRedstone": true,
       "fsr3": false,
       "fsr2": false,
       "fsrFrameGenerationMl": true
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
     }
   }
 }

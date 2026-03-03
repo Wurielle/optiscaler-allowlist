@@ -1,16 +1,28 @@
 {
-  "name": "Call of Duty®: Black Ops 6",
+  "name": "Call of Duty: Black Ops 6",
   "stores": {
     "steam": {
       "appId": 2933620
     }
   },
   "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "Yes",
+      "rayTracing": ""
+    },
     "amd": {
       "fsrRedstone": true,
       "fsr3": true,
       "fsr2": false,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
     }
   }
 }

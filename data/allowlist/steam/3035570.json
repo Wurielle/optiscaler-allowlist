@@ -19,6 +19,10 @@
       "fsr3": false,
       "fsr2": true,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
     }
   }
 }

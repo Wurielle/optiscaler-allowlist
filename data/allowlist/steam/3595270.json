@@ -14,6 +14,12 @@
       "dlaa": "Yes",
       "rayTracing": ""
     },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
     "intel": {
       "xess2": false,
       "xess": true

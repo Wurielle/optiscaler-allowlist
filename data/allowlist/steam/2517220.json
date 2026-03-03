@@ -1,5 +1,5 @@
 {
-  "name": "ENTITY: THE BLACK DAY",
+  "name": "Entity: the Black Day",
   "stores": {
     "steam": {
       "appId": 2517220
@@ -13,6 +13,10 @@
       "dlssRayReconstruction": "",
       "dlaa": "NV, T",
       "rayTracing": ""
+    },
+    "intel": {
+      "xess2": false,
+      "xess": true
     }
   }
 }

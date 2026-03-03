@@ -1,5 +1,5 @@
 {
-  "name": "EVE Online",
+  "name": "Eve Online",
   "stores": {
     "steam": {
       "appId": 8500
@@ -19,6 +19,10 @@
       "fsr3": true,
       "fsr2": false,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
     }
   }
 }

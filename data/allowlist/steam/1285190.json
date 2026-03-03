@@ -1,16 +1,28 @@
 {
-  "name": "Borderlands® 4",
+  "name": "Borderlands 4",
   "stores": {
     "steam": {
       "appId": 1285190
     }
   },
   "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "Yes",
+      "rayTracing": ""
+    },
     "amd": {
       "fsrRedstone": true,
       "fsr3": true,
       "fsr2": false,
       "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
     }
   }
 }
