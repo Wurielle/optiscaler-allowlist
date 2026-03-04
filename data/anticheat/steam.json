@@ -1,4 +1,9 @@
 {
+  "10180": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-04T21:19:35.547Z"
+  },
   "251570": {
     "safe": false,
     "source": "steam",
@@ -143,6 +148,11 @@
     "safe": false,
     "source": "areweanticheatyet.com",
     "checkedAt": "2026-03-04T18:26:37.643Z"
+  },
+  "1985820": {
+    "safe": false,
+    "source": "areweanticheatyet.com",
+    "checkedAt": "2026-03-04T21:19:37.733Z"
   },
   "2073620": {
     "safe": false,
