@@ -1,0 +1,24 @@
+{
+  "name": "Ad Infinitum",
+  "stores": {
+    "steam": {
+      "appId": 1234430
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": false,
+      "fsr2": true,
+      "fsrFrameGenerationMl": false
+    }
+  }
+}
