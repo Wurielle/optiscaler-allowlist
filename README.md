@@ -63,6 +63,7 @@
 <tr><td>Call of Duty: Black Ops 6</td><td><a href="https://store.steampowered.com/app/2933620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Call of Duty: Black Ops 7</td><td><a href="https://store.steampowered.com/app/3606480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Call of Duty: Black Ops Cold War</td><td><a href="https://store.steampowered.com/app/1985810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Call of Duty: Vanguard</td><td><a href="https://store.steampowered.com/app/1985820/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 </tbody>
 </table>
 
@@ -108,7 +109,7 @@
 <tr><td>Assassin’s Creed Mirage</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Assassin’s Creed Shadows</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Assetto Corsa EVO</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Asterigos: Curse of the Stars</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Asterigos: Curse of the Stars</td><td><a href="https://store.steampowered.com/app/1731070/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Atelier Yumia: The Alchemist of Memories &amp; the Envisioned Land</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Atlas Fallen</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Avatar: Frontiers of Pandora™</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -118,7 +119,7 @@
 <tr><td>Backrooms: The Last Record</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Bakemono</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Baldur’s Gate 3</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Battle Teams 2</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Battle Teams 2</td><td><a href="https://store.steampowered.com/app/1969870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Battlefield™ 6</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Battlefield™ 6*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Bears In Space</td><td><a href="https://store.steampowered.com/app/1309620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -158,7 +159,6 @@
 <tr><td>Call of Duty: Modern Warfare</td><td><a href="https://store.steampowered.com/app/2000950/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Modern Warfare II</td><td><a href="https://store.steampowered.com/app/3595230/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Modern Warfare III</td><td><a href="https://store.steampowered.com/app/3595270/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Call of Duty: Vanguard</td><td><a href="https://store.steampowered.com/app/1985820/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone (2020)</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone (2022)</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Call of Duty: Warzone 2.0</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
@@ -179,8 +179,8 @@
 <tr><td>Casa Caballero</td><td><a href="https://store.steampowered.com/app/1702590/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Cash Cleaner Simulator</td><td><a href="https://store.steampowered.com/app/2488370/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Celestial Empire</td><td><a href="https://store.steampowered.com/app/1330430/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Century: Age of Ashes</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Cepheus Protocol</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Century: Age of Ashes</td><td><a href="https://store.steampowered.com/app/918570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Cepheus Protocol</td><td><a href="https://store.steampowered.com/app/979640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Chained Backrooms</td><td><a href="https://store.steampowered.com/app/3060170/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Chaos on Wheels</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Chased by Darkness</td><td><a href="https://store.steampowered.com/app/1595710/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -200,13 +200,13 @@
 <tr><td>City of Springs</td><td><a href="https://store.steampowered.com/app/1752780/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Clair Obscur: Expedition 33</td><td><a href="https://store.steampowered.com/app/1903340/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Clair Obscur: Expedition 33*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Clash: Artifacts of Chaos</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Clash: Artifacts of Chaos</td><td><a href="https://store.steampowered.com/app/1430680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Code Alkonost: Awakening of Evil</td><td><a href="https://store.steampowered.com/app/2062030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>CODE B.R.E.A.K</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>CODE VEIN II</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Coin Pusher Casino</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Commandos: Origins</td><td><a href="https://store.steampowered.com/app/1479730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Company of Heroes 3</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Company of Heroes 3</td><td><a href="https://store.steampowered.com/app/1677280/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Confronted</td><td><a href="https://store.steampowered.com/app/2882610/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Conqueror's Blade</td><td><a href="https://store.steampowered.com/app/835570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Conqueror’s Blade</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
@@ -349,8 +349,8 @@
 <tr><td>EXFIL</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>EXFIL*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Exit From</td><td><a href="https://store.steampowered.com/app/1092140/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Exoprimal</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Eyes of War</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Exoprimal</td><td><a href="https://store.steampowered.com/app/1286320/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Eyes of War</td><td><a href="https://store.steampowered.com/app/2343930/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>EzBench</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>F.I.S.T.: Forged In Shadow Torch</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>F1 2020</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -377,7 +377,7 @@
 <tr><td>FBC: Firebreak*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Fellowship</td><td><a href="https://store.steampowered.com/app/2352620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Fera: The Sundered Tribes</td><td><a href="https://store.steampowered.com/app/2469200/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Fight or Flight</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>Fight or Flight</td><td><a href="https://store.steampowered.com/app/775620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>FINAL FANTASY VII REBIRTH</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>FINAL FANTASY XIV Online</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>FINAL FANTASY XV</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -718,11 +718,11 @@
 <tr><td>Overwatch® 2</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Pacific Drive</td><td><a href="https://store.steampowered.com/app/1458140/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Painkiller</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Paladin's Passage</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Paladin's Passage</td><td><a href="https://store.steampowered.com/app/1908480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Palworld</td><td><a href="https://store.steampowered.com/app/1623730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>PANICORE</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Paradise Killer</td><td><a href="https://store.steampowered.com/app/1160220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Park Beyond</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Park Beyond</td><td><a href="https://store.steampowered.com/app/1368130/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Park Studio</td><td><a href="https://store.steampowered.com/app/2832220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Party Animals</td><td><a href="https://store.steampowered.com/app/1260320/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Path of Exile 2</td><td><a href="https://store.steampowered.com/app/2694490/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -736,7 +736,7 @@
 <tr><td>PGA TOUR 2K5</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Phantasy Star Online 2 New Genesis</td><td><a href="https://store.steampowered.com/app/1056640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Pinball FX</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Pinball M</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>Pinball M</td><td><a href="https://store.steampowered.com/app/2337640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Pine Harbor</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>PirateGate</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Pizza Bandit</td><td><a href="https://store.steampowered.com/app/2475010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
@@ -790,7 +790,7 @@
 <tr><td>Rennsport</td><td><a href="https://store.steampowered.com/app/2077750/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>RENNSPORT</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Renovation Simulator</td><td><a href="https://store.steampowered.com/app/2726460/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Resident Evil 4</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Resident Evil 4</td><td><a href="https://store.steampowered.com/app/2050650/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Resident Evil Requiem</td><td><a href="https://store.steampowered.com/app/3764200/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Return to Campus</td><td><a href="https://store.steampowered.com/app/3174480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Returnal</td><td><a href="https://store.steampowered.com/app/1649240/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -988,7 +988,7 @@
 <tr><td>The DioField Chronicle</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>The Elder Scrolls IV: Oblivion Remastered</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The Elder Scrolls Online</td><td><a href="https://store.steampowered.com/app/306130/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>The Eternal Cylinder</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>The Eternal Cylinder</td><td><a href="https://store.steampowered.com/app/865680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>The Fabled Woods</td><td><a href="https://store.steampowered.com/app/1299480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>THE FINALS</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The First Berserker: Khazan</td><td><a href="https://store.steampowered.com/app/2680010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -1023,7 +1023,7 @@
 <tr><td>The Orville Interactive Fan Experience</td><td><a href="https://store.steampowered.com/app/1096200/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>The Outer Worlds 2</td><td><a href="https://store.steampowered.com/app/1449110/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The Outer Worlds 2*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>The Outer Worlds: Spacer's Choice Edition</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>The Outer Worlds: Spacer's Choice Edition</td><td><a href="https://store.steampowered.com/app/1920490/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>The Outlast Trials</td><td><a href="https://store.steampowered.com/app/1304930/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>The Persistence</td><td><a href="https://store.steampowered.com/app/1140100/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>The Redress of Mira</td><td><a href="https://store.steampowered.com/app/1843860/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1045,9 +1045,9 @@
 <tr><td>Three Alpha One Nine</td><td><a href="https://store.steampowered.com/app/3130980/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Throne and Liberty</td><td><a href="https://store.steampowered.com/app/2429640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>THRONE AND LIBERTY</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Thymesia</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Thymesia</td><td><a href="https://store.steampowered.com/app/1343240/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>TIME BREAKER</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Tiny Tina's Wonderlands</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Tiny Tina's Wonderlands</td><td><a href="https://store.steampowered.com/app/1286680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Quest 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Titan Quest II</td><td><a href="https://store.steampowered.com/app/1154030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Quest II*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -1076,7 +1076,7 @@
 <tr><td>United 1944</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>UNITED 1944</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>United Assault - Normandy '44</td><td><a href="https://store.steampowered.com/app/1342810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Unknown 9: Awakening</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Unknown 9: Awakening</td><td><a href="https://store.steampowered.com/app/1477940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Unknown Woods</td><td><a href="https://store.steampowered.com/app/1516580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Unnatural: Benighted</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Until Dawn</td><td><a href="https://store.steampowered.com/app/2172010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
