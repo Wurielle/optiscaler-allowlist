@@ -21,6 +21,22 @@
 <tr><td>Anthem</td><td><a href="https://store.steampowered.com/app/2656490/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Apocalypse: 2.0 Edition</td><td><a href="https://store.steampowered.com/app/1291680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Aron's Adventure</td><td><a href="https://store.steampowered.com/app/1013910/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Assassin's Creed Mirage</td><td><a href="https://store.steampowered.com/app/3035570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Assassin's Creed Shadows</td><td><a href="https://store.steampowered.com/app/3159330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Assetto Corsa Rally</td><td><a href="https://store.steampowered.com/app/3917090/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Astrometica</td><td><a href="https://store.steampowered.com/app/2353250/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Aunt Fatima - خالة فاطمة</td><td><a href="https://store.steampowered.com/app/3030250/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Automate It: Factory Puzzle</td><td><a href="https://store.steampowered.com/app/2472770/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Avatar: Frontiers of Pandora</td><td><a href="https://store.steampowered.com/app/2840770/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Avowed</td><td><a href="https://store.steampowered.com/app/2457220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Away: the Survival Series</td><td><a href="https://store.steampowered.com/app/750200/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Backrooms Rec.</td><td><a href="https://store.steampowered.com/app/2275020/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Backrooms: Escape Together</td><td><a href="https://store.steampowered.com/app/2141730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Baldur's Gate 3</td><td><a href="https://store.steampowered.com/app/1086940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Ballads of Hongye</td><td><a href="https://store.steampowered.com/app/2656540/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Banishers: Ghosts of New Eden</td><td><a href="https://store.steampowered.com/app/1493640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Bastide</td><td><a href="https://store.steampowered.com/app/1115450/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Batora: Lost Haven</td><td><a href="https://store.steampowered.com/app/1506440/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 </tbody>
 </table>
 
@@ -36,6 +52,14 @@
 <tr><td>Anno 117: Pax Romana</td><td><a href="https://store.steampowered.com/app/3274580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Arcadegeddon</td><td><a href="https://store.steampowered.com/app/1515640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Arena Breakout: Infinite</td><td><a href="https://store.steampowered.com/app/2073620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Ashes Of Creation</td><td><a href="https://store.steampowered.com/app/4124950/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Assetto Corsa Competizione</td><td><a href="https://store.steampowered.com/app/805550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Astral Tracks</td><td><a href="https://store.steampowered.com/app/2190380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
+<tr><td>Atomic Heart</td><td><a href="https://store.steampowered.com/app/668580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Back 4 Blood</td><td><a href="https://store.steampowered.com/app/924970/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Battlefield 2042</td><td><a href="https://store.steampowered.com/app/1517290/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Battlefield 6</td><td><a href="https://store.steampowered.com/app/2807960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
+<tr><td>Battlefield V</td><td><a href="https://store.steampowered.com/app/1238810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 </tbody>
 </table>
 
@@ -78,43 +102,20 @@
 <tr><td>ARK: Survival Ascended</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Arknights: Endfield</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Ars Notoria</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Ashes Of Creation</td><td><a href="https://store.steampowered.com/app/4124950/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Assassin's Creed Mirage</td><td><a href="https://store.steampowered.com/app/3035570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Assassin’s Creed Mirage</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Assassin's Creed Shadows</td><td><a href="https://store.steampowered.com/app/3159330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Assassin’s Creed Shadows</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
-<tr><td>Assetto Corsa Competizione</td><td><a href="https://store.steampowered.com/app/805550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Assetto Corsa EVO</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Assetto Corsa Rally</td><td><a href="https://store.steampowered.com/app/3917090/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Asterigos: Curse of the Stars</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Astral Tracks</td><td><a href="https://store.steampowered.com/app/2190380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Astrometica</td><td><a href="https://store.steampowered.com/app/2353250/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Atelier Yumia: The Alchemist of Memories &amp; the Envisioned Land</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Atlas Fallen</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Atomic Heart</td><td><a href="https://store.steampowered.com/app/668580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Aunt Fatima - خالة فاطمة</td><td><a href="https://store.steampowered.com/app/3030250/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Automate It: Factory Puzzle</td><td><a href="https://store.steampowered.com/app/2472770/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Avatar: Frontiers of Pandora</td><td><a href="https://store.steampowered.com/app/2840770/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Avatar: Frontiers of Pandora™</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Avowed</td><td><a href="https://store.steampowered.com/app/2457220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>AWAY: The Survival Series</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Back 4 Blood</td><td><a href="https://store.steampowered.com/app/924970/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Backroom Company</td><td><a href="https://store.steampowered.com/app/3010460/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Backrooms Rec.</td><td><a href="https://store.steampowered.com/app/2275020/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Backrooms: Escape Together</td><td><a href="https://store.steampowered.com/app/2141730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Backrooms: Extractions</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Backrooms: The Last Record</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Bakemono</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Baldur's Gate 3</td><td><a href="https://store.steampowered.com/app/1086940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Baldur’s Gate 3</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Ballads of Hongye</td><td><a href="https://store.steampowered.com/app/2656540/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Banishers: Ghosts of New Eden</td><td><a href="https://store.steampowered.com/app/1493640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Bastide</td><td><a href="https://store.steampowered.com/app/1115450/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Batora: Lost Haven</td><td><a href="https://store.steampowered.com/app/1506440/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Battle Teams 2</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Battlefield 2042</td><td><a href="https://store.steampowered.com/app/1517290/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Battlefield 6</td><td><a href="https://store.steampowered.com/app/2807960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
-<tr><td>Battlefield V</td><td><a href="https://store.steampowered.com/app/1238810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Battlefield™ 6</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Battlefield™ 6*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Bears In Space</td><td><a href="https://store.steampowered.com/app/1309620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -129,7 +130,7 @@
 <tr><td>Black One Blood Brothers</td><td><a href="https://store.steampowered.com/app/1621560/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>BLACKTAIL</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Blade &amp; Soul Heroes</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Blades of Fire</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>Blades of Fire</td><td><a href="https://store.steampowered.com/app/2091020/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Bleak Faith: Forsaken</td><td><a href="https://store.steampowered.com/app/1173220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Bleak Haven</td><td><a href="https://store.steampowered.com/app/3566840/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Blind Fate: Edo no Yami</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -171,7 +172,7 @@
 <tr><td>Captain Gazman: Day of the Rage</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Car Dealer Simulator</td><td><a href="https://store.steampowered.com/app/2404880/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Car Dealer Simulator: Prologue - Early Days</td><td><a href="https://store.steampowered.com/app/3115010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Caravan SandWitch</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Caravan SandWitch</td><td><a href="https://store.steampowered.com/app/3036980/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Cargo Shop Simulator</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Carmageddon: Rogue Shift</td><td><a href="https://store.steampowered.com/app/1712100/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Carpathian Survival</td><td><a href="https://store.steampowered.com/app/3469000/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -210,7 +211,7 @@
 <tr><td>Conqueror's Blade</td><td><a href="https://store.steampowered.com/app/835570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Conqueror’s Blade</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Control</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Creatures of Ava</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Creatures of Ava</td><td><a href="https://store.steampowered.com/app/2304440/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Crime Boss: Rockay City</td><td><a href="https://store.steampowered.com/app/2933080/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Crime Simulator</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Cronos: The New Dawn</td><td><a href="https://store.steampowered.com/app/2101960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -331,7 +332,7 @@
 <tr><td>Entity: The Black Day</td><td><a href="https://store.steampowered.com/app/2517220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>ENTITY: THE BLACK DAY</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Ephesus</td><td><a href="https://store.steampowered.com/app/1586150/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Ertugrul of Ulukayin</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>Ertugrul of Ulukayin</td><td><a href="https://store.steampowered.com/app/2133520/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Escape From Naraka</td><td><a href="https://store.steampowered.com/app/1390670/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Escape From Tarkov</td><td><a href="https://store.steampowered.com/app/3932890/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Eternal Strands</td><td><a href="https://store.steampowered.com/app/1491410/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -944,7 +945,7 @@
 <tr><td>Supraland</td><td><a href="https://store.steampowered.com/app/813630/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Supraland Six Inches Under</td><td><a href="https://store.steampowered.com/app/1522870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Supraworld</td><td><a href="https://store.steampowered.com/app/1869290/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>SurrounDead</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>SurrounDead</td><td><a href="https://store.steampowered.com/app/1645820/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Survival Machine</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Survive The Hill</td><td><a href="https://store.steampowered.com/app/1682380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Surviving Mars: Relaunched</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
@@ -956,7 +957,7 @@
 <tr><td>Tactical Vengeance: Play The Games</td><td><a href="https://store.steampowered.com/app/2252870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Tainted Grail: The Fall of Avalon</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Tales of Kenzera: ZAU</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
-<tr><td>Tales of Wind Online</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
+<tr><td>Tales of Wind Online</td><td><a href="https://store.steampowered.com/app/3902400/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Tank Squad</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Tankhead</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>TankHead</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
@@ -1042,13 +1043,13 @@
 <tr><td>There Exists Nobody</td><td><a href="https://store.steampowered.com/app/3257490/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>There Won't be Light</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Three Alpha One Nine</td><td><a href="https://store.steampowered.com/app/3130980/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Throne and Liberty</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Throne and Liberty</td><td><a href="https://store.steampowered.com/app/2429640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>THRONE AND LIBERTY</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Thymesia</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>TIME BREAKER</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Tiny Tina's Wonderlands</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Quest 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Titan Quest II</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Titan Quest II</td><td><a href="https://store.steampowered.com/app/1154030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Quest II*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Station</td><td><a href="https://store.steampowered.com/app/1881120/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>To Hell With It</td><td><a href="https://store.steampowered.com/app/1567740/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1058,8 +1059,8 @@
 <tr><td>Tom Clancy's Rainbow Six Siege</td><td><a href="https://store.steampowered.com/app/359550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Tom Clancy's Rainbow Six® Siege</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Torque Drift 2</td><td><a href="https://store.steampowered.com/app/3116640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Tower of Fantasy</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Towers of Aghasba</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Tower of Fantasy</td><td><a href="https://store.steampowered.com/app/2064650/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Towers of Aghasba</td><td><a href="https://store.steampowered.com/app/2178070/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>TRAIL OUT</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Trench Tales</td><td><a href="https://store.steampowered.com/app/2214220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Trepang2</td><td><a href="https://store.steampowered.com/app/1164940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1069,7 +1070,7 @@
 <tr><td>Twin Stones: The Journey of Bukka</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>UBOAT</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Ukrainian Shield: Iraq</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Uncharted: Legacy of Thieves Collection</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Uncharted: Legacy of Thieves Collection</td><td><a href="https://store.steampowered.com/app/1659420/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>UNCHARTED™: Legacy of Thieves Collection</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Uncrashed : FPV Drone Simulator</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>United 1944</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1106,14 +1107,14 @@
 <tr><td>Warhammer 40,000: Darktide</td><td><a href="https://store.steampowered.com/app/1361210/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Warhammer 40,000: Space Marine 2</td><td><a href="https://store.steampowered.com/app/2183900/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Warhammer 40,000: Speed Freeks</td><td><a href="https://store.steampowered.com/app/2078450/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Warhammer Age of Sigmar: Realms of Ruin</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Warhammer Age of Sigmar: Realms of Ruin</td><td><a href="https://store.steampowered.com/app/1844380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Warhammer: Vermintide 2</td><td><a href="https://store.steampowered.com/app/552500/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Warhaven</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Warstride Challenges</td><td><a href="https://store.steampowered.com/app/1608470/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Watch Dogs: Legion</td><td><a href="https://store.steampowered.com/app/2239550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Way of the Hunter</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Way of the Hunter</td><td><a href="https://store.steampowered.com/app/2543830/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Wayfinder</td><td><a href="https://store.steampowered.com/app/1171690/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Welcome to ParadiZe</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
+<tr><td>Welcome to ParadiZe</td><td><a href="https://store.steampowered.com/app/1519090/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Where Winds Meet</td><td><a href="https://store.steampowered.com/app/3564740/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Whiskerwood</td><td><a href="https://store.steampowered.com/app/2489330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Whiskerwood*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -1140,7 +1141,7 @@
 <tr><td>WUCHANG: Fallen Feathers</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Wuthering Waves</td><td><a href="https://store.steampowered.com/app/3513350/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>X4: Foundations</td><td><a href="https://store.steampowered.com/app/392160/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Xuan-Yuan Sword VII</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>Xuan-Yuan Sword VII</td><td><a href="https://store.steampowered.com/app/1249800/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Yag</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Yakuza Kiwami 2</td><td><a href="https://store.steampowered.com/app/3717340/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Yakuza Kiwami 3 &amp; Dark Ties</td><td><a href="https://store.steampowered.com/app/3937550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
