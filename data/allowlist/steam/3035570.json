@@ -1,0 +1,28 @@
+{
+  "name": "Assassin's Creed Mirage",
+  "stores": {
+    "steam": {
+      "appId": 3035570
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "",
+      "dlssFrameGeneration": "",
+      "dlssSuperResolution": "NV, T",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": false,
+      "fsr3": false,
+      "fsr2": true,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}

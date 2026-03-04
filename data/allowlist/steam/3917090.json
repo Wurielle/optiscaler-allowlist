@@ -1,0 +1,28 @@
+{
+  "name": "Assetto Corsa Rally",
+  "stores": {
+    "steam": {
+      "appId": 3917090
+    }
+  },
+  "providers": {
+    "nvidia": {
+      "dlssMultiFrameGeneration": "Yes",
+      "dlssFrameGeneration": "Yes",
+      "dlssSuperResolution": "Yes",
+      "dlssRayReconstruction": "",
+      "dlaa": "NV, T",
+      "rayTracing": ""
+    },
+    "amd": {
+      "fsrRedstone": true,
+      "fsr3": true,
+      "fsr2": false,
+      "fsrFrameGenerationMl": false
+    },
+    "intel": {
+      "xess2": true,
+      "xess": false
+    }
+  }
+}
