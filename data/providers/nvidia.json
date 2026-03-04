@@ -558,6 +558,15 @@
     "rayTracing": "Path Tracing"
   },
   {
+    "name": "Black One Blood Brothers",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
     "name": "BLACKTAIL",
     "dlssMultiFrameGeneration": "",
     "dlssFrameGeneration": "",
@@ -1366,6 +1375,15 @@
     "dlssRayReconstruction": "",
     "dlaa": "Yes",
     "rayTracing": "Yes"
+  },
+  {
+    "name": "Demonologist",
+    "dlssMultiFrameGeneration": "NV",
+    "dlssFrameGeneration": "NV, U",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
   },
   {
     "name": "DESORDRE: A Puzzle Game Adventure",
@@ -3483,6 +3501,15 @@
     "rayTracing": "Yes"
   },
   {
+    "name": "Marathon",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
+    "rayTracing": ""
+  },
+  {
     "name": "Marvel Rivals",
     "dlssMultiFrameGeneration": "Yes",
     "dlssFrameGeneration": "NV, U",
@@ -3696,6 +3723,15 @@
     "dlssSuperResolution": "NV, T",
     "dlssRayReconstruction": "",
     "dlaa": "Yes",
+    "rayTracing": ""
+  },
+  {
+    "name": "Monster Hunter Stories 3: Twisted Reflection",
+    "dlssMultiFrameGeneration": "",
+    "dlssFrameGeneration": "",
+    "dlssSuperResolution": "NV, T",
+    "dlssRayReconstruction": "",
+    "dlaa": "NV, T",
     "rayTracing": ""
   },
   {
