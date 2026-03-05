@@ -311,7 +311,7 @@
 <tr><td>Dying Light: The Beast*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Dynasty Warriors: Origins</td><td><a href="https://store.steampowered.com/app/2384580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>DYNASTY WARRIORS: ORIGINS</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Dysterra</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Dysterra</td><td><a href="https://store.steampowered.com/app/1527890/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>EA Sports WRC</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>EA SPORTS™ WRC</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Echo Point Nova</td><td><a href="https://store.steampowered.com/app/1836730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -367,7 +367,7 @@
 <tr><td>F1® 25</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>F1® Manager 2023</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>F1® Manager 2024</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Fairy Tail 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Fairy Tail 2</td><td><a href="https://store.steampowered.com/app/3002850/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Fall Balance Ball</td><td><a href="https://store.steampowered.com/app/1496470/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Faraday Protocol</td><td><a href="https://store.steampowered.com/app/1107750/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Farlight 84</td><td><a href="https://store.steampowered.com/app/1928420/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
@@ -387,7 +387,7 @@
 <tr><td>Firefighting Simulator - The Squad</td><td><a href="https://store.steampowered.com/app/420560/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Firefighting Simulator: Ignite</td><td><a href="https://store.steampowered.com/app/1669480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Firmament</td><td><a href="https://store.steampowered.com/app/754890/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>First Dwarf</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>First Dwarf</td><td><a href="https://store.steampowered.com/app/1714900/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Five Nights At Freddy’s: Security Breach</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Flintlock: The Siege of Dawn</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Flipscapes</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -397,7 +397,7 @@
 <tr><td>Forest Doesn’t Care</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Forever Skies</td><td><a href="https://store.steampowered.com/app/1641960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Forgive Me Father 2</td><td><a href="https://store.steampowered.com/app/2272250/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Forgotten Skies</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Forgotten Skies</td><td><a href="https://store.steampowered.com/app/2943550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Forspoken</td><td><a href="https://store.steampowered.com/app/1680880/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Fort Solis</td><td><a href="https://store.steampowered.com/app/1931730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Fortnite</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
@@ -422,11 +422,11 @@
 <tr><td>Ghost of Tsushima Director’s Cut</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Ghost of Tsushima: Director’s Cut</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Ghostbusters: Spirits Unleashed</td><td><a href="https://store.steampowered.com/app/2383990/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Ghostbusters: Spirits Unleashed Ecto Edition</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Ghostbusters: Spirits Unleashed Ecto Edition</td><td><a href="https://store.steampowered.com/app/2383990/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Ghostrunner</td><td><a href="https://store.steampowered.com/app/2144740/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Ghostrunner 2</td><td><a href="https://store.steampowered.com/app/2144740/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Ghostwire: Tokyo</td><td><a href="https://store.steampowered.com/app/1475810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Ghostwire: Tokyo Spider Thread</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Ghostwire: Tokyo Spider Thread</td><td><a href="https://store.steampowered.com/app/2650130/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>GOALS</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Goat Simulator: Remastered</td><td><a href="https://store.steampowered.com/app/1762930/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>God of War</td><td><a href="https://store.steampowered.com/app/1593500/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
@@ -459,7 +459,7 @@
 <tr><td>Hangry</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Harry Potter: Quidditch Champions</td><td><a href="https://store.steampowered.com/app/2878600/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>HASTE: Broken Worlds</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Haunted Service</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Haunted Service</td><td><a href="https://store.steampowered.com/app/3538840/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>HAWKED</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Helios</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Hell is Us</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
@@ -510,7 +510,7 @@
 <tr><td>INDUSTRIA</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>INDUSTRIA 2 (demo)</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Industry Giant 4.0</td><td><a href="https://store.steampowered.com/app/1129570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Infected Mushroom Pinball</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Infected Mushroom Pinball</td><td><a href="https://store.steampowered.com/app/3699650/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Infinity Nikki</td><td><a href="https://store.steampowered.com/app/3164330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>InFlux Redux</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Into the Dead: Our Darkest Days</td><td><a href="https://store.steampowered.com/app/2239710/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -595,7 +595,7 @@
 <tr><td>Mandragora: Whispers of the Witch Tree</td><td><a href="https://store.steampowered.com/app/1721060/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Manor Lords</td><td><a href="https://store.steampowered.com/app/1363080/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Marathon</td><td><a href="https://store.steampowered.com/app/3065800/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Market Garden</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Market Garden</td><td><a href="https://store.steampowered.com/app/3471890/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Martha Is Dead</td><td><a href="https://store.steampowered.com/app/515960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Marvel Rivals</td><td><a href="https://store.steampowered.com/app/2767030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Marvel's Avengers</td><td><a href="https://store.steampowered.com/app/405310/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -616,7 +616,7 @@
 <tr><td>MechWarrior 5: Mercenaries</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Medieval Dynasty</td><td><a href="https://store.steampowered.com/app/1129580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Meet Your Maker</td><td><a href="https://store.steampowered.com/app/1194810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Memoriapolis</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Memoriapolis</td><td><a href="https://store.steampowered.com/app/2228280/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Mercs Fully Loaded</td><td><a href="https://store.steampowered.com/app/1756390/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Metal Eden</td><td><a href="https://store.steampowered.com/app/990380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>METAL EDEN</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
