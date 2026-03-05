@@ -853,11 +853,11 @@
 <tr><td>Shatterline</td><td><a href="https://store.steampowered.com/app/2087030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Sherlock Holmes The Awakened</td><td><a href="https://store.steampowered.com/app/1949030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Shibainu - VR Katana Simulator</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Ship Graveyard Simulator 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Ship Graveyard Simulator 2</td><td><a href="https://store.steampowered.com/app/2201940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Shiphard Graveyard Simulator 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Ships at Sea</td><td><a href="https://store.steampowered.com/app/1266540/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Ships At Sea</td><td><a href="https://store.steampowered.com/app/1266540/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Shop Life Simulator</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Shop Life Simulator</td><td><a href="https://store.steampowered.com/app/3396090/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Showgunners</td><td><a href="https://store.steampowered.com/app/1155330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Shredders</td><td><a href="https://store.steampowered.com/app/1874170/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Sid Meier’s Civilization VII</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
@@ -873,8 +873,8 @@
 <tr><td>skate.</td><td>Not mapped</td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>skate.™</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Sker Ritual</td><td><a href="https://store.steampowered.com/app/1492070/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Skoof Simulator</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
-<tr><td>Skull &amp; Bones</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Skoof Simulator</td><td><a href="https://store.steampowered.com/app/3144640/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Skull &amp; Bones</td><td><a href="https://store.steampowered.com/app/2853730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Skull and Bones</td><td><a href="https://store.steampowered.com/app/2853730/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Skull and Bones™</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Skye: The Misty Isle</td><td><a href="https://store.steampowered.com/app/1710180/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
@@ -885,7 +885,7 @@
 <tr><td>Small Spaces</td><td><a href="https://store.steampowered.com/app/3151380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Smalland: Survive the Wilds</td><td><a href="https://store.steampowered.com/app/768200/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>SMITE 2</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Somber Echoes</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Somber Echoes</td><td><a href="https://store.steampowered.com/app/1299290/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Someday You'll Return: Director's Cut</td><td><a href="https://store.steampowered.com/app/2229350/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Sons Of The Forest</td><td><a href="https://store.steampowered.com/app/1326470/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Sophonce</td><td><a href="https://store.steampowered.com/app/2074150/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -897,18 +897,18 @@
 <tr><td>South of Midnight</td><td><a href="https://store.steampowered.com/app/1934570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Space Engineers 2</td><td><a href="https://store.steampowered.com/app/1133870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Spectre Divide</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Speedy 500</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Speedy 500</td><td><a href="https://store.steampowered.com/app/2967680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Spirit of the North 2</td><td><a href="https://store.steampowered.com/app/1778840/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Spirit Realm</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Spirit Realm</td><td><a href="https://store.steampowered.com/app/633320/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Spirit X Strike</td><td><a href="https://store.steampowered.com/app/2538880/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Split Fiction</td><td><a href="https://store.steampowered.com/app/2001120/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Splitgate 2</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Splitgate: Arena Reloaded</td><td><a href="https://store.steampowered.com/app/2918300/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>SpongeBob SquarePants: Titans of the Tide</td><td>Not mapped</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>SpongeBob SquarePants: Titans of the Tide*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Sports: Renovations</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Sports: Renovations</td><td><a href="https://store.steampowered.com/app/2230960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>SPRAWL</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>SpyFall</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>SpyFall</td><td><a href="https://store.steampowered.com/app/3334280/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Squad</td><td><a href="https://store.steampowered.com/app/393380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Star Citizen</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Star Overdrive</td><td><a href="https://store.steampowered.com/app/2055590/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -946,9 +946,9 @@
 <tr><td>Supraland Six Inches Under</td><td><a href="https://store.steampowered.com/app/1522870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Supraworld</td><td><a href="https://store.steampowered.com/app/1869290/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>SurrounDead</td><td><a href="https://store.steampowered.com/app/1645820/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Survival Machine</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Survival Machine</td><td><a href="https://store.steampowered.com/app/1601330/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Survive The Hill</td><td><a href="https://store.steampowered.com/app/1682380/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Surviving Mars: Relaunched</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Surviving Mars: Relaunched</td><td><a href="https://store.steampowered.com/app/3215050/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Sword and Fairy 7</td><td><a href="https://store.steampowered.com/app/1543030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Swords of Legends Online</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Swordsman HD</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -958,7 +958,7 @@
 <tr><td>Tainted Grail: The Fall of Avalon</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Tales of Kenzera: ZAU</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Tales of Wind Online</td><td><a href="https://store.steampowered.com/app/3902400/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Tank Squad</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Tank Squad</td><td><a href="https://store.steampowered.com/app/1498130/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Tankhead</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>TankHead</td><td>Not mapped</td><td>❌</td><td>✅</td><td>✅</td></tr>
 <tr><td>Tchia</td><td><a href="https://store.steampowered.com/app/1496590/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -970,7 +970,7 @@
 <tr><td>The Alters</td><td><a href="https://store.steampowered.com/app/1601570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The Anacrusis</td><td><a href="https://store.steampowered.com/app/1120480/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>The Ascent</td><td><a href="https://store.steampowered.com/app/979690/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>The Awakener: Forgotten Oath</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>The Awakener: Forgotten Oath</td><td><a href="https://store.steampowered.com/app/2527660/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>The Axis Unseen</td><td><a href="https://store.steampowered.com/app/1807810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The Backrooms: Lost Tape</td><td><a href="https://store.steampowered.com/app/1926620/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>The Black Pool</td><td><a href="https://store.steampowered.com/app/2189670/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -994,7 +994,7 @@
 <tr><td>The First Berserker: Khazan</td><td><a href="https://store.steampowered.com/app/2680010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The First Descendant</td><td><a href="https://store.steampowered.com/app/2074920/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>The First Descendant*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>The Front</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>The Front</td><td><a href="https://store.steampowered.com/app/2285150/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>The Gold River Project</td><td><a href="https://store.steampowered.com/app/1253220/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>The Inquisitor</td><td><a href="https://store.steampowered.com/app/1880470/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>The Invincible</td><td><a href="https://store.steampowered.com/app/731040/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
@@ -1048,7 +1048,7 @@
 <tr><td>Thymesia</td><td><a href="https://store.steampowered.com/app/1343240/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>TIME BREAKER</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Tiny Tina's Wonderlands</td><td><a href="https://store.steampowered.com/app/1286680/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
-<tr><td>Titan Quest 2</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Titan Quest 2</td><td><a href="https://store.steampowered.com/app/1154030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Titan Quest II</td><td><a href="https://store.steampowered.com/app/1154030/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Quest II*</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Titan Station</td><td><a href="https://store.steampowered.com/app/1881120/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1069,7 +1069,7 @@
 <tr><td>Turbo Sloths</td><td><a href="https://store.steampowered.com/app/1443630/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Twin Stones: The Journey of Bukka</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>UBOAT</td><td>Not mapped</td><td>✅</td><td>✅</td><td>❌</td></tr>
-<tr><td>Ukrainian Shield: Iraq</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Ukrainian Shield: Iraq</td><td><a href="https://store.steampowered.com/app/3437180/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Uncharted: Legacy of Thieves Collection</td><td><a href="https://store.steampowered.com/app/1659420/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>UNCHARTED™: Legacy of Thieves Collection</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Uncrashed : FPV Drone Simulator</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
@@ -1078,7 +1078,7 @@
 <tr><td>United Assault - Normandy '44</td><td><a href="https://store.steampowered.com/app/1342810/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Unknown 9: Awakening</td><td><a href="https://store.steampowered.com/app/1477940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Unknown Woods</td><td><a href="https://store.steampowered.com/app/1516580/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Unnatural: Benighted</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Unnatural: Benighted</td><td><a href="https://store.steampowered.com/app/2210000/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Until Dawn</td><td><a href="https://store.steampowered.com/app/2172010/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Until Dawn™</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>VAIL VR</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
@@ -1122,7 +1122,7 @@
 <tr><td>Why Don't They Laugh?</td><td><a href="https://store.steampowered.com/app/3031940/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Wild Assault</td><td><a href="https://store.steampowered.com/app/2827230/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>WILD HEARTS</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Wild West Blast</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Wild West Blast</td><td><a href="https://store.steampowered.com/app/2929060/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Wildgate</td><td><a href="https://store.steampowered.com/app/3504780/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Will To Live Online</td><td>Not mapped</td><td>❌</td><td>✅</td><td>❌</td></tr>
 <tr><td>Winter Survival</td><td><a href="https://store.steampowered.com/app/1394960/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -1145,7 +1145,7 @@
 <tr><td>Yag</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Yakuza Kiwami 2</td><td><a href="https://store.steampowered.com/app/3717340/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>✅</td></tr>
 <tr><td>Yakuza Kiwami 3 &amp; Dark Ties</td><td><a href="https://store.steampowered.com/app/3937550/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
-<tr><td>Ys X: Nordics</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Ys X: Nordics</td><td><a href="https://store.steampowered.com/app/2731870/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Zenless Zone Zero</td><td>Not mapped</td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>Zombie City</td><td><a href="https://store.steampowered.com/app/771570/" target="_blank" rel="noopener noreferrer">Steam</a></td><td>✅</td><td>❌</td><td>❌</td></tr>
 <tr><td>平寇志 The Last Soldier of the Ming Dynasty</td><td>Not mapped</td><td>❌</td><td>❌</td><td>✅</td></tr>
