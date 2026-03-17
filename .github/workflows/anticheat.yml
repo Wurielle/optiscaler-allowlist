@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - "data/stores/**"
-  schedule:
-    - cron: "10 */3 * * *"
+  # schedule:
+  #   - cron: "10 */3 * * *"
   workflow_dispatch:
 
 concurrency:

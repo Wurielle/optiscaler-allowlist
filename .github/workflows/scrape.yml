@@ -1,9 +1,9 @@
 name: Scrape Provider Pages
 
 on:
-  schedule:
-    # Daily at 06:00 UTC
-    - cron: "0 6 * * *"
+  # schedule:
+  #   # Daily at 06:00 UTC
+  #   - cron: "0 6 * * *"
   workflow_dispatch:
 
 concurrency:

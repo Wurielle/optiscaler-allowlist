@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - "data/anticheat/**"
-  schedule:
-    - cron: "15 */3 * * *"
+  # schedule:
+  #   - cron: "15 */3 * * *"
   workflow_dispatch:
 
 concurrency:
